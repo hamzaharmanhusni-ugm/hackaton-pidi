@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"umkm_group","type":"group","x":-480,"y":-320,"width":320,"height":540,"label":"UMKM — Pengumpulan Data"},
+		{"id":"scoring","type":"text","text":"**⚙️ Scoring Engine**\nModel berbobot 6 komponen\nGuardrail data ≥ 60%\n(lib/scoring)","x":720,"y":-115,"width":260,"height":150,"color":"1"},
+		{"id":"health","type":"text","text":"**Business Health Score**\n0–100 + band 🟢🔵🟡🔴","x":1080,"y":-210,"width":260,"height":110,"color":"3"},
+		{"id":"readiness","type":"text","text":"**Investment Readiness Score**\nLow / Medium / High\n+ risk flags & strengths","x":1080,"y":30,"width":260,"height":110,"color":"2"},
+		{"id":"investor","type":"text","text":"**Investor Dashboard**\nSnapshot · Revenue Trend ·\nScore History · Risk · Map","x":1440,"y":-180,"width":250,"height":130,"color":"5"},
+		{"id":"decision","type":"text","text":"**Keputusan Investasi**\nScreening dalam menit\n(bukan minggu)","x":1440,"y":40,"width":250,"height":110,"color":"4"},
+		{"id":"db","type":"text","text":"**Supabase + RLS**\nIsolasi data per UMKM","x":720,"y":110,"width":260,"height":80,"color":"6"},
+		{"id":"pos","type":"text","text":"**Smart POS**\nTransaksi · produk · stok · QRIS","x":-440,"y":-260,"width":240,"height":110,"color":"4"},
+		{"id":"cashbook","type":"text","text":"**Smart Cashbook**\nArus kas · OCR nota · kategorisasi","x":-440,"y":-110,"width":240,"height":110,"color":"4"},
+		{"id":"coach","type":"text","text":"**AI Coach Rinda**\nInsight actionable (RAG, Bahasa Indonesia)","x":-440,"y":40,"width":240,"height":110,"color":"4"},
+		{"id":"validation","type":"text","text":"**AI Validation**\nDeteksi anomali +\ncross-check POS ↔ Cashbook","x":120,"y":-80,"width":240,"height":110,"color":"5"},
+		{"id":"title","type":"text","text":"# RetailMind AI — Peta Produk\nUMKM → Skor → Investor","x":240,"y":-520,"width":620,"height":190,"color":"6"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"pos","fromSide":"right","toNode":"validation","toSide":"left"},
+		{"id":"e2","fromNode":"cashbook","fromSide":"right","toNode":"validation","toSide":"left"},
+		{"id":"e3","fromNode":"cashbook","fromSide":"bottom","toNode":"coach","toSide":"top"},
+		{"id":"e4","fromNode":"validation","fromSide":"right","toNode":"scoring","toSide":"left","label":"data tervalidasi"},
+		{"id":"e5","fromNode":"scoring","fromSide":"right","toNode":"health","toSide":"left"},
+		{"id":"e6","fromNode":"scoring","fromSide":"right","toNode":"readiness","toSide":"left"},
+		{"id":"e7","fromNode":"health","fromSide":"right","toNode":"investor","toSide":"left"},
+		{"id":"e8","fromNode":"readiness","fromSide":"right","toNode":"investor","toSide":"left"},
+		{"id":"e9","fromNode":"investor","fromSide":"bottom","toNode":"decision","toSide":"top"},
+		{"id":"e10","fromNode":"db","fromSide":"top","toNode":"scoring","toSide":"bottom","label":"store"},
+		{"id":"e11","fromNode":"decision","fromSide":"bottom","toNode":"umkm_group","toSide":"bottom","label":"Data Flywheel: UMKM didanai → makin aktif → data makin kaya"}
+	]
+}
