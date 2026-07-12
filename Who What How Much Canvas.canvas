@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"title","type":"text","text":"# Who · What · How Much : Value Creation Canvas\n**Solusi:** RetailMind AI, Scoring Engine dua sisi untuk UMKM F&B. Label angka: tersitasi / internal / asumsi. Rincian: [[Sumber & Asumsi Angka]]","x":-720,"y":-880,"width":1440,"height":90,"color":"6"},
+		{"id":"whogrp","type":"group","x":-720,"y":-680,"width":440,"height":650,"label":"01 · WHO : Siapa yang diuntungkan?"},
+		{"id":"who_seg","type":"text","text":"**SEGMEN UTAMA**\n\n**Peran:** Pemilik UMKM F&B; analis kredit / investor\n**Institusi:** BPR, Koperasi, Fintech P2P\n**Skala:** UMKM Rp10-200jt/bln; target 5.000 UMKM\n_Sekunder: investor ritel/angel, regulator_","x":-700,"y":-620,"width":400,"height":210,"color":"4"},
+		{"id":"who_manfaat","type":"text","text":"**TIPE MANFAAT**\n\n- [x] Hemat Biaya (DD -80%, proyeksi)\n- [x] Hemat Waktu (menit vs minggu)\n- [x] Tambah Pendapatan (akses modal)\n- [x] Mitigasi Risiko (adverse selection)","x":-700,"y":-370,"width":400,"height":180,"color":"4"},
+		{"id":"whatgrp","type":"group","x":-220,"y":-680,"width":440,"height":650,"label":"02 · WHAT : Nilai apa yang diciptakan?"},
+		{"id":"what_prob","type":"text","text":"**PROBLEM YANG DIPECAHKAN**\n\nUMKM tak bisa buktikan kelayakan; investor tak punya standar objektif. Akar: data ada tapi tidak tepercaya.","x":-200,"y":-620,"width":400,"height":160,"color":"5"},
+		{"id":"what_base","type":"text","text":"**DATA BASELINE** (angka nyata saat ini)\n\n**Biaya:** DD manual Rp5-15jt/UMKM _(estimasi)_\n**Frekuensi:** 1 analis 5-10 UMKM/bln _(estimasi)_\n77% catat manual _(OCBC/NielsenIQ 2024)_\n**Pengguna:** 4,85 juta usaha F&B _(BPS 2023)_\n69,5% unbankable _(Kemenkop 2025)_","x":-200,"y":-420,"width":400,"height":260,"color":"5"},
+		{"id":"hmgrp","type":"group","x":280,"y":-680,"width":440,"height":650,"label":"03 · HOW MUCH : Seberapa besar nilainya?"},
+		{"id":"hm_nilai","type":"text","text":"**NILAI YANG DICIPTAKAN** (pilih 1-2)\n\n1. Screening 2-4 minggu jadi menit\n2. Biaya due diligence turun ~80%","x":300,"y":-620,"width":400,"height":130,"color":"1"},
+		{"id":"hm_dampak","type":"text","text":"**DAMPAK SETELAH SOLUSI**\n\n**Efisiensi:** DD -80%; 5-10/bln  ->  50+/hari _(proyeksi)_\n**Nilai/unit:** ~Rp8jt hemat DD/UMKM _(asumsi)_\n**Total/tahun:** 5.000 UMKM = Rp40 miliar _(turunan)_\n**Revenue:** Pro 149K, Investor 299K, API 2-5jt, matching 1-2%","x":300,"y":-450,"width":400,"height":240,"color":"1"},
+		{"id":"hm_target","type":"text","text":"**TARGET INVESTOR / OFFTAKER**\n\nOfftaker: BPR, Koperasi, Fintech P2P (API); investor ritel\nPendana: angel/seed, program PIDI, CSR/CVC bank","x":300,"y":-170,"width":400,"height":130,"color":"2"},
+		{"id":"inv","type":"text","text":"**INVESTASI / BIAYA SOLUSI**\n\nPilot 6 bulan (30 UMKM): **Rp180 juta** _(estimasi)_\nBuild 3 tahun: Rp2-3 miliar _(asumsi)_","x":-720,"y":40,"width":460,"height":170,"color":"1"},
+		{"id":"total","type":"text","text":"**TOTAL MANFAAT TERUKUR**\n\nPilot: DD Rp240jt + modal Rp180jt = **Rp420 juta** _(turunan)_\nNasional 5.000 UMKM: ~Rp40 miliar","x":-230,"y":40,"width":460,"height":170,"color":"4"},
+		{"id":"roi","type":"text","text":"**ROI ESTIMATE**\n(Manfaat - Biaya) / Biaya x 100\n\n(420 - 180) / 180 = **~133%**\nPayback ~3 bulan (floor efisiensi ~33%)","x":260,"y":40,"width":460,"height":170,"color":"6"},
+		{"id":"footer","type":"text","text":"**PITCH 60 DETIK (pakai template):**\nSolusi kami memberikan **screening kredit dalam menit + laporan siap-investor** _(WHAT)_ untuk **UMKM F&B & lembaga pembiayaan** _(WHO)_, sehingga menciptakan nilai **~Rp8jt/UMKM (Rp40 miliar pada 5.000 UMKM)** _(HOW MUCH)_ per tahun, dengan ROI sekitar **133%** dalam **~3 bulan (pilot)**.\n_Angka = estimasi, divalidasi pilot. Naskah lisan: [[Naskah Pitch 60 Detik]]._","x":-720,"y":250,"width":1440,"height":140,"color":"3"},
+		{"id":"sumber","type":"text","text":"**SUMBER & ASUMSI** (rincian: [[Sumber & Asumsi Angka]])\n\n**Tersitasi:** 4,85 juta usaha (BPS 2023) · 69,5% unbankable (Kemenkop 2025) · 77% manual (OCBC/NielsenIQ 2024), via [[04 - Riset Pasar F&B Indonesia]]\n**Internal:** harga & ARR, via [[11 - Business Model & GTM]], [[11b - Proyeksi Finansial 3 Tahun]]\n**Asumsi (validasi pilot):** biaya DD Rp5-15jt & efisiensi -80% belum ada sumber eksternal; Rp8jt, Rp40 miliar, ROI 133% = turunan asumsi","x":-720,"y":430,"width":1440,"height":210,"color":"5"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"whogrp","fromSide":"right","toNode":"whatgrp","toSide":"left"},
+		{"id":"e2","fromNode":"whatgrp","fromSide":"right","toNode":"hmgrp","toSide":"left"},
+		{"id":"e3","fromNode":"hmgrp","fromSide":"bottom","toNode":"total","toSide":"top","label":"kuantifikasi"}
+	]
+}

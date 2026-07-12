@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"title","type":"text","text":"# Use Case Canvas: RetailMind AI\nVertikal F&B: UMKM  ->  Skor  ->  Investor","x":-360,"y":-720,"width":760,"height":90,"color":"6"},
+		{"id":"n1","type":"text","text":"**1. Target User & Pengguna Utama**\n\n**Pembayar (customer):** Pemilik UMKM F&B (Rp10-200jt/bln); Investor ritel & lembaga (BPR/Koperasi/Fintech)\n**Pengguna harian:** Pemilik + Kasir (input POS); Analis kredit (screening)","x":-720,"y":-560,"width":340,"height":220,"color":"4"},
+		{"id":"n2","type":"text","text":"**2. Problem**\n\nData ada, kepercayaan tidak ada.\nUMKM tak bisa buktikan performa; investor tak punya standar penilaian objektif.\n69,5% UMKM belum akses kredit.","x":-340,"y":-560,"width":340,"height":220,"color":"1"},
+		{"id":"n3","type":"text","text":"**3. Bukti / Validasi Utama**\n\nRiset 15 UMKM Yogyakarta: 0 bisa jawab laba bulan lalu.\n77% catat manual (OCBC/NielsenIQ).\nFinancing gap Rp2.400 triliun.\nWorking Prototype + data ter-seed.","x":40,"y":-560,"width":340,"height":220,"color":"5"},
+		{"id":"n4","type":"text","text":"**4. Solusi yang Diusulkan**\n\nScoring Engine dua sisi.\n3 lapis: Data Collection  ->  AI Analysis  ->  Investor Platform.\nOutput: Health Score 0-100 + Investment Readiness Score.","x":420,"y":-560,"width":340,"height":220,"color":"4"},
+		{"id":"n5","type":"text","text":"**5. Pain Point & Kebutuhan Tak Terpenuhi**\n\nUMKM: data terfragmentasi, gagal asesmen kredit, aplikasi rumit ditinggalkan.\nInvestor: asimetri informasi, screening 2-4 minggu, tanpa standar.","x":-720,"y":-300,"width":340,"height":220,"color":"1"},
+		{"id":"n6","type":"text","text":"**6. Lingkup MVP: Fitur & Batasan**\n\n**In:** POS, Cashbook, AI Coach, Health Score, Readiness Score, Investor Dashboard (6 modul).\n**Out:** marketplace, WA chatbot, CRM, loyalty, forecasting lanjutan, multi-branch.","x":-340,"y":-300,"width":340,"height":220,"color":"3"},
+		{"id":"n7","type":"text","text":"**7. Validation: Strategi Product-Market Fit**\n\nPilot Yogyakarta 20-30 UMKM, 90 hari.\nBacktest skor vs realisasi, kalibrasi bobot.\nKPI: kelengkapan data 40% ke 75%, konversi Free ke Pro, investor assessments.","x":40,"y":-300,"width":340,"height":220,"color":"2"},
+		{"id":"n8","type":"text","text":"**8. Tech Stack & Hambatan Platform**\n\n**Stack:** Next.js 16, Supabase + RLS, Claude/OCR, Recharts, PWA.\n**Hambatan:** cold-start 2 sisi, literasi digital UMKM, kualitas input kasir, regulasi ICS OJK, skor butuh data >= 90 hari.","x":420,"y":-300,"width":340,"height":220,"color":"6"},
+		{"id":"grp","type":"group","x":-740,"y":-20,"width":1520,"height":300,"label":"9. Alur Demo Use Case"},
+		{"id":"f1","type":"text","text":"**Trigger**\n\nUMKM butuh modal (ekspansi atau musiman), atau investor mencari deal flow tersaring.","x":-720,"y":60,"width":270,"height":200,"color":"3"},
+		{"id":"f2","type":"text","text":"**Aksi Utama Pengguna**\n\nUMKM: input transaksi POS + Cashbook, buka Health Score.\nInvestor: filter kota/kategori/skor, buka detail.","x":-425,"y":60,"width":270,"height":200,"color":"4"},
+		{"id":"f3","type":"text","text":"**Proses / Logika Sistem**\n\nValidasi + cross-check POS to Cashbook  ->  Scoring Engine (6 komponen)  ->  Health + Readiness Score  ->  RLS ke dashboard investor.","x":-130,"y":60,"width":270,"height":200,"color":"5"},
+		{"id":"f4","type":"text","text":"**Output / Hasil untuk User**\n\nUMKM: skor + laporan siap-investor 1 klik.\nInvestor: kandidat tersaring + risk flags + tren 90 hari.","x":165,"y":60,"width":270,"height":200,"color":"2"},
+		{"id":"f5","type":"text","text":"**Impact & Value Delivered**\n\nUMKM kredibel dan berpeluang didanai.\nInvestor: screening dari minggu ke menit, due diligence turun 80%.","x":460,"y":60,"width":270,"height":200,"color":"6"}
+	],
+	"edges":[
+		{"id":"x1","fromNode":"f1","fromSide":"right","toNode":"f2","toSide":"left"},
+		{"id":"x2","fromNode":"f2","fromSide":"right","toNode":"f3","toSide":"left"},
+		{"id":"x3","fromNode":"f3","fromSide":"right","toNode":"f4","toSide":"left"},
+		{"id":"x4","fromNode":"f4","fromSide":"right","toNode":"f5","toSide":"left"}
+	]
+}

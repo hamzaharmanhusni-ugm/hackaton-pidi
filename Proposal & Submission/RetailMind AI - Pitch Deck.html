@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>RetailMind AI - Pitch Deck</title>
+<style>
+  @page { size: A4 landscape; margin: 0; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root{
+    --green:#15A24A; --green-d:#0E7A38; --amber:#F59E0B; --red:#DC2626;
+    --ink:#12312F; --muted:#5B7370; --line:#DCE7E3; --bg:#F7FBF9; --white:#FFFFFF;
+  }
+  html,body{ font-family:"Segoe UI",system-ui,Arial,sans-serif; color:var(--ink); -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .slide{
+    position:relative; width:297mm; height:209mm; padding:16mm 20mm 14mm;
+    page-break-after:always; overflow:hidden; display:flex; flex-direction:column;
+    background:var(--white);
+  }
+  .slide.last{ page-break-after:auto; }
+  .slide.dark{ background:linear-gradient(135deg,#0E7A38 0%,#12312F 100%); color:#fff; }
+  /* header */
+  .top{ display:flex; justify-content:space-between; align-items:center; border-bottom:2px solid var(--line); padding-bottom:5mm; margin-bottom:9mm; }
+  .dark .top{ border-color:rgba(255,255,255,.25); }
+  .brand{ display:flex; align-items:center; gap:3mm; font-weight:700; font-size:15pt; letter-spacing:.2px; }
+  .dot{ width:9mm; height:9mm; border-radius:3mm; background:linear-gradient(135deg,var(--green),var(--amber)); display:inline-block; }
+  .label{ font-size:10pt; color:var(--muted); font-weight:600; text-transform:uppercase; letter-spacing:1.5px; }
+  .dark .label{ color:rgba(255,255,255,.7); }
+  /* typography */
+  h1{ font-size:30pt; line-height:1.12; font-weight:800; letter-spacing:-.3px; }
+  h2{ font-size:23pt; line-height:1.15; font-weight:800; letter-spacing:-.2px; margin-bottom:6mm; }
+  .lead{ font-size:13pt; color:var(--muted); line-height:1.5; max-width:230mm; }
+  .dark .lead{ color:rgba(255,255,255,.82); }
+  .fill{ flex:1; display:flex; flex-direction:column; justify-content:center; }
+  .foot{ position:absolute; left:20mm; right:20mm; bottom:8mm; display:flex; justify-content:space-between; font-size:8.5pt; color:var(--muted); }
+  .dark .foot{ color:rgba(255,255,255,.55); }
+  .tag{ font-style:italic; }
+  /* cover */
+  .cover-title{ font-size:52pt; font-weight:900; letter-spacing:-1px; }
+  .cover-sub{ font-size:16pt; color:rgba(255,255,255,.9); margin-top:5mm; }
+  .cover-line{ width:40mm; height:3mm; background:linear-gradient(90deg,var(--green),var(--amber)); border-radius:2mm; margin:9mm 0; }
+  .cover-tag{ font-size:19pt; font-weight:700; }
+  .pill{ display:inline-block; padding:2mm 5mm; border:1.5px solid rgba(255,255,255,.4); border-radius:20mm; font-size:9.5pt; margin-top:12mm; }
+  /* grids & cards */
+  .grid{ display:grid; gap:6mm; }
+  .g3{ grid-template-columns:repeat(3,1fr); }
+  .g2{ grid-template-columns:repeat(2,1fr); }
+  .g4{ grid-template-columns:repeat(4,1fr); }
+  .card{ border:1.5px solid var(--line); border-radius:4mm; padding:6mm; background:var(--bg); }
+  .card h3{ font-size:12.5pt; margin-bottom:2.5mm; }
+  .card p{ font-size:10.5pt; color:var(--muted); line-height:1.45; }
+  .card .k{ font-size:9pt; font-weight:700; text-transform:uppercase; letter-spacing:1px; color:var(--green-d); }
+  .accent-green{ border-left:5px solid var(--green); }
+  .accent-amber{ border-left:5px solid var(--amber); }
+  .accent-red{ border-left:5px solid var(--red); }
+  /* stat row */
+  .stats{ display:flex; gap:8mm; margin-top:2mm; }
+  .stat{ flex:1; }
+  .stat .n{ font-size:30pt; font-weight:900; color:var(--green-d); line-height:1; }
+  .stat .t{ font-size:10pt; color:var(--muted); margin-top:2mm; line-height:1.35; }
+  .dark .stat .n{ color:#8FE3AD; }
+  .dark .stat .t{ color:rgba(255,255,255,.75); }
+  /* funnel */
+  .funnel{ display:flex; flex-direction:column; align-items:center; gap:3mm; margin-top:2mm; }
+  .fbar{ color:#fff; font-weight:700; border-radius:2mm; padding:4mm 6mm; text-align:center; }
+  .fbar small{ display:block; font-weight:500; font-size:9pt; opacity:.9; }
+  /* table */
+  table{ width:100%; border-collapse:collapse; font-size:10.5pt; }
+  th,td{ text-align:left; padding:3.2mm 4mm; border-bottom:1px solid var(--line); }
+  th{ font-size:8.5pt; text-transform:uppercase; letter-spacing:.8px; color:var(--muted); }
+  td.c,th.c{ text-align:center; }
+  .yes{ color:var(--green-d); font-weight:800; }
+  .no{ color:#C0C6C4; font-weight:700; }
+  .hl{ background:var(--bg); font-weight:700; }
+  /* revenue ladder */
+  .ladder{ display:flex; align-items:flex-end; gap:5mm; margin-top:4mm; }
+  .rung{ flex:1; background:var(--bg); border:1.5px solid var(--line); border-bottom:5px solid var(--green); border-radius:3mm; padding:5mm; }
+  .rung .p{ font-size:14pt; font-weight:800; color:var(--green-d); }
+  .rung .n{ font-size:10pt; font-weight:700; }
+  .rung .d{ font-size:9pt; color:var(--muted); margin-top:1.5mm; }
+  /* bar chart */
+  .chart{ display:flex; align-items:flex-end; gap:14mm; height:78mm; padding:0 6mm; border-bottom:2px solid var(--line); margin-top:4mm; }
+  .col{ flex:1; display:flex; flex-direction:column; align-items:center; justify-content:flex-end; height:100%; }
+  .bar{ width:70%; background:linear-gradient(180deg,var(--green),var(--green-d)); border-radius:3mm 3mm 0 0; position:relative; }
+  .bar .v{ position:absolute; top:-9mm; left:0; right:0; text-align:center; font-weight:800; font-size:11pt; color:var(--ink); }
+  .col .x{ margin-top:3mm; font-size:10pt; font-weight:700; }
+  .col .xs{ font-size:8.5pt; color:var(--muted); }
+  /* steps */
+  .steps{ counter-reset:s; display:flex; flex-direction:column; gap:3.5mm; margin-top:2mm; }
+  .step{ display:flex; gap:5mm; align-items:flex-start; }
+  .step .num{ flex:none; width:9mm; height:9mm; border-radius:50%; background:var(--green); color:#fff; font-weight:800; display:flex; align-items:center; justify-content:center; font-size:11pt; }
+  .step .tx{ font-size:11pt; padding-top:1mm; }
+  .step .tx b{ color:var(--green-d); }
+  ul.clean{ list-style:none; }
+  ul.clean li{ font-size:11pt; line-height:1.7; padding-left:7mm; position:relative; }
+  ul.clean li:before{ content:""; position:absolute; left:0; top:2.8mm; width:3mm; height:3mm; border-radius:50%; background:var(--green); }
+  .ask li:before{ background:var(--amber); }
+  .quote{ font-size:16pt; font-weight:700; line-height:1.4; }
+  .kbig{ font-size:13pt; }
+  .team{ display:grid; grid-template-columns:repeat(4,1fr); gap:6mm; margin-top:3mm; }
+  .member{ text-align:center; }
+  .avatar{ width:26mm; height:26mm; border-radius:50%; margin:0 auto 3mm; background:linear-gradient(135deg,var(--green),var(--amber)); display:flex; align-items:center; justify-content:center; color:#fff; font-size:22pt; font-weight:800; }
+  .member .nm{ font-weight:800; font-size:11pt; }
+  .member .rl{ font-size:9.5pt; color:var(--muted); margin-top:1mm; }
+</style>
+</head>
+<body>
+
+<!-- 1 COVER -->
+<section class="slide dark">
+  <div class="top">
+    <div class="brand"><span class="dot"></span> RetailMind AI</div>
+    <div class="label" style="color:rgba(255,255,255,.7)">DIGDAYA X Hackathon PIDI 2026</div>
+  </div>
+  <div class="fill">
+    <div class="cover-title">RetailMind AI</div>
+    <div class="cover-sub">Business Health Scoring untuk UMKM F&amp;B Indonesia</div>
+    <div class="cover-line"></div>
+    <div class="cover-tag">Setiap Transaksi Membangun Kepercayaan.</div>
+    <span class="pill">Financial Freedom Tim &middot; Universitas Gadjah Mada</span>
+  </div>
+  <div class="foot"><span>Working Prototype</span><span>01 / 12</span></div>
+</section>
+
+<!-- 2 PROBLEM -->
+<section class="slide">
+  <div class="top"><div class="brand"><span class="dot"></span> RetailMind AI</div><div class="label">Masalah</div></div>
+  <div class="fill">
+    <h1>"Data ada. Kepercayaan tidak ada."</h1>
+    <p class="lead" style="margin-top:6mm">Riset lapangan ke 15 UMKM F&amp;B Yogyakarta: hampir semua sudah pakai kasir digital, tetapi tidak satu pun bisa menjawab laba bersih bulan lalu. Masalahnya dua arah.</p>
+    <div class="grid g2" style="margin-top:9mm">
+      <div class="card accent-red"><span class="k">Sisi UMKM</span><h3>Tidak bisa membuktikan performa</h3><p>Data terpecah di POS, GoFood, GrabFood, dan catatan tangan. Layak didanai, tetapi tidak terbukti.</p></div>
+      <div class="card accent-red"><span class="k">Sisi Investor</span><h3>Tidak punya standar penilaian</h3><p>Due diligence manual mahal (2-4 minggu per UMKM) dan tidak skalabel.</p></div>
+    </div>
+    <div class="stats" style="margin-top:9mm">
+      <div class="stat"><div class="n">69,5%</div><div class="t">UMKM belum bisa akses kredit perbankan</div></div>
+      <div class="stat"><div class="n">77%</div><div class="t">UMKM masih mencatat manual/semi-manual</div></div>
+      <div class="stat"><div class="n">~19%</div><div class="t">UMKM punya laporan keuangan formal</div></div>
+    </div>
+  </div>
+  <div class="foot"><span class="tag">Setiap Transaksi Membangun Kepercayaan</span><span>02 / 12</span></div>
+</section>
+
+<!-- 3 MARKET -->
+<section class="slide">
+  <div class="top"><div class="brand"><span class="dot"></span> RetailMind AI</div><div class="label">Peluang Pasar</div></div>
+  <div class="fill">
+    <h2>Pasar raksasa, jembatan yang hilang</h2>
+    <div class="grid g2" style="grid-template-columns:1.1fr .9fr; align-items:center">
+      <div class="funnel">
+        <div class="fbar" style="width:100%; background:var(--green-d)">TAM: 4,85 juta usaha F&amp;B <small>potensi Rp8,7 triliun / tahun</small></div>
+        <div class="fbar" style="width:78%; background:var(--green)">SAM: 3 juta UMKM digital <small>potensi Rp5,4 triliun / tahun</small></div>
+        <div class="fbar" style="width:52%; background:var(--amber)">SOM: 5.000 UMKM (3 tahun) <small>ARR sekitar Rp2 miliar</small></div>
+      </div>
+      <div>
+        <ul class="clean">
+          <li>Financing gap sekitar <b>Rp2.400 triliun</b> / USD 234 miliar</li>
+          <li><b>32 juta</b> merchant QRIS (95% UMKM), infrastruktur sudah siap</li>
+          <li>Kuliner subsektor No.1 ekonomi kreatif (41-43% PDB ekraf)</li>
+          <li>P2P lending +27%/tahun, tetapi tersandung data kelayakan</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span class="tag">Setiap Transaksi Membangun Kepercayaan</span><span>03 / 12</span></div>
+</section>
+
+<!-- 4 SOLUTION -->
+<section class="slide">
+  <div class="top"><div class="brand"><span class="dot"></span> RetailMind AI</div><div class="label">Solusi</div></div>
+  <div class="fill">
+    <h2>Mengubah transaksi harian jadi skor yang dipercaya</h2>
+    <p class="lead">Satu produk vertikal F&amp;B yang menyatukan tiga lapis: pengumpulan data, analisis AI, dan platform investor.</p>
+    <div class="grid g3" style="margin-top:9mm">
+      <div class="card accent-green"><span class="k">Lapis 1</span><h3>Smart Data Collection</h3><p>Smart POS + Cashbook + OCR nota. Data transaksi tervalidasi.</p></div>
+      <div class="card accent-green"><span class="k">Lapis 2</span><h3>AI Analysis Engine</h3><p>Health Score + AI Coach Rinda. Insight dan skor 0-100.</p></div>
+      <div class="card accent-green"><span class="k">Lapis 3</span><h3>Investor Platform</h3><p>Dashboard + Readiness Score. Keputusan investasi cepat.</p></div>
+    </div>
+    <div class="card" style="margin-top:8mm; background:#EAF7EF; border:none">
+      <p class="kbig" style="color:var(--ink)"><b>Output:</b> Business Health Score (0-100) dan Investment Readiness Score (Low / Medium / High).</p>
+    </div>
+  </div>
+  <div class="foot"><span class="tag">Setiap Transaksi Membangun Kepercayaan</span><span>04 / 12</span></div>
+</section>
+
+<!-- 5 PRODUCT -->
+<section class="slide">
+  <div class="top"><div class="brand"><span class="dot"></span> RetailMind AI</div><div class="label">Produk</div></div>
+  <div class="fill">
+    <h2>Satu produk, tiga lapis, 6 modul aktif</h2>
+    <div class="grid g2" style="gap:5mm">
+      <div class="card accent-green"><h3>Smart POS</h3><p>Kasir digital: transaksi, produk, stok, pelanggan, QRIS.</p></div>
+      <div class="card accent-green"><h3>Smart Cashbook</h3><p>Arus kas lengkap, OCR nota, deteksi anomali, 5 chart.</p></div>
+      <div class="card accent-amber"><h3>AI Coach Rinda</h3><p>Business check-in berbahasa Indonesia, berbasis data toko nyata.</p></div>
+      <div class="card accent-amber"><h3>Business Health Score</h3><p>Skor 0-100 dari 6 komponen berbobot transparan.</p></div>
+      <div class="card accent-red"><h3>Investment Readiness Score</h3><p>Low / Medium / High, dipetakan ke kriteria 5C dan kolektibilitas OJK.</p></div>
+      <div class="card accent-red"><h3>Investor Dashboard</h3><p>Snapshot, tren, risk indicators, portfolio monitoring, peta.</p></div>
+    </div>
+  </div>
+  <div class="foot"><span class="tag">Setiap Transaksi Membangun Kepercayaan</span><span>05 / 12</span></div>
+</section>
+
+<!-- 6 DEMO -->
+<section class="slide">
+  <div class="top"><div class="brand"><span class="dot"></span> RetailMind AI</div><div class="label">Demo Live</div></div>
+  <div class="fill">
+    <h2>Data nyata, skor, keputusan: dalam 90 detik</h2>
+    <div class="steps">
+      <div class="step"><div class="num">1</div><div class="tx"><b>Login UMKM.</b> Tunjukkan Smart POS dan Cashbook, data harian masuk (Warung Bu Siti, 90 hari transaksi).</div></div>
+      <div class="step"><div class="num">2</div><div class="tx"><b>Buka Health Score.</b> Skor muncul dengan insight actionable dari AI Coach Rinda.</div></div>
+      <div class="step"><div class="num">3</div><div class="tx"><b>Login Investor.</b> Dashboard 10 UMKM F&amp;B Yogyakarta, filter berdasarkan skor.</div></div>
+      <div class="step"><div class="num">4</div><div class="tx"><b>Buka detail dan Risk Flags.</b> Ambil keputusan investasi berdasarkan data, bukan firasat.</div></div>
+    </div>
+    <div class="card" style="margin-top:8mm; background:#EAF7EF; border:none"><p class="kbig" style="color:var(--ink)">Working Prototype: 6 modul aktif, data F&amp;B Yogyakarta ter-seed, 2 akun demo siap.</p></div>
+  </div>
+  <div class="foot"><span class="tag">Setiap Transaksi Membangun Kepercayaan</span><span>06 / 12</span></div>
+</section>
+
+<!-- 7 USP -->
+<section class="slide">
+  <div class="top"><div class="brand"><span class="dot"></span> RetailMind AI</div><div class="label">Keunggulan &amp; Moat</div></div>
+  <div class="fill">
+    <div class="quote" style="color:var(--green-d); margin-bottom:6mm">Kompetitor berhenti di laporan. Kami menghasilkan keputusan investasi.</div>
+    <table>
+      <thead><tr><th>Fitur</th><th class="c">RetailMind</th><th class="c">Moka / Majoo</th><th class="c">Jurnal</th><th class="c">Spreadsheet</th></tr></thead>
+      <tbody>
+        <tr class="hl"><td>Business Health Score 0-100</td><td class="c yes">Ya</td><td class="c no">-</td><td class="c no">Parsial</td><td class="c no">-</td></tr>
+        <tr><td>AI Business Coach</td><td class="c yes">Ya</td><td class="c no">-</td><td class="c no">-</td><td class="c no">-</td></tr>
+        <tr class="hl"><td>Investor Dashboard + Readiness</td><td class="c yes">Ya</td><td class="c no">-</td><td class="c no">-</td><td class="c no">-</td></tr>
+        <tr><td>Vertikal F&amp;B Indonesia</td><td class="c yes">Ya</td><td class="c no">Parsial</td><td class="c no">-</td><td class="c no">-</td></tr>
+      </tbody>
+    </table>
+    <div class="grid g4" style="margin-top:8mm; gap:4mm">
+      <div class="card"><span class="k">Moat 1</span><p>Data Flywheel: makin lama dipakai, makin akurat</p></div>
+      <div class="card"><span class="k">Moat 2</span><p>Scoring khusus F&amp;B Indonesia</p></div>
+      <div class="card"><span class="k">Moat 3</span><p>Integrasi tiga layer dalam satu produk</p></div>
+      <div class="card"><span class="k">Moat 4</span><p>First-party data milik UMKM</p></div>
+    </div>
+  </div>
+  <div class="foot"><span class="tag">Setiap Transaksi Membangun Kepercayaan</span><span>07 / 12</span></div>
+</section>
+
+<!-- 8 BUSINESS MODEL -->
+<section class="slide">
+  <div class="top"><div class="brand"><span class="dot"></span> RetailMind AI</div><div class="label">Model Bisnis</div></div>
+  <div class="fill">
+    <h2>Freemium dua sisi</h2>
+    <div class="ladder">
+      <div class="rung" style="border-bottom-color:#C0C6C4"><div class="n">Free UMKM</div><div class="p">Rp 0</div><div class="d">Akuisisi &amp; data</div></div>
+      <div class="rung"><div class="n">Pro UMKM</div><div class="p">Rp 149K</div><div class="d">/bln &middot; revenue utama</div></div>
+      <div class="rung"><div class="n">Investor Access</div><div class="p">Rp 299K</div><div class="d">/bln &middot; sekunder</div></div>
+      <div class="rung" style="border-bottom-color:var(--amber)"><div class="n">API License B2B</div><div class="p">Rp 2-5jt</div><div class="d">/bln &middot; lembaga</div></div>
+      <div class="rung" style="border-bottom-color:var(--amber)"><div class="n">Matching Fee</div><div class="p">1-2%</div><div class="d">per deal</div></div>
+    </div>
+    <div class="stats" style="margin-top:11mm">
+      <div class="stat"><div class="n">12-36x</div><div class="t">Rasio LTV / CAC (base-case 12x)</div></div>
+      <div class="stat"><div class="n">&lt; 1 bln</div><div class="t">Payback period</div></div>
+      <div class="stat"><div class="n">Rp 50-150K</div><div class="t">CAC UMKM via komunitas</div></div>
+    </div>
+  </div>
+  <div class="foot"><span class="tag">Setiap Transaksi Membangun Kepercayaan</span><span>08 / 12</span></div>
+</section>
+
+<!-- 9 GTM & TRACTION -->
+<section class="slide">
+  <div class="top"><div class="brand"><span class="dot"></span> RetailMind AI</div><div class="label">Traction &amp; Go-to-Market</div></div>
+  <div class="fill">
+    <h2>Sudah jalan, siap skala</h2>
+    <div class="grid g3" style="margin-top:2mm">
+      <div class="card accent-green"><span class="k">Fase 1: Pilot</span><h3>Yogyakarta</h3><p>0-6 bln &middot; 20-30 UMKM, 1.000+ transaksi. Kanal komunitas WhatsApp &amp; Instagram.</p></div>
+      <div class="card accent-amber"><span class="k">Fase 2: Skala</span><h3>Multi-kota</h3><p>6-24 bln &middot; 200-500 UMKM. Kemitraan BPR, Koperasi, Fintech P2P.</p></div>
+      <div class="card accent-red"><span class="k">Fase 3: Ekosistem</span><h3>Nasional</h3><p>&gt;24 bln &middot; 5.000+ UMKM. RetailMind Score jadi standar evaluasi.</p></div>
+    </div>
+    <div class="card" style="margin-top:9mm; background:#EAF7EF; border:none">
+      <p class="kbig" style="color:var(--ink)"><b>Traction hari ini:</b> Working Prototype, 6 modul aktif, data F&amp;B Yogyakarta ter-seed, riset lapangan 15 UMKM. Bisa demo live.</p>
+    </div>
+  </div>
+  <div class="foot"><span class="tag">Setiap Transaksi Membangun Kepercayaan</span><span>09 / 12</span></div>
+</section>
+
+<!-- 10 FINANCIALS -->
+<section class="slide">
+  <div class="top"><div class="brand"><span class="dot"></span> RetailMind AI</div><div class="label">Proyeksi Finansial</div></div>
+  <div class="fill">
+    <h2>Jalur pertumbuhan yang masuk akal</h2>
+    <div class="chart">
+      <div class="col"><div class="bar" style="height:8%"><span class="v">Rp 161 jt</span></div><div class="x">Tahun 1</div><div class="xs">200 UMKM</div></div>
+      <div class="col"><div class="bar" style="height:33%"><span class="v">Rp 684 jt</span></div><div class="x">Tahun 2</div><div class="xs">700 UMKM</div></div>
+      <div class="col"><div class="bar" style="height:96%"><span class="v">Rp 2,04 M</span></div><div class="x">Tahun 3</div><div class="xs">2.000 UMKM</div></div>
+    </div>
+    <p class="lead" style="margin-top:8mm">Pendapatan dari tiga aliran: Pro UMKM, Investor Access, dan API License lembaga. Biaya condong ke pengembangan produk (60% engineering), sehingga margin membaik seiring skala. Angka base-case, divalidasi saat pilot.</p>
+  </div>
+  <div class="foot"><span class="tag">Setiap Transaksi Membangun Kepercayaan</span><span>10 / 12</span></div>
+</section>
+
+<!-- 11 TEAM -->
+<section class="slide">
+  <div class="top"><div class="brand"><span class="dot"></span> RetailMind AI</div><div class="label">Tim</div></div>
+  <div class="fill">
+    <h2>Tim AI/ML UGM dengan riset lapangan nyata</h2>
+    <div class="team">
+      <div class="member"><div class="avatar">H</div><div class="nm">Hamzah Arman Husni</div><div class="rl">Ketua Tim</div></div>
+      <div class="member"><div class="avatar">D</div><div class="nm">Dzaky Faishalariq</div><div class="rl">Developer</div></div>
+      <div class="member"><div class="avatar">G</div><div class="nm">Gregorius Bugen Jovi S.</div><div class="rl">Marketing Strategist</div></div>
+      <div class="member"><div class="avatar">A</div><div class="nm">Aditya Nurrohman</div><div class="rl">Automation Specialist</div></div>
+    </div>
+    <div class="card" style="margin-top:11mm; background:#EAF7EF; border:none">
+      <p class="kbig" style="color:var(--ink)">Diferensiasi tim: bukan sekadar ide, tetapi Working Prototype yang dibangun sendiri plus riset lapangan langsung ke 15 UMKM F&amp;B Yogyakarta.</p>
+    </div>
+  </div>
+  <div class="foot"><span class="tag">Universitas Gadjah Mada &middot; Financial Freedom Tim</span><span>11 / 12</span></div>
+</section>
+
+<!-- 12 THE ASK -->
+<section class="slide dark last">
+  <div class="top"><div class="brand"><span class="dot"></span> RetailMind AI</div><div class="label" style="color:rgba(255,255,255,.7)">The Ask</div></div>
+  <div class="fill">
+    <h1 style="font-size:28pt">Yang kami butuhkan untuk pilot Yogyakarta</h1>
+    <ul class="clean ask" style="margin-top:9mm">
+      <li style="color:#fff"><b>Mitra pilot:</b> introduksi ke BPR, Koperasi, atau Fintech P2P yang butuh deal flow UMKM F&amp;B tersaring.</li>
+      <li style="color:#fff"><b>Bimbingan regulasi:</b> arah kepatuhan Innovative Credit Scoring OJK saat masuk fase matching.</li>
+      <li style="color:#fff"><b>Dukungan pilot 6 bulan:</b> estimasi Rp 150-200 juta untuk 30 UMKM (validasi model scoring dengan data nyata).</li>
+    </ul>
+    <div class="cover-line" style="margin:12mm 0 8mm"></div>
+    <div class="cover-tag" style="color:#fff">Setiap Transaksi Membangun Kepercayaan.</div>
+  </div>
+  <div class="foot"><span>aijenteknologi@gmail.com</span><span>12 / 12</span></div>
+</section>
+
+</body>
+</html>

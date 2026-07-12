@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"center","type":"text","text":"# RetailMind AI\n**Arah Hackathon**\nUMKM  ->  Skor  ->  Investor","x":-160,"y":-90,"width":320,"height":200,"color":"6"},
+		{"id":"b1","type":"text","text":"**1. Masalah**\nData ada, tapi tak kredibel\nInvestor tak punya standar\n69,5% UMKM belum akses kredit","x":480,"y":-470,"width":300,"height":150,"color":"1"},
+		{"id":"b2","type":"text","text":"**2. Solusi**\nScoring Engine dua sisi\nHealth Score 0-100\nReadiness Score\nAI Coach Rinda","x":480,"y":-280,"width":300,"height":160,"color":"4"},
+		{"id":"b3","type":"text","text":"**3. Produk (6 modul aktif)**\nSmart POS + Cashbook\nAI Coach + Health Score\nInvestor Dashboard\nWorking Prototype","x":480,"y":-80,"width":300,"height":160,"color":"5"},
+		{"id":"b4","type":"text","text":"**4. Pasar**\nTAM: 4,85 juta usaha F&B\nSAM: 3 juta UMKM digital\nSOM: 5.000 UMKM (3 tahun)","x":480,"y":120,"width":300,"height":150,"color":"3"},
+		{"id":"b5","type":"text","text":"**5. Model Bisnis**\nPro Rp149K/bln\nInvestor Rp299K/bln\nAPI B2B Rp2-5jt\nMatching fee 1-2%","x":480,"y":310,"width":300,"height":160,"color":"2"},
+		{"id":"b6","type":"text","text":"**6. Keunggulan (Moat)**\nData Flywheel\nVertikal F&B Indonesia\n3 layer dalam 1 produk\nFirst-party data","x":-760,"y":-380,"width":300,"height":160,"color":"6"},
+		{"id":"b7","type":"text","text":"**7. Arah & Roadmap**\nFase 1: Pilot Yogyakarta\nFase 2: Multi-kota\nFase 3: Nasional (north star)","x":-760,"y":-190,"width":300,"height":150,"color":"4"},
+		{"id":"b8","type":"text","text":"**8. Dokumen Pitching**\nDeck 12 slide + One-pager\nBMC + VPC + Persona\nFinansial + TAM/SAM/SOM","x":-760,"y":0,"width":300,"height":150,"color":"5"},
+		{"id":"b9","type":"text","text":"**9. The Ask**\nMitra pilot BPR/Koperasi\nBimbingan regulasi OJK\nDukungan pilot 6 bulan","x":-760,"y":190,"width":300,"height":150,"color":"2"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"center","fromSide":"right","toNode":"b1","toSide":"left"},
+		{"id":"e2","fromNode":"center","fromSide":"right","toNode":"b2","toSide":"left"},
+		{"id":"e3","fromNode":"center","fromSide":"right","toNode":"b3","toSide":"left"},
+		{"id":"e4","fromNode":"center","fromSide":"right","toNode":"b4","toSide":"left"},
+		{"id":"e5","fromNode":"center","fromSide":"right","toNode":"b5","toSide":"left"},
+		{"id":"e6","fromNode":"center","fromSide":"left","toNode":"b6","toSide":"right"},
+		{"id":"e7","fromNode":"center","fromSide":"left","toNode":"b7","toSide":"right"},
+		{"id":"e8","fromNode":"center","fromSide":"left","toNode":"b8","toSide":"right"},
+		{"id":"e9","fromNode":"center","fromSide":"left","toNode":"b9","toSide":"right"}
+	]
+}

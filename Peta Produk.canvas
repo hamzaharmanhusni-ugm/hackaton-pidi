@@ -11,7 +11,7 @@
 		{"id":"cashbook","type":"text","text":"**Smart Cashbook**\nArus kas · OCR nota · kategorisasi","x":-440,"y":-110,"width":240,"height":110,"color":"4"},
 		{"id":"coach","type":"text","text":"**AI Coach Rinda**\nInsight actionable (RAG, Bahasa Indonesia)","x":-440,"y":40,"width":240,"height":110,"color":"4"},
 		{"id":"validation","type":"text","text":"**AI Validation**\nDeteksi anomali +\ncross-check POS ↔ Cashbook","x":120,"y":-80,"width":240,"height":110,"color":"5"},
-		{"id":"title","type":"text","text":"# RetailMind AI — Peta Produk\nUMKM → Skor → Investor","x":240,"y":-520,"width":620,"height":190,"color":"6"}
+		{"id":"title","type":"text","text":"# RetailMind AI — Peta Produk\nUMKM → Skor → Investor","x":180,"y":-400,"width":620,"height":190,"color":"6"}
 	],
 	"edges":[
 		{"id":"e1","fromNode":"pos","fromSide":"right","toNode":"validation","toSide":"left"},
