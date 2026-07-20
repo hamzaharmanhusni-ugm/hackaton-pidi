@@ -250,23 +250,23 @@ git commit -m "docs(pidi): laporan validasi sintetis multi-agent"
 
 - [ ] **Step 1: Tulis tujuan dan ruang lingkup Fase B**
 
-Tegaskan model chat-first hibrida ([[06 - Analisis Aplikasi & Arah WhatsApp]]): sisi UMKM (pendaftaran, input transaksi, AI Coach, notifikasi proaktif) berjalan lewat bot, sedangkan Health Score penuh dan seluruh sisi investor tetap di web. POC pakai Telegram dulu (nanti pindah WhatsApp), agent digerakkan API OpenAI menembak bot, log ditambang untuk friksi dan drop-off. Sertakan tabel alasan Telegram untuk POC dan WhatsApp untuk produksi.
+Tegaskan model chat-first hibrida ([[06 - Analisis Aplikasi & Arah WhatsApp]]): sisi UMKM (pendaftaran, input transaksi, AI Coach, notifikasi proaktif) berjalan lewat bot, sedangkan Health Score penuh dan seluruh sisi investor tetap di web. POC pakai Telegram dulu (nanti pindah WhatsApp), agent digerakkan provider Gemini (yang sudah terpasang) menembak bot, log ditambang untuk friksi dan drop-off. Sertakan tabel alasan Telegram untuk POC dan WhatsApp untuk produksi.
 
 - [ ] **Step 2: Tulis arsitektur**
 
-Diagram Mermaid: persona agent (OpenAI) to bot Telegram to backend RetailMind to Supabase, plus jalur log ke penambangan. Sebut komponen: bot handler, adapter agent, penyimpan transkrip, penambang metrik.
+Diagram Mermaid: persona agent (Gemini) to bot Telegram to backend RetailMind to Supabase, plus jalur log ke penambangan. Sebut komponen: bot handler, adapter agent, penyimpan transkrip, penambang metrik.
 
 - [ ] **Step 3: Tulis alur bot**
 
 Langkah percakapan bot: daftar usaha, pilih kategori, catat transaksi pertama, lihat ringkasan skor awal. Petakan tiap langkah ke titik friksi yang ditemukan di Task 5.
 
-- [ ] **Step 4: Tulis peran API OpenAI dan metrik**
+- [ ] **Step 4: Tulis peran provider Gemini (yang sudah terpasang) dan metrik**
 
-Jelaskan kapan API OpenAI dipakai (menggerakkan persona menembak bot) dan metrik yang ditambang: langkah tempat drop-off, waktu tiap langkah, jumlah persona yang menyelesaikan onboarding.
+Jelaskan kapan provider Gemini (yang sudah terpasang) dipakai (menggerakkan persona menembak bot) dan metrik yang ditambang: langkah tempat drop-off, waktu tiap langkah, jumlah persona yang menyelesaikan onboarding.
 
 - [ ] **Step 5: Verifikasi**
 
-Cek: (a) ruang lingkup Fase B jelas dan terbatas; (b) ada diagram arsitektur; (c) alur bot dipetakan ke friksi Task 5; (d) peran API OpenAI dan metrik terdefinisi; (e) tidak ada em dash. Perbaiki bila gagal.
+Cek: (a) ruang lingkup Fase B jelas dan terbatas; (b) ada diagram arsitektur; (c) alur bot dipetakan ke friksi Task 5; (d) peran provider Gemini (yang sudah terpasang) dan metrik terdefinisi; (e) tidak ada em dash. Perbaiki bila gagal.
 
 - [ ] **Step 6: Commit**
 

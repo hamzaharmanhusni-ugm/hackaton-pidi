@@ -31,7 +31,7 @@ Kebutuhannya: metode yang bisa menghasilkan sinyal validasi pasar yang **kredibe
 
 **Tidak termasuk (Fase B, dibangun setelah Fase A disetujui):**
 - Harness kode yang menjalankan bot Telegram sungguhan
-- Integrasi API OpenAI penuh untuk menggerakkan agent menembak bot
+- Integrasi provider Gemini (yang sudah terpasang) penuh untuk menggerakkan agent menembak bot
 - Penambangan log interaksi otomatis
 
 **Lokasi kerja:** seluruh deliverable Fase A berada di `Hackaton PIDI/Validasi Pasar Multi-Agent/`.
@@ -104,11 +104,11 @@ Semua di `Hackaton PIDI/Validasi Pasar Multi-Agent/`.
 | 2 | `02 - Kartu Persona Agent.md` | Spesifikasi tiap persona bernama, siap jadi system prompt |
 | 3 | `03 - Metode Validasi Multi-Agent.md` | Metodologi, dasar ilmiah, batasan, cara baca hasil |
 | 4 | `04 - Laporan Validasi Sintetis.md` | Temuan empat aspek per persona, tingkat keyakinan, keberatan, rekomendasi wawancara nyata lanjutan |
-| 5 | `05 - Blueprint Telegram POC.md` | Desain Fase B: arsitektur bot, alur, peran API OpenAI, rencana penambangan log |
+| 5 | `05 - Blueprint Telegram POC.md` | Desain Fase B: arsitektur bot, alur, peran provider Gemini (yang sudah terpasang), rencana penambangan log |
 
 ## 8. Fase B (ringkas, dibangun kemudian)
 
-Harness Telegram jalan: bot pendaftaran POS dan pencatatan transaksi, persona agent digerakkan API OpenAI untuk menembak bot itu, log interaksi ditambang untuk mengukur friksi dan drop-off. API OpenAI dipakai penuh setelah metode terbukti lewat Fase A. Fase B mendapat spec tersendiri.
+Harness Telegram jalan: bot pendaftaran POS dan pencatatan transaksi, persona agent digerakkan provider Gemini (yang sudah terpasang) untuk menembak bot itu, log interaksi ditambang untuk mengukur friksi dan drop-off. provider Gemini (yang sudah terpasang) dipakai penuh setelah metode terbukti lewat Fase A. Fase B mendapat spec tersendiri.
 
 ## 9. Kriteria sukses
 
