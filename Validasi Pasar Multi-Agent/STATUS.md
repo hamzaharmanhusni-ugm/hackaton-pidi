@@ -29,13 +29,15 @@ Masalah tervalidasi kuat (Tinggi), TAPI kesediaan bayar semua persona bersyarat 
 - Blueprint solusi: `05` versi Telegram, `07` versi website, `08` solusi gabungan hibrida.
 - Puppeteer MCP connect, app tervalidasi live.
 
-## GOAL BESAR 6 fase (sedang dikerjakan)
-- [ ] **Fase 1**: Kritik proposal proof-driven (baca proposal, bongkar kelemahan berbekal validasi).
-- [ ] **Fase 2**: Bangun Telegram bot PoC (Gemini) - onboarding, input transaksi chat, coach, ringkasan skor. Token dari `.env`, kirim ke ID 6019336579.
-- [ ] **Fase 3**: Simulasi persona via Telegram + metrik (completion, friksi, drop-off).
-- [ ] **Fase 4**: Jabarkan 2 solusi (web vs chat-hibrida) + rekomendasi berdasarkan PoC.
-- [ ] **Fase 5**: Perbaiki proposal + changelog (jelaskan tiap perbaikan).
-- [ ] **Fase 6**: Paket bisnis: USP, ROI, business model, kekuatan, skrip video pitching, dilandasi design thinking.
+## GOAL BESAR 6 fase (progres)
+- [x] **Fase 1**: Kritik proposal proof-driven. Deliverable: `09 - Kritik Proposal (Proof-Driven)`.
+- [x] **Fase 2**: Bot Telegram PoC (Gemini + fallback Claude). `@RetailMindBot` live. Kode di project `retailmind-ai/scripts/telegram-bot.mjs` (branch `telegram-poc`). Perintah: `node scripts/telegram-bot.mjs --live` / `--selftest`.
+- [x] **Fase 3**: Uji bot terskrip 6 persona (owner+kasir) + edge probe. Deliverable di subfolder `Simulasi Telegram/` (00 metrik, 01 edge, 02 laporan PoC, A1-A6). Temuan bug (multi-tx, perintah, coach over-promising) sudah diperbaiki di bot. Batas: Gemini free tier 5/mnt, Anthropic key .env invalid, tak ada OpenAI key.
+- [ ] **Fase 4**: Jabarkan 2 solusi (web vs chat-hibrida) + rekomendasi berdasarkan PoC. BELUM.
+- [ ] **Fase 5**: Perbaiki proposal + changelog (jelaskan tiap perbaikan). BELUM.
+- [x] **Fase 6**: Paket bisnis `10 - Paket Bisnis (USP, ROI, Model)` + `11 - Skrip Video Pitching`. Selesai.
+
+**Berikutnya setelah compact: Fase 4 lalu Fase 5.** Skrip uji bot: `retailmind-ai/scripts/telegram-sim-scripted.mjs` (pesan persona ditulis penguji, hemat kuota) dan `telegram-sim.mjs` (Gemini-driven, kena limit).
 
 ## Catatan lingkungan
 Folder `D:\Bahan Kuliah UGM` kemungkinan cloud-sync, file sempat "hilang" lalu muncul lagi. Mitigasi: commit git sesering mungkin.
