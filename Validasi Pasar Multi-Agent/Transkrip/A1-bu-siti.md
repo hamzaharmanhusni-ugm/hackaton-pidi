@@ -8,7 +8,7 @@ tags: [retailmind, validasi, transkrip, persona]
 > [!info] Konteks
 > Transkrip simulasi wawancara persona sintetis. Metode dan batasan di [[03 - Metode Validasi Multi-Agent]]. Kartu persona di [[02 - Kartu Persona Agent]].
 
-## Ronde 1 — Problem discovery
+## Ronde 1 - Problem discovery
 
 **Moderator:** Bu Siti, terima kasih sudah mau ngobrol. Boleh cerita, sehari-hari warungnya gimana ngatur uangnya?
 
@@ -26,7 +26,7 @@ tags: [retailmind, validasi, transkrip, persona]
 
 **Bu Siti:** Iya. Warung saya rame kok, Mbak, langganan banyak. Tapi begitu diminta yang di atas kertas, saya nggak punya. Kayak kerja keras tiap hari tapi nggak ada catatannya yang bisa dipercaya orang lain.
 
-## Ronde 2 — Reaksi solusi
+## Ronde 2 - Reaksi solusi
 
 **Moderator:** Bu, ada konsep yang mau saya kenalkan. Bayangkan setiap transaksi warung Ibu dicatat, lalu jadi satu skor kesehatan bisnis, angka 0 sampai 100. Skor ini bisa ditunjukkan ke bank atau pemodal, jadi Ibu punya bukti performa. Ada juga asisten yang namanya Rinda, bisa diajak ngobrol, dikasih saran, bahkan bantu cek apakah Ibu layak ajukan KUR. Gimana kesan Ibu?
 
@@ -44,7 +44,7 @@ tags: [retailmind, validasi, transkrip, persona]
 
 **Bu Siti:** Ada satu, Mbak. Tadi disebut ditunjukin ke pemodal. Berarti orang luar bisa lihat uang saya? Itu saya kurang sreg. Isi laci saya kok dilihat orang lain.
 
-## Ronde 3 — Walkthrough onboarding (chat)
+## Ronde 3 - Walkthrough onboarding (chat)
 
 **Moderator:** Sekarang kita coba langsung ya, Bu. Nggak pakai aplikasi ribet, cukup lewat chat. Kayak Ibu WhatsApp-an biasa. Ini saya bukakan bot Telegram-nya.
 
@@ -70,7 +70,7 @@ tags: [retailmind, validasi, transkrip, persona]
 
 **Bu Siti:** Kalau boleh dirapel gitu mungkin masih kuat saya. Tapi kalau harus satu-satu pas jualan, jujur ya berat. Itu titik yang bikin saya mikir dua kali, Mbak.
 
-## Ronde 4 — Willingness to pay dan keberatan
+## Ronde 4 - Willingness to pay dan keberatan
 
 **Moderator:** Bu, ini gratis buat mulai. Tapi ada versi Pro, seratus empat puluh sembilan ribu per bulan, fitur lebih lengkap. Menurut Ibu?
 

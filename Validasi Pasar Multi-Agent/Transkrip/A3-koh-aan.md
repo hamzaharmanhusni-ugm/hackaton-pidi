@@ -8,7 +8,7 @@ tags: [retailmind, validasi, transkrip, persona]
 > [!info] Konteks
 > Transkrip simulasi wawancara persona sintetis. Metode dan batasan di [[03 - Metode Validasi Multi-Agent]]. Kartu persona di [[02 - Kartu Persona Agent]].
 
-## Ronde 1 — Problem discovery
+## Ronde 1 - Problem discovery
 
 **Moderator:** Koh Aan, terima kasih sudah menyempatkan. Saya mulai dari yang umum dulu. Sehari-hari, bagaimana Koh mengatur keuangan rumah makan?
 
@@ -26,7 +26,7 @@ tags: [retailmind, validasi, transkrip, persona]
 
 **Koh Aan:** Dua-duanya, tapi yang bikin saya jengkel itu pembuktiannya. Saya tahu usaha saya bagus. Tapi buat meyakinkan orang yang pegang uang, saya harus kumpulkan data dari mana-mana, cetak, susun, jelasin satu-satu. Prosesnya lama, mereka periksa manual. Sudah gitu belum tentu cair. Coba kalau ada cara nunjukin "ini lho kondisi usaha saya" yang mereka langsung percaya, saya tidak perlu bolak-balik.
 
-## Ronde 2 — Reaksi solusi
+## Ronde 2 - Reaksi solusi
 
 **Moderator:** Dari yang Koh ceritakan itu nyambung dengan konsep yang mau saya perlihatkan. Ada platform yang mengubah data transaksi harian jadi satu skor kesehatan bisnis, angka nol sampai seratus, plus penilaian kesiapan didanai, rendah, sedang, atau tinggi. Skor itu yang ditunjukkan ke pemodal, bukan transaksi mentahnya.
 
@@ -44,7 +44,7 @@ tags: [retailmind, validasi, transkrip, persona]
 
 **Koh Aan:** Iya, ini nambah kerjaan atau tidak. Saya sudah punya sistem jalan. Kalau ini artinya karyawan saya harus input ulang di aplikasi baru, langsung saya coret. Waktu mereka itu ada harganya buat saya.
 
-## Ronde 3 — Walkthrough onboarding (chat)
+## Ronde 3 - Walkthrough onboarding (chat)
 
 **Moderator:** Justru soal input itu ada yang mau saya perlihatkan. Pencatatannya lewat chat. Jadi tidak ada aplikasi rumit. Cukup ketik di bot Telegram, misalnya "jual rendang 25rb", atau kirim foto struk, nanti dibaca otomatis. Coba kita bayangkan Koh baru daftar dan mau catat transaksi pertama.
 
@@ -62,7 +62,7 @@ tags: [retailmind, validasi, transkrip, persona]
 
 **Koh Aan:** Syarat mati. Chat ini enak buat catatan yang lepas dari POS, misalnya saya bayar tukang servis kulkas pakai uang tunai, itu tidak masuk kasir. Nah yang begitu saya sendiri bisa ketik cepat, "keluar 300rb servis kulkas", gampang. Untuk itu chat berguna. Tapi tulang punggung penjualan harus otomatis dari POS. Dua-duanya harus jalan, jangan cuma chatnya.
 
-## Ronde 4 — Willingness to pay dan keberatan
+## Ronde 4 - Willingness to pay dan keberatan
 
 **Moderator:** Baik, kita bicara harga. Ada versi gratis untuk mulai. Untuk fitur penuh, termasuk AI Coach namanya Rinda yang kasih saran dan bantu cek kelayakan KUR, ada paket Pro seratus empat puluh sembilan ribu per bulan. Di titik ini saya minta rekan saya, Mbak Sinta, ikut menimbang.
 

@@ -8,7 +8,7 @@ tags: [retailmind, validasi, transkrip, persona]
 > [!info] Konteks
 > Transkrip simulasi wawancara persona sintetis (operational user). Metode dan batasan di [[03 - Metode Validasi Multi-Agent]]. Kartu persona di [[02 - Kartu Persona Agent]].
 
-## Bagian 1 — Cara kerja sekarang
+## Bagian 1 - Cara kerja sekarang
 
 **Moderator:** Dinda, makasih ya udah mau ngobrol. Aku pengen tahu dulu, kalau lagi jam ramai di kedai, kamu nyatet transaksi gimana?
 
@@ -26,7 +26,7 @@ tags: [retailmind, validasi, transkrip, persona]
 
 **Dinda:** Ada. Kalau bener-bener rame, kadang aku terima uang dulu, taruh di laci, nanti pas agak sepi baru aku input. Tapi resikonya suka lupa detailnya. Mendingan langsung sih sebenernya.
 
-## Bagian 2 — Reaksi cara input baru
+## Bagian 2 - Reaksi cara input baru
 
 **Moderator:** Oke. Ada ide input transaksi lewat dua cara. Pertama lewat chat, kayak bot di Telegram nanti WhatsApp, kamu tinggal ketik "jual kopi 20rb, es teh 5rb". Kedua tetep lewat aplikasi POS kayak mesin kasir biasa. Reaksi pertama kamu gimana?
 
@@ -44,7 +44,7 @@ tags: [retailmind, validasi, transkrip, persona]
 
 **Dinda:** Kalau dia beneran ngerti singkatan sih lumayan. Tapi aku takutnya salah tebak. Kalau dia salah masukin terus aku harus benerin, itu malah nambah kerjaan. Mending yang pasti aja.
 
-## Bagian 3 — Walkthrough input (chat vs POS)
+## Bagian 3 - Walkthrough input (chat vs POS)
 
 **Moderator:** Yuk kita coba. Bayangin lagi rame, antre lima orang. Ada pesanan: dua kopi masing-masing 20rb, sama satu es teh 5rb. Coba lewat chat dulu.
 
@@ -70,7 +70,7 @@ tags: [retailmind, validasi, transkrip, persona]
 
 **Dinda:** Penting banget. Di mesin kasir sekarang aku bisa hapus item gampang. Kalau di chat aku salah ketik, aku harus gimana? Ketik "batal" terus ulang? Itu ribet. Buat aku yang gampang dikoreksi itu nomor satu, soalnya salah pencet tuh sering pas buru-buru.
 
-## Bagian 4 — Penerimaan
+## Bagian 4 - Penerimaan
 
 **Moderator:** Oke, pertanyaan intinya. Kamu mau nggak pakai ini tiap hari?
 

@@ -8,7 +8,7 @@ tags: [retailmind, validasi, transkrip, persona]
 > [!info] Konteks
 > Transkrip simulasi wawancara persona sintetis. Metode dan batasan di [[03 - Metode Validasi Multi-Agent]]. Kartu persona di [[02 - Kartu Persona Agent]].
 
-## Ronde 1 — Problem discovery
+## Ronde 1 - Problem discovery
 
 **Moderator:** Mas Aldi, terima kasih sudah menyempatkan. Boleh cerita dulu, sehari-hari gimana cara Mas ngurus keuangan kedai?
 
@@ -34,7 +34,7 @@ tags: [retailmind, validasi, transkrip, persona]
 
 **Mas Aldi:** Betul. Nyatet sih saya bisa. Yang saya nggak bisa itu ngubah catatan jadi bukti yang bikin orang keluar duit buat saya. Terus asesmen bank juga lama, bisa berminggu-minggu. Sementara lokasi keburu lepas.
 
-## Ronde 2 — Reaksi solusi
+## Ronde 2 - Reaksi solusi
 
 **Moderator:** Oke, saya ceritain satu konsep ya, saya mau reaksi jujur Mas. Bayangin ada platform yang narik data transaksi harian Mas, terus ngubahnya jadi satu skor kesehatan bisnis, 0 sampai 100. Skor itu plus ringkasan bisa Mas tunjukin ke investor, tanpa mereka lihat transaksi mentahnya. Ada juga status kesiapan investasi, rendah, sedang, tinggi.
 
@@ -52,7 +52,7 @@ tags: [retailmind, validasi, transkrip, persona]
 
 **Mas Aldi:** Itu justru pertanyaan kunci saya. POS saya udah ngasih laporan penjualan. GoFood ada dashboard. Kalau ini cuma nampilin ulang yang saya udah punya, ngapain saya pindah? Yang bikin beda cuma satu, dia bisa gabungin SEMUA kanal jadi satu, terus keluarin bukti yang diakui investor. Itu yang belum ada di tool saya sekarang. Kalau itu beneran jalan, saya dengerin. Kalau nggak, ini cuma dashboard kesekian.
 
-## Ronde 3 — Walkthrough onboarding (chat)
+## Ronde 3 - Walkthrough onboarding (chat)
 
 **Moderator:** Yuk kita coba langsung. Cara masuk transaksinya lewat chat, ada bot Telegram, nanti WhatsApp juga. Coba Mas daftar dulu, terus catat satu transaksi. Ketik aja kayak chat biasa, misalnya "jual kopi 20rb".
 
@@ -74,7 +74,7 @@ tags: [retailmind, validasi, transkrip, persona]
 
 **Mas Aldi:** Daftarnya gampang, tinggal chat, nggak ribet form panjang. Itu plus. Cuma "gampang daftar" bukan alasan saya bertahan. Saya bertahan kalau data saya masuk otomatis dan skornya keluar bener.
 
-## Ronde 4 — Willingness to pay dan keberatan
+## Ronde 4 - Willingness to pay dan keberatan
 
 **Moderator:** Oke masuk soal harga. Gratis buat mulai. Ada versi Pro, Rp149.000 per bulan, dapet skor lengkap, Coach Rinda penuh, sama ringkasan buat investor.
 

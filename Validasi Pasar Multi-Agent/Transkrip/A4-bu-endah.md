@@ -8,7 +8,7 @@ tags: [retailmind, validasi, transkrip, persona]
 > [!info] Konteks
 > Transkrip simulasi wawancara persona sintetis. Metode dan batasan di [[03 - Metode Validasi Multi-Agent]]. Kartu persona di [[02 - Kartu Persona Agent]].
 
-## Ronde 1 — Problem discovery
+## Ronde 1 - Problem discovery
 
 **Moderator:** Terima kasih sudah menyempatkan waktu, Bu Endah. Boleh cerita dulu, sehari-hari catering ini kelola keuangannya bagaimana?
 
@@ -34,7 +34,7 @@ tags: [retailmind, validasi, transkrip, persona]
 
 **Bu Endah:** Persis. Ordernya ada. Yang susah itu bikin orang luar percaya bahwa yang naik-turun ini bukan tanda bisnis saya goyah, tapi memang begitu iramanya. Belum ada yang bisa nangkep itu dari catatan saya.
 
-## Ronde 2 — Reaksi solusi
+## Ronde 2 - Reaksi solusi
 
 **Moderator:** Kebetulan yang Ibu ceritakan itu nyambung dengan sesuatu yang mau saya perlihatkan. Ada konsep alat bantu untuk UMKM makanan seperti Ibu. Jadi Ibu tinggal catat transaksi lewat chat, seperti kirim pesan WhatsApp biasa. Dari data itu, sistem menghitung semacam skor kesehatan bisnis, angka 0 sampai 100, yang bisa Ibu tunjukkan ke pemodal atau investor. Investor cuma lihat skornya sama ringkasan, bukan isi transaksi Ibu satu-satu. Bagaimana kesan pertama Ibu?
 
@@ -56,7 +56,7 @@ tags: [retailmind, validasi, transkrip, persona]
 
 **Bu Endah:** Ya. Berarti buat saya sekarang nilainya di "alat buktiin performa", belum di "alat dapat uang". Itu beda, dan saya perlu jujur soal itu.
 
-## Ronde 3 — Walkthrough onboarding (chat)
+## Ronde 3 - Walkthrough onboarding (chat)
 
 **Moderator:** Boleh kita coba langsung? Anggap Ibu daftar sekarang. Prosesnya di chat, seperti ngobrol sama bot. Ada asisten namanya Rinda. Ibu tinggal ketik pesanan yang masuk. Coba bayangkan Ibu baru dapat orderan, ketik apa?
 
@@ -78,7 +78,7 @@ tags: [retailmind, validasi, transkrip, persona]
 
 **Bu Endah:** Kalau begitu ya lumayan. Cuma saya masih perlu lihat sendiri hasilnya kayak apa setelah sebulan. Ngetik di chat saya nggak masalah, tiap hari juga saya di WhatsApp. Yang saya ragu itu apa rekapnya nanti benar-benar sesuai sama kenyataan kas saya, atau malah bikin saya kerja dua kali.
 
-## Ronde 4 — Willingness to pay dan keberatan
+## Ronde 4 - Willingness to pay dan keberatan
 
 **Moderator:** Terakhir soal biaya. Ada versi gratis untuk mulai. Ada versi Pro, Rp149.000 per bulan, dengan fitur lebih lengkap. Di sini saya ajak Mbak Sinta ikut ngobrol.
 
