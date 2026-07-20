@@ -249,7 +249,7 @@ git commit -m "docs(pidi): laporan validasi sintetis multi-agent"
 
 - [ ] **Step 1: Tulis tujuan dan ruang lingkup Fase B**
 
-Tegaskan: POC pakai Telegram dulu (nanti pindah WhatsApp), pendaftaran POS dan pencatatan transaksi lewat bot, agent digerakkan API OpenAI menembak bot, log ditambang untuk friksi dan drop-off.
+Tegaskan model chat-first hibrida ([[06 - Analisis Aplikasi & Arah WhatsApp]]): sisi UMKM (pendaftaran, input transaksi, AI Coach, notifikasi proaktif) berjalan lewat bot, sedangkan Health Score penuh dan seluruh sisi investor tetap di web. POC pakai Telegram dulu (nanti pindah WhatsApp), agent digerakkan API OpenAI menembak bot, log ditambang untuk friksi dan drop-off. Sertakan tabel alasan Telegram untuk POC dan WhatsApp untuk produksi.
 
 - [ ] **Step 2: Tulis arsitektur**
 

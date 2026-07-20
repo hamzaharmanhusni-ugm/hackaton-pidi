@@ -17,6 +17,9 @@ Tim sudah lolos tahap proposal dengan working prototype, tetapi belum bisa memva
 
 Kebutuhannya: metode yang bisa menghasilkan sinyal validasi pasar yang **kredibel dan tahan kritik juri** (BI, OJK, ASPI), tanpa mengklaim lebih dari yang layak. Risiko utama yang harus ditangani sejak desain: metode ini bisa dianggap sirkular ("AI ngobrol sama AI lalu memuji produk sendiri"). Desain di bawah dibangun untuk melawan risiko itu.
 
+> [!info] Konteks produk: model chat-first hibrida
+> Berdasarkan analisis aplikasi live ([[06 - Analisis Aplikasi & Arah WhatsApp]]), arah produk yang divalidasi adalah **chat-first hibrida**: sisi UMKM (input transaksi, AI Coach, notifikasi proaktif) berjalan lewat chat (WhatsApp untuk produksi, Telegram untuk POC), sedangkan Health Score penuh dan seluruh sisi investor tetap di web karena padat visual. Karena itu ronde walkthrough dijalankan dalam konteks chat, bukan form web.
+
 ## 2. Ruang lingkup
 
 **Termasuk (Fase A, deliverable dokumen di Obsidian):**
@@ -80,7 +83,7 @@ Setiap persona melewati empat ronde. Setiap ronde diaudit Pak Budi, dan Mbak Sin
 
 1. **Problem discovery.** Pertanyaan terbuka tentang cara mengelola keuangan usaha. Yang dinilai: apakah pain "data tidak bisa membuktikan performa ke investor" muncul spontan, tanpa dipancing.
 2. **Reaksi solusi.** Perkenalkan konsep Business Health Score, AI Coach Rinda, dan kesiapan investor. Yang dinilai: reaksi jujur, bagian yang menarik, bagian yang tidak dipahami.
-3. **Walkthrough onboarding.** Bawa persona melewati alur daftar dan mencatat transaksi pertama (skenario Telegram Fase B). Yang dinilai: di titik mana persona ragu, bingung, atau ingin berhenti.
+3. **Walkthrough onboarding (konteks chat).** Bawa persona melewati alur daftar dan mencatat transaksi pertama lewat percakapan bot Telegram (misal mengetik "jual nasi goreng 15rb" atau mengirim foto struk), bukan form web. Yang dinilai: di titik mana persona ragu, bingung, atau ingin berhenti.
 4. **Willingness to pay dan keberatan.** Tawarkan Pro Rp149.000/bln. Mbak Sinta menekan dengan bantahan. Yang dinilai: kesediaan bayar, syarat yang membuat mau bayar, keberatan yang tersisa.
 
 > [!tip] Cara menekan sycophancy pada level protokol
