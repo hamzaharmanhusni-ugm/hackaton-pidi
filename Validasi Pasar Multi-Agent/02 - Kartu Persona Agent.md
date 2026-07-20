@@ -18,6 +18,29 @@ Tiap kartu memuat: Identitas, Karakter dan cara bicara, Konteks teknologi, Pemic
 
 ---
 
+## Dasar pemilihan persona dan referensi
+
+> [!abstract] Kenapa bagian ini penting untuk proposal
+> Persona tidak disusun berdasarkan tebakan. Parameternya (segmen, jenis kelamin, umur, tingkat kedigitalan, motif pendanaan) dipilih agar mendekati distribusi UMKM F&B Indonesia yang terdokumentasi. Ini sejalan dengan prinsip *silicon sampling* (Argyle dkk., 2023): agent yang dikondisikan pada latar demografis nyata menjadi proksi yang lebih terarah daripada persona karangan. Tabel di bawah memetakan tiap keputusan desain ke alasan dan sumbernya.
+
+| Keputusan desain persona | Alasan | Referensi |
+|---|---|---|
+| **Cakupan segmen**: warung (A1), kafe (A2), restoran kecil (A6) dan menengah (A3), catering (A4) | Menutup seluruh segmen primer F&B di proposal versi baru. Komposisi usaha kuliner memang didominasi restoran dan warung makan (24,75%) dan kedai/warung minuman, dengan katering porsi kecil (3,48%). | BPS, Statistik Penyediaan Makan-Minum 2023 ([[04 - Riset Pasar F&B Indonesia]]) |
+| **Dua persona perempuan** (Bu Siti, Bu Endah) dari enam | Mayoritas pelaku UMKM Indonesia perempuan (sekitar 64 sampai 65%), dan sektor kuliner condong dikelola perempuan. | Kemenkop UKM 2024; GoodStats; Antara 2024 ([[04a - Persona Customer & User]]) |
+| **Rentang kedigitalan**: gaptek dan cash-heavy (Bu Siti, Uda Fauzi) sampai digital native (Mas Aldi) | 77% UMKM masih mencatat manual atau semi-manual, sementara sebagian sudah go-digital. Persona harus menutup dua ujung ini, bukan hanya yang melek digital. | OCBC & NielsenIQ 2024 ([[04 - Riset Pasar F&B Indonesia]]) |
+| **Persona "coba lalu tinggalkan"** (Bu Siti pernah kapok aplikasi kasir) | Pola meninggalkan alat digital sangat umum. Pada satu pelatihan, 80% peserta kembali ke pencatatan manual. Risiko adopsi ini wajib diuji. | Prosiding SNAM 2025 ([[04a - Persona Customer & User]]) |
+| **Motif pendanaan kuat** (Mas Aldi, Koh Aan, Bu Endah, Uda Fauzi butuh modal) | 43,1% UMKM butuh kredit tetapi belum terlayani, dan due diligence manual mahal serta lama (2 sampai 4 minggu). Ini inti masalah yang divalidasi. | Kementerian UMKM 2025; [[03 - Kebutuhan & Peran Investor]] |
+| **Satu persona operasional** (Dinda, kasir) | Kualitas data skor lahir dari orang yang input harian, yang sering bukan pemilik. Memisahkan customer dari user adalah keputusan desain sadar. | [[04a - Persona Customer & User]] bagian customer vs user |
+| **Omzet semua di Rp10 sampai 200 juta per bulan** | Mengikuti band segmen primer di proposal. | Proposal RetailMind, bagian 5.2 |
+| **Dua ukuran restoran** (kecil A6, menengah A3) | Arahan tim menekankan restoran, dan proposal menyebut "restoran kecil" sekaligus band sampai Rp200 juta. Dua ukuran menutup rentang itu. | Proposal RetailMind, bagian 5.1 dan 5.2 |
+
+> [!note] Batas kejujuran
+> Persona ini proksi yang dijangkarkan data agregat, bukan sampel individu nyata. Distribusinya realistis, tetapi tetap perlu dikonfirmasi lewat wawancara lapangan (lihat daftar pertanyaan di [[04 - Laporan Validasi Sintetis]]).
+
+**Rujukan metode:** Argyle, B. dkk. (2023). *Out of One, Many: Using Language Models to Simulate Human Samples*. Political Analysis. Park, J. dkk. (2023). *Generative Agents: Interactive Simulacra of Human Behavior*.
+
+---
+
 ## A1 — Bu Siti (Pemilik Warung Makan Tradisional)
 
 > [!example] Instruksi agent
