@@ -29,9 +29,9 @@ updated: 2026-07-20
 | Berkas | Tanggung jawab | Task |
 |---|---|---|
 | `01 - Design Thinking.md` | Kerangka Empathize to Test dipetakan ke RetailMind | Task 1 |
-| `02 - Kartu Persona Agent.md` | Spesifikasi lima persona bernama, siap jadi system prompt | Task 2 |
+| `02 - Kartu Persona Agent.md` | Spesifikasi enam persona bernama, siap jadi system prompt | Task 2 |
 | `03 - Metode Validasi Multi-Agent.md` | Metodologi, dasar ilmiah, protokol, batasan | Task 3 |
-| `Transkrip/` (5 berkas) | Transkrip mentah tiap persona hasil subagent | Task 4 |
+| `Transkrip/` (6 berkas) | Transkrip mentah tiap persona hasil subagent | Task 4 |
 | `04 - Laporan Validasi Sintetis.md` | Sintesis temuan empat aspek per persona | Task 5 |
 | `05 - Blueprint Telegram POC.md` | Desain Fase B | Task 6 |
 
@@ -83,7 +83,7 @@ git commit -m "docs(pidi): design thinking RetailMind untuk validasi multi-agent
 
 **Interfaces:**
 - Consumes: persona P1, P2, P3, catering dari [[04a - Persona Customer & User]].
-- Produces: lima blok kartu persona (A1 Bu Siti, A2 Mas Aldi, A3 Koh Aan, A4 Bu Endah, A5 Dinda) yang dipakai verbatim sebagai system prompt subagent di Task 4.
+- Produces: enam blok kartu persona (A1 Bu Siti, A2 Mas Aldi, A3 Koh Aan, A4 Bu Endah, A5 Dinda, A6 Uda Fauzi) yang dipakai verbatim sebagai system prompt subagent di Task 4.
 
 - [ ] **Step 1: Tulis frontmatter dan pembuka**
 
@@ -93,7 +93,7 @@ Callout `[!abstract]`: dokumen ini menyediakan kartu persona siap-pakai sebagai 
 
 Tetapkan format seragam tiap kartu: Identitas (nama, usia, lokasi, jenis usaha, omzet, lama usaha, pendidikan), Karakter dan cara bicara, Konteks teknologi, Pemicu memakai produk, Pain point berlapis, Kekhawatiran, Aturan roleplay (harus jujur, boleh menolak, tidak boleh memuji tanpa alasan, bicara seperti orang nyata bukan brosur).
 
-- [ ] **Step 3: Isi kelima kartu**
+- [ ] **Step 3: Isi keenam kartu**
 
 Salin data konkret dari [[04a - Persona Customer & User]] untuk A1, A2, A5, dan catering (A4). Untuk **A3 Koh Aan (baru)** tulis lengkap: pemilik restoran menengah, 44, 8-15 karyawan, omzet ±Rp150 jt/bln, sudah pakai POS berbayar, delegasi input ke karyawan, rencana cabang kedua, membandingkan biaya langganan terhadap POS existing, lebih skeptis karena sudah punya sistem.
 
@@ -103,7 +103,7 @@ Blok penutup: setiap persona diinstruksikan wajib memunculkan minimal dua kebera
 
 - [ ] **Step 5: Verifikasi**
 
-Cek: (a) kelima kartu memakai format seragam dan lengkap; (b) A3 Koh Aan terisi penuh dan berbeda jelas dari warung/kedai; (c) tiap kartu punya aturan roleplay dan anti-sycophancy; (d) tidak ada em dash. Perbaiki bila gagal.
+Cek: (a) keenam kartu memakai format seragam dan lengkap; (b) A3 Koh Aan (restoran menengah) dan A6 Uda Fauzi (restoran kecil) terisi penuh dan berbeda jelas dari warung/kedai; (c) tiap kartu punya aturan roleplay dan anti-sycophancy; (d) tidak ada em dash. Perbaiki bila gagal.
 
 - [ ] **Step 6: Commit**
 
@@ -162,36 +162,37 @@ git commit -m "docs(pidi): metode validasi multi-agent dan protokol wawancara"
 - Create: `Hackaton PIDI/Validasi Pasar Multi-Agent/Transkrip/A3-koh-aan.md`
 - Create: `Hackaton PIDI/Validasi Pasar Multi-Agent/Transkrip/A4-bu-endah.md`
 - Create: `Hackaton PIDI/Validasi Pasar Multi-Agent/Transkrip/A5-dinda.md`
+- Create: `Hackaton PIDI/Validasi Pasar Multi-Agent/Transkrip/A6-uda-fauzi.md`
 
 **Interfaces:**
 - Consumes: kartu persona dari Task 2 (dipakai sebagai system prompt), protokol dari Task 3.
-- Produces: lima transkrip mentah berisi empat ronde, plus catatan audit Pak Budi dan tekanan Mbak Sinta, sebagai bahan sintesis Task 5.
+- Produces: enam transkrip mentah berisi empat ronde, plus catatan audit Pak Budi dan tekanan Mbak Sinta, sebagai bahan sintesis Task 5.
 
 - [ ] **Step 1: Siapkan prompt orkestrasi per persona**
 
 Untuk tiap persona, susun prompt subagent yang berisi: kartu persona sebagai identitas, protokol empat ronde sebagai alur, dan instruksi memerankan juga Moderator dan Mbak Sinta di dalam sesi (Moderator bertanya, persona menjawab jujur, Mbak Sinta menekan pada ronde relevan). Output subagent berupa transkrip dialog per ronde.
 
-- [ ] **Step 2: Jalankan subagent untuk kelima persona**
+- [ ] **Step 2: Jalankan subagent untuk keenam persona**
 
 Dispatch subagent (general-purpose atau claude) satu per persona, boleh paralel karena independen. Setiap subagent mengembalikan transkrip empat ronde dalam Bahasa Indonesia natural.
 
 - [ ] **Step 3: Audit dengan Validator Riset**
 
-Jalankan subagent Pak Budi yang membaca kelima transkrip dan menandai per klaim: ter-*grounding* ke data vault, hipotesis, atau berpotensi halusinasi. Tempelkan catatan audit di bagian bawah tiap transkrip.
+Jalankan subagent Pak Budi yang membaca keenam transkrip dan menandai per klaim: ter-*grounding* ke data vault, hipotesis, atau berpotensi halusinasi. Tempelkan catatan audit di bagian bawah tiap transkrip.
 
 - [ ] **Step 4: Simpan transkrip**
 
-Tulis kelima transkrip ke folder `Transkrip/` dengan frontmatter ringan (persona, tanggal) dan struktur per ronde, diakhiri blok audit Pak Budi.
+Tulis keenam transkrip ke folder `Transkrip/` dengan frontmatter ringan (persona, tanggal) dan struktur per ronde, diakhiri blok audit Pak Budi.
 
 - [ ] **Step 5: Verifikasi**
 
-Cek: (a) kelima transkrip ada dan memuat empat ronde; (b) tiap transkrip memuat minimal dua keberatan konkret; (c) tiap transkrip punya blok audit Pak Budi; (d) bahasa terasa manusia, bukan brosur; (e) tidak ada em dash. Ulang subagent bila ada yang gagal.
+Cek: (a) keenam transkrip ada dan memuat empat ronde; (b) tiap transkrip memuat minimal dua keberatan konkret; (c) tiap transkrip punya blok audit Pak Budi; (d) bahasa terasa manusia, bukan brosur; (e) tidak ada em dash. Ulang subagent bila ada yang gagal.
 
 - [ ] **Step 6: Commit**
 
 ```bash
 git add "Hackaton PIDI/Validasi Pasar Multi-Agent/Transkrip/"
-git commit -m "docs(pidi): transkrip simulasi validasi lima persona"
+git commit -m "docs(pidi): transkrip simulasi validasi enam persona"
 ```
 
 ---
@@ -202,7 +203,7 @@ git commit -m "docs(pidi): transkrip simulasi validasi lima persona"
 - Create: `Hackaton PIDI/Validasi Pasar Multi-Agent/04 - Laporan Validasi Sintetis.md`
 
 **Interfaces:**
-- Consumes: kelima transkrip Task 4, skala keyakinan dan cara baca dari Task 3.
+- Consumes: keenam transkrip Task 4, skala keyakinan dan cara baca dari Task 3.
 - Produces: laporan final yang dipakai di proposal dan pitch.
 
 - [ ] **Step 1: Tulis ringkasan eksekutif**
@@ -227,7 +228,7 @@ Nyatakan kembali posisi pra-validasi terarah. Daftar pertanyaan prioritas untuk 
 
 - [ ] **Step 6: Verifikasi**
 
-Cek terhadap kriteria sukses spec: (a) empat aspek terjawab untuk kelima persona; (b) tiap temuan punya keyakinan dan jejak keberatan; (c) ada daftar pertanyaan validasi nyata; (d) batasan eksplisit; (e) bisa dijelaskan ke juri tanpa terkesan sirkular; (f) tidak ada em dash. Perbaiki bila gagal.
+Cek terhadap kriteria sukses spec: (a) empat aspek terjawab untuk keenam persona; (b) tiap temuan punya keyakinan dan jejak keberatan; (c) ada daftar pertanyaan validasi nyata; (d) batasan eksplisit; (e) bisa dijelaskan ke juri tanpa terkesan sirkular; (f) tidak ada em dash. Perbaiki bila gagal.
 
 - [ ] **Step 7: Commit**
 

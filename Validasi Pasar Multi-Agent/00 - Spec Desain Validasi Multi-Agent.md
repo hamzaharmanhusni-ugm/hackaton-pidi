@@ -56,7 +56,7 @@ Kelemahannya juga sudah dikenal dan wajib ditangani:
 
 ### 4.1 Persona agent (pasar yang divalidasi)
 
-Fokus F&B dengan penekanan restoran sesuai arahan. Tiga persona memakai ulang [[04a - Persona Customer & User]], satu persona restoran ditambahkan, satu persona operasional dipertahankan.
+Fokus F&B dengan penekanan restoran sesuai arahan, dan mengikuti proposal versi baru yang tidak lagi memakai segmen bakery. Tiga persona memakai ulang [[04a - Persona Customer & User]], dua persona restoran ditambahkan (kecil dan menengah), satu persona operasional dipertahankan.
 
 | Kode | Nama | Profil ringkas | Sumbangan validasi utama |
 |---|---|---|---|
@@ -65,9 +65,10 @@ Fokus F&B dengan penekanan restoran sesuai arahan. Tiga persona memakai ulang [[
 | A3 | **Koh Aan** (baru) | Pemilik restoran menengah, 44, 8-15 karyawan, ±Rp150 jt/bln, rencana cabang kedua, sudah pakai POS berbayar | Segmen restoran: struktur formal, delegasi ke karyawan, banding dengan kompetitor |
 | A4 | **Bu Endah** | Catering / home F&B, 41, omzet fluktuatif Rp15-120 jt/bln, modal talangan bahan baku | Nilai skor stabilitas cashflow, pola musiman |
 | A5 | **Dinda** | Kasir di kedai A2, 21, bukan pembayar, bukan pengambil keputusan | Kualitas data, friksi input harian saat ramai |
+| A6 | **Uda Fauzi** (baru) | Rumah makan Padang kecil, 38, 4 karyawan keluarga, ±Rp55 jt/bln, cash-heavy, digital rendah, belum pakai POS | Segmen restoran kecil: waktu sangat terbatas, delegasi ke keluarga, uang pribadi dan usaha bercampur |
 
-> [!note] Kenapa Koh Aan ditambahkan
-> Persona vault condong ke warung dan kedai. Restoran menengah berbeda: ada karyawan yang diberi tugas input, keputusan langganan dihitung terhadap biaya POS yang sudah dibayar, dan pembanding kompetitor lebih tajam. Persona ini menutup celah "restoran" yang diminta.
+> [!note] Kenapa dua persona restoran
+> Arahan menekankan restoran, dan proposal menyebut "restoran kecil" sekaligus band omzet sampai Rp200 jt. Koh Aan mewakili restoran menengah yang sudah bersistem, sementara Uda Fauzi mewakili restoran kecil owner-operated yang sibuk dan minim administrasi. Dua ukuran ini menutup rentang "restoran kecil sampai menengah" secara utuh.
 
 ### 4.2 Panel validator (bisnis membuktikan POC-nya)
 
