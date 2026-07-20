@@ -1,127 +1,114 @@
 ---
-title: Transkrip Validasi - A6 Uda Fauzi
-persona: A6 Uda Fauzi (rumah makan Padang kecil)
+persona: A6 Uda Fauzi
 tanggal: 2026-07-20
-tags: [retailmind, validasi, transkrip, persona]
+tags: [retailmind, validasi, transkrip]
 ---
+
+# Transkrip Wawancara - A6 Uda Fauzi
 
 > [!info] Konteks
-> Transkrip simulasi wawancara persona sintetis. Metode dan batasan di [[03 - Metode Validasi Multi-Agent]]. Kartu persona di [[02 - Kartu Persona Agent]].
+> Transkrip simulasi wawancara persona sintetis (pemilik rumah makan Padang kecil, cash-heavy, waktu sangat terbatas). Metode dan batasan di [[03 - Metode Validasi Multi-Agent]]. Kartu persona di [[02 - Kartu Persona Agent]].
 
-## Ronde 1 — Problem discovery
+## Ronde 1 - Problem discovery
 
-**Moderator:** Uda, terima kasih sudah menyempatkan. Saya mau ngobrol santai soal usaha. Rumah makannya jalan berapa tahun?
+**Moderator:** Uda, terima kasih sudah menyempatkan. Saya tahu Uda sibuk. Boleh cerita, keuangan rumah makan ini Uda kelola bagaimana sehari-hari?
 
-**Uda Fauzi:** Lima tahun, Pak. Dari kecil sampai sekarang punya empat orang bantu. Ini pun saya lagi jaga dapur, jadi kalau bisa cepat saja ya.
+**Uda Fauzi:** Sederhana saja, Da. Uang masuk dari pembeli, sebagian besar tunai. Ada yang mulai bayar QRIS, tapi masih sedikit. Uang itu masuk laci, buat belanja cabai, daging, beras besok pagi. Sisanya dibawa pulang. Saya sibuk di dapur dari subuh, urusan catat-catat itu istri yang pegang, itu pun seingatnya.
 
-**Moderator:** Siap, saya ringkas. Sehari-hari, soal uang masuk uang keluar itu diatur bagaimana?
+**Moderator:** Jadi ada pencatatan tertulis?
 
-**Uda Fauzi:** Ya jalan saja. Kasir dipegang istri di depan. Uang masuk ke laci, sore dihitung. Nota belanja ke pasar saya simpan, tapi jujur banyak yang hilang atau lupa. Yang penting dapur jalan, pembeli kenyang.
+**Uda Fauzi:** Nota ada, tapi tak lengkap. Kadang rame, tangan penuh, mana sempat nulis. Jujur saja, saya tak pernah tahu pasti sebulan bersihnya berapa. Yang saya tahu, kalau laci tebal berarti lagi bagus. Kalau tipis, ya ngirit.
 
-**Moderator:** Ada catatan tertulis, semacam pembukuan?
+**Moderator:** Uang buat rumah makan sama uang keluarga itu dipisah tidak?
 
-**Uda Fauzi:** Ndak ada, Pak. Di kepala saja. Saya tahu hari ini rame apa ndak, tahu beras tinggal berapa karung. Tapi kalau ditanya untung bersih sebulan berapa pas, saya ndak bisa jawab angka pastinya. Kira-kira saja.
+**Uda Fauzi:** Nah itu dia. Campur, Da. Anak sekolah minta uang, ambil dari laci. Belanja dapur, dari laci yang sama. Kadang uang pribadi saya pakai buat nombok belanja pas lagi sepi. Muter terus, tak jelas mana punya usaha mana punya keluarga. Saya tahu itu tidak bagus, tapi ya sudah jalan lima tahun begini.
 
-**Moderator:** Uang usaha dan uang pribadi, itu terpisah?
+**Moderator:** Pernah kepikiran itu jadi masalah?
 
-**Uda Fauzi:** Nah itu. Campur, Pak. Kadang anak sekolah butuh, ambil dari laci. Kadang uang pribadi saya pakai belanja daging kalau laci lagi tipis. Bercampur terus. Istri sudah sering ngomel soal ini.
+**Uda Fauzi:** Kepikiran pas mau nambah modal. Saya pengen buka cabang kecil satu lagi, di dekat kampus sana rame. Modal selama ini dari tabungan sama arisan. Saya coba ke bank, minta pinjaman. Ditolak, Da. Katanya tidak ada laporan keuangan, tidak ada pembukuan. Padahal dagangan saya laris, tiap hari habis. Tapi di mata bank saya ini seperti tidak punya usaha, karena tak ada kertasnya. Itu yang bikin sakit hati.
 
-**Moderator:** Pernah usaha ini butuh dana lebih, misalnya berkembang?
+**Moderator:** Jadi larisnya tidak terbukti di atas kertas.
 
-**Uda Fauzi:** Ini yang bikin saya sakit hati, Pak. Saya mau buka cabang kecil di dekat kampus, tempatnya sudah saya incar. Saya datang ke bank minta pinjaman. Ditanya laporan keuangan. Saya ndak punya. Ditanya slip, ndak ada. Ditanya agunan, rumah masih ngontrak. Ya ditolak. Padahal dagangan saya laris, tiap siang antre. Tapi di mata bank saya ini ndak ada angkanya. Modal cabang akhirnya saya kumpulin dari tabungan sama arisan, pelan-pelan.
+**Uda Fauzi:** Betul. Laris di piring, tak laris di kertas. Rumah makan saya jaminannya juga dinilai murah katanya. Ya sudah, waktu itu saya mundur, balik nabung lagi. Tapi lama sekali kalau begini caranya.
 
-**Moderator:** Jadi masalahnya lebih ke tidak ada bukti tertulis, bukan usahanya sepi.
+## Ronde 2 - Reaksi solusi
 
-**Uda Fauzi:** Betul. Laris iya, tapi ndak ada surat-suratnya. Capek saya ditolak melulu.
+**Moderator:** Uda, ada alat yang sedang kami rancang. Cara kerjanya begini. Dari transaksi harian, dia hitung semacam nilai kesehatan usaha, namanya Business Health Score, angkanya 0 sampai 100. Di atas 80 berarti sehat, 60 ke atas berkembang, di bawahnya perlu perhatian. Reaksi pertama Uda bagaimana?
 
-## Ronde 2 — Reaksi solusi
+**Uda Fauzi:** Angka begitu buat apa buat saya? Saya sudah tahu usaha saya jalan, tak perlu angka buat yakinin diri sendiri.
 
-**Moderator:** Uda, ada yang lagi bikin alat untuk kasus seperti Uda ini. Konsepnya: transaksi harian Uda diubah jadi semacam skor kesehatan usaha, angka 0 sampai 100. Skor itu yang nanti ditunjukkan ke investor atau bank, bukan catatan mentahnya. Jadi ada bukti angka usaha Uda sehat.
+**Moderator:** Angka itu bukan buat Uda yakin, tapi buat pihak lain percaya. Misal pemodal atau bank, mereka lihat angka itu sebagai bukti.
 
-**Uda Fauzi:** Skor macam nilai rapor gitu?
+**Uda Fauzi:** Oh, jadi angka itu yang saya tunjukin ke bank buat ganti laporan yang saya tak punya itu?
 
-**Moderator:** Kurang lebih. Kalau skornya bagus, artinya usaha layak dikasih modal. Ini yang selama ini Uda ndak punya.
+**Moderator:** Kurang lebih begitu. Lalu ada juga yang namanya AI Coach, kami panggil Rinda. Dia semacam teman chat. Uda bisa tanya soal usaha, dia kasih masukan, dan dia bisa lihat Uda layak tidak untuk KUR.
 
-**Uda Fauzi:** Menarik sih di kalimat. Tapi pertanyaan saya yang pertama: skor itu dari mana angkanya? Kalau saya ndak nyatet apa-apa, alatnya mau ngitung dari apa?
+**Uda Fauzi:** KUR itu yang bunganya ringan itu? Saya pernah dengar tapi tak ngerti syaratnya. Kalau ada yang bisa bilang saya layak atau tidak tanpa harus bolak-balik ke bank, itu lumayan. Waktu saya habis di dapur, tak sempat ngantre-ngantre.
 
-**Moderator:** Nah itu bagian keduanya. Datanya dari transaksi harian yang Uda catat. Tapi nyatatnya ndak pakai buku, cukup lewat chat. Seperti Uda kirim pesan WhatsApp. Ketik "jual nasi Padang 25 ribu", atau foto nota belanja, kirim. Sudah, masuk sendiri.
+**Moderator:** Betul. Dan ada satu lagi, penilaian kesiapan investor, Low, Medium, atau High. Kalau ada pemodal, dia cuma lihat skor sama ringkasan usaha Uda. Detail transaksi tidak dia lihat, itu ada tombol privasinya.
 
-**Uda Fauzi:** Tunggu. Berarti tetap ada yang harus nyatet. Balik lagi ke masalah saya. Saya di dapur seharian, tangan bau bumbu, mana sempat ngetik tiap piring keluar? Siapa yang nyatet, Pak? Itu pertanyaan saya dari tadi.
+**Uda Fauzi:** Nah itu penting. Saya tak mau orang luar ngintip semua isi dapur keuangan saya. Kalau cuma nilai sama ringkasan, itu masih wajar. Tapi Da, ini semua bagus di omongan. Pertanyaan saya, yang ngisi datanya siapa? Saya sudah bilang, saya di dapur seharian.
 
-**Moderator:** Justru ini poinnya. Nyatatnya ndak harus Uda. Bisa didelegasikan. Istri yang pegang kasir, atau anak, atau karyawan, mereka yang ketik dari HP mereka. Semua masuk ke satu tempat.
+**Moderator:** Itu pas sekali, justru mau saya bahas di bagian berikutnya.
 
-**Uda Fauzi:** Hmm. Kalau istri yang di depan yang ngetik, itu masih masuk akal. Dia kan sudah pegang uang. Tapi saya ndak mau nyusahin. Karyawan saya orang dapur, disuruh main HP terus ya kerjaannya keteteran. Kalau cuma istri di kasir yang ketik pas nerima uang, itu baru saya dengar.
+**Uda Fauzi:** Ya karena buat saya itu yang paling penting. Skor bagus, pelatih pintar, itu tak ada guna kalau ngisinya bikin saya berhenti masak. Rumah makan saya hidup dari saya di dapur, bukan dari saya pegang HP.
 
-**Moderator:** Betul, ndak semua harus ngetik. Cukup yang di kasir. Terus ada asistennya juga, namanya Rinda, semacam teman ngobrol soal bisnis lewat chat. Bisa kasih saran, bisa bantu cek Uda layak ndak buat pinjaman KUR.
+## Ronde 3 - Walkthrough onboarding (konteks chat)
 
-**Uda Fauzi:** Yang bagian bisa bantu ngecek KUR itu yang saya butuh. Yang saran-saran bisnis saya ndak terlalu perlu, saya sudah lima tahun tahu dagangan saya. Tapi ngetik tiap transaksi ini, saya masih ragu jalan apa ndak di lapangan. Gampang ngomong, susah dijalanin.
+**Moderator:** Baik. Jadi begini cara pakainya. Tidak ada aplikasi ribet. Uda catat lewat chat, di Telegram dulu, nanti WhatsApp. Uda tinggal ketik, misal "jual rendang 25rb, ayam 20rb", nanti dia catat sendiri. Atau kalau ada struk belanja, Uda foto saja, dia baca. Reaksi Uda?
 
-## Ronde 3 — Walkthrough onboarding (chat)
+**Uda Fauzi:** Ketik di chat begitu? Hmm. Kalau cuma ngetik pendek kayak WhatsApp sih saya bisa. Istri saya apalagi, dia tiap hari WhatsApp-an. Tapi masalahnya bukan bisa atau tidak, Da. Masalahnya kapan. Jam makan siang itu rame sekali, tangan saya belepotan bumbu, mana sempat pegang HP ngetik satu-satu.
 
-**Moderator:** Boleh kita coba sebentar? Anggap HP ini punya istri Uda. Kita daftar dulu. Cuma masukin nomor WhatsApp, nama warung. Sudah, jadi.
+**Moderator:** Jadi bukan Uda yang harus catat tiap transaksi?
 
-**Uda Fauzi:** Segitu saja? Ndak ada isi-isi formulir panjang?
+**Uda Fauzi:** Nah kalau harus saya sendiri, tiap ada yang beli saya ketik, itu langsung saya tolak, Da. Tak mungkin. Kalau begitu mending saya tak usah.
 
-**Moderator:** Ndak. Sekarang, ada pembeli bayar nasi rendang 28 ribu. Coba Uda ketik di chat, seperti kirim pesan biasa.
+**Moderator:** Kalau bisa dititipkan ke keluarga bagaimana? Misal istri yang pegang kasir, dia yang catat.
 
-**Uda Fauzi:** *(mengetik pelan)* "jual nasi rendang 28rb". Gini?
+**Uda Fauzi:** Nah itu baru masuk akal. Istri saya kan yang pegang uang di depan. Kalau dia yang ketik pas nerima uang, itu bisa. Atau ponakan saya yang bantu-bantu, dia anak muda, ngetik cepat dia. Jadi ini bisa dititip ke satu orang saja ya, tak harus saya?
 
-**Moderator:** Pas. Lihat, botnya bales: "Tercatat, penjualan Rp28.000, jam 13.10." Segampang itu.
+**Moderator:** Bisa. Satu usaha bisa diisi dari beberapa orang, atau cukup satu orang yang Uda tunjuk.
 
-**Uda Fauzi:** Oke, itu memang gampang. Saya yang gaptek saja bisa. Tapi sebentar, ini kan siang bolong lagi rame. Pembeli antre sepuluh orang. Istri saya sempat ngetik satu-satu gini? Nerima uang, kasih kembalian, sambil ngetik? Bisa keteteran dia, Pak. Antrean molor, pembeli kabur.
+**Uda Fauzi:** Kalau begitu enteng saya. Berarti tinggal saya suruh istri, "Mah, tiap terima uang, ketik di HP itu ya." Cuma, jujur, pas rame dia juga sibuk melayani. Ngetik tiap transaksi itu tetap ada capeknya. Bisa tidak dia catat sekali saja pas agak sepi, misal sore, dia rekap yang tadi siang?
 
-**Moderator:** Pertanyaan bagus. Ndak harus pas rame. Bisa dikumpulin dulu notanya, sore pas sepi baru dimasukin sekaligus. Atau foto notanya, kirim, nanti kebaca sendiri.
+**Moderator:** Bisa saja, tapi kalau menunda begitu, risikonya ada yang lupa.
 
-**Uda Fauzi:** Nah kalau sore sekalian, itu baru realistis. Tapi masalahnya, kami ndak selalu nota tiap piring. Banyak yang langsung bayar, ndak ada kertasnya. Yang tunai kecil-kecil ini yang susah. Kalau sore istri lupa tadi laku berapa, ya angkanya ngarang. Skornya jadi ndak akurat dong.
+**Uda Fauzi:** Iya itu yang saya takut. Kalau ditunda, banyak yang bolong. Rame kami tak sempat, sepi kami sudah capek, lupa. Jadi kalau mau bener, ya pas transaksi langsung, dan itu artinya harus gampang sekali. Yang foto struk itu tadi, itu buat belanja ya? Itu saya suka. Belanja pagi saya tinggal foto notanya, tak usah ngetik.
 
-**Moderator:** Betul, akurasi tergantung kedisiplinan input. Makanya diarahkan minimal total harian dimasukin, ndak harus per piring.
+**Moderator:** Betul, foto struk itu buat pengeluaran, dia baca sendiri isinya.
 
-**Uda Fauzi:** Total harian mah istri saya bisa. Tiap sore dia hitung laci memang. Kalau cukup masukin angka total sehari, itu ndak nambah kerjaan berarti. Yang saya takutin tadi kalau disuruh per transaksi pas rame. Kalau boleh total harian, saya lebih tenang.
+**Uda Fauzi:** Itu bagus. Belanja saya kan ada notanya dari pasar. Foto, selesai. Yang jualan tunai harian itu yang masih jadi PR, karena tak ada notanya, harus diketik manual. Tapi kalau bisa dititip ke istri dan ngetiknya sependek WhatsApp, saya mau coba. Asal jangan sampai dia ngeluh ini nambah kerjaan berat, nanti dia yang malas duluan.
 
-**Moderator:** Berarti titik ragunya di detail per transaksi, bukan di alatnya.
+## Ronde 4 - Willingness to pay dan keberatan
 
-**Uda Fauzi:** Iya. Ngetiknya gampang, saya akui. Yang saya ragu apa istri disiplin tiap hari. Dua hari semangat, hari ketiga lupa. Itu tabiat manusia, Pak. Alat sebagus apa pun kalau orangnya males masukin ya percuma.
+**Moderator:** Uda, soal biaya. Ada versi gratis, Rp0, fitur dasar. Ada versi Pro, Rp149.000 per bulan, fitur lengkap termasuk skor penuh sama AI Coach Rinda.
 
-## Ronde 4 — Willingness to pay dan keberatan
+**Uda Fauzi:** Seratus empat puluh sembilan ribu sebulan? Tunggu dulu, Da. Itu buat saya sama dengan beberapa kilo daging. Saya ini hitungannya per kilo cabai, per porsi rendang. Uang segitu tiap bulan tak kecil buat rumah makan kecil kayak saya.
 
-**Moderator:** Soal biaya. Ada versi gratis buat mulai. Ada versi Pro, fiturnya lebih lengkap, seperti skor buat investor dan bantuan KUR tadi, harganya Rp149.000 sebulan. Di sini ada Mbak Sinta, dia mau nimbrung.
+**Moderator:** Saya paham. Boleh saya tahu keberatan Uda apa saja?
 
-**Mbak Sinta:** Uda Fauzi, saya to the point ya. Rp149.000 sebulan itu setahun hampir 1,8 juta. Uda tadi bilang uang usaha dan pribadi bercampur, tabungan pun buat modal cabang. Buat apa keluar uang segitu tiap bulan cuma buat dapat angka skor? Skornya ndak bikin dagangan Uda tambah laku, kan?
+**Uda Fauzi:** Pertama, ini tadi. Bayar tiap bulan terus-terusan itu berat. Kalau bulan ini rame ya tak kerasa, tapi kalau bulan sepi, pas habis Lebaran orang pada mudik pulang kampung, jualan turun, saya tetap harus bayar seratus empat puluh sembilan ribu. Itu terasa. Bank saja tak kasih saya pinjaman, masa saya bayar langganan tiap bulan buat bikin laporan yang harusnya saya susun sendiri.
 
-**Uda Fauzi:** Betul itu. Keberatan pertama saya jelas: harganya. 149 ribu sebulan itu buat saya bisa jadi 3 kilo daging. Nyata itu, langsung jadi rendang, langsung jadi uang. Skor ndak bisa saya goreng. Saya bayar tiap bulan tapi hasilnya baru kerasa entah kapan, itu berat buat pedagang seperti saya yang mikir harian.
+**Moderator:** Itu satu. Ada lagi?
 
-**Mbak Sinta:** Terus, Uda yakin skor ini benar diterima bank? Jangan-jangan cuma angka buatan aplikasi yang bank ndak kenal. Bank punya aturan sendiri. Uda bayar setahun, pas ke bank tetap ditolak, siapa tanggung jawab?
+**Uda Fauzi:** Kedua, saya belum yakin ini benar-benar bikin bank atau pemodal mau kasih modal. Jangan-jangan saya bayar setahun, skor saya bagus, tapi pas ke bank tetap ditolak juga. Kan sudah pernah saya ngerasain ditolak. Kalau ujungnya sama saja, buat apa saya keluar uang tiap bulan. Saya mau bukti dulu ini beneran nyambung ke modal, bukan cuma angka cantik di HP.
 
-**Uda Fauzi:** Nah ini keberatan kedua saya, dan ini yang paling penting. Buat apa saya bayar kalau bank atau investornya ndak ngakuin skor itu? Dari tadi dibilang investor lihat skor. Investor mana? Ada ndak yang benaran mau lihat? Kalau ini cuma angka yang muter di aplikasi sendiri, sama saja saya beli mainan. Saya sudah capek ditolak, saya ndak mau nambah kecewa.
+**Moderator:** Keberatan yang wajar. Ada lagi yang mengganjal?
 
-**Mbak Sinta:** Dan satu lagi. Kalau istri Uda males masukin data tiga hari sekali, skornya jelek dong. Uda malah bayar buat dapat rapor merah yang bikin bank makin ndak percaya. Bukannya nolong, malah nyusahin.
+**Uda Fauzi:** Ada satu lagi sebenarnya. Kalau nanti istri saya yang catat tiap hari, terus dia bosan atau lupa, datanya jadi bolong, skornya jelek. Berarti saya bayar mahal tapi hasilnya jelek gara-gara catatannya tak rajin. Itu bikin saya ragu, karena saya tak bisa jamin di rumah makan sekecil ini pencatatannya rapi tiap hari.
 
-**Uda Fauzi:** Itu betul juga. Risikonya di situ. Alat ini cuma sebagus yang masukin datanya.
+**Mbak Sinta:** Uda, saya mau tekan sedikit. Uda bilang bank saja menolak, jadi kenapa Uda mau bayar? Bukankah lebih masuk akal Uda pakai yang gratis saja selamanya, terus kalau butuh laporan, minta tolong keponakan Uda yang bisa Excel? Gratis. Kenapa harus Pro?
 
-**Moderator:** Jadi dengan semua keberatan itu, Uda melihat ini bagaimana?
+**Uda Fauzi:** Betul juga omongan Mbak. Sebenarnya kalau yang gratis sudah bisa catat sama kasih laporan sederhana, buat awal saya cukup di situ dulu. Saya orang hemat, tak mau bayar sebelum kelihatan hasilnya.
 
-**Uda Fauzi:** Begini. Kalau semua dijawab, saya ndak menutup diri. Yang gratis pasti saya coba dulu, itu ndak rugi. Saya suka idenya karena masalah saya nyata: ndak ada laporan, ditolak bank. Ini nyentuh persis luka saya. Tapi buat naik ke yang bayar 149 ribu, saya ada dua syarat keras. Satu, tunjukin ke saya bank atau lembaga yang beneran nerima skor ini, hitam di atas putih. Dua, buktikan input total harian saja cukup, ndak nyusahin istri saya. Kalau dua itu kebukti, dan bagian bantu KUR itu jalan, saya mau bayar. Tapi kalau cuma janji manis, saya balik ke laci sama arisan. Sudah kebal saya ditolak, Pak.
+**Mbak Sinta:** Jadi Uda tidak akan bayar?
 
-**Moderator:** Jelas. Terima kasih waktunya, Uda.
+**Uda Fauzi:** Bukan begitu juga, Mbak. Keponakan saya bikin Excel itu tak ada yang ngasih tahu saya layak KUR atau tidak. Dia cuma bisa nyusun angka, tak bisa bilang "Uda, kurang ini biar bisa pinjam". Yang Pro itu tadi katanya ada Rinda yang ngecek kelayakan KUR sama kasih masukan. Kalau itu beneran jalan, dan beneran mengantar saya dapat modal cabang kedua, seratus empat puluh sembilan ribu itu murah dibanding capek saya nabung arisan bertahun-tahun.
 
-**Uda Fauzi:** Sama-sama. Saya balik ke dapur ya, rendang sudah manggil.
+**Moderator:** Jadi apa syarat Uda mau naik ke Pro?
 
-## Ringkasan sinyal (sudut pandang persona)
-- **Problem-solution fit:** Kuat di sisi masalah. Persona mengangkat sendiri tanpa dipancing: tidak ada laporan keuangan, uang usaha dan pribadi bercampur, ditolak bank meski laris. Nilai inti yang paling nyambung adalah skor sebagai bukti tertulis untuk akses modal dan bantuan cek KUR, bukan fitur saran bisnis (dia merasa sudah paham dagangannya).
-- **Willingness to pay:** Bersyarat, belum siap bayar di depan. Gratis pasti dicoba. Untuk Pro Rp149.000, dia membingkai biaya sebagai "3 kilo daging", jadi harga terasa berat bagi pemikir harian. Konversi ke berbayar tergantung dua bukti: (1) ada bank/investor nyata yang mengakui skor, (2) input cukup total harian, tidak menyusahkan istri.
-- **Friksi onboarding:** Pendaftaran dan ngetik transaksi dinilai mudah, bahkan untuk yang gaptek. Friksi bukan di antarmuka, tapi di kedisiplinan dan momen input. Menolak keras input per transaksi saat jam rame (takut antrean molor). Menerima model input total harian saat sore. Risiko utama: banyak transaksi tunai kecil tanpa nota dan konsistensi istri yang mudah kendur.
-- **Keberatan utama:** (1) Harga bulanan terasa mahal dibanding hasil yang tidak langsung terlihat. (2) Keraguan apakah skor benar-benar diakui bank/investor, bukan sekadar angka internal aplikasi. Keberatan tambahan: skor bisa jelek kalau input tidak disiplin, sehingga berpotensi merugikan alih-alih membantu. Delegasi input hanya realistis ke istri (kasir), bukan ke karyawan dapur.
+**Uda Fauzi:** Saya coba yang gratis dulu, saya suruh istri catat sebulan dua bulan. Kalau ternyata gampang, dia tak ngeluh, datanya jalan, baru saya naik Pro. Dan syarat kedua, saya mau lihat dulu ada tanda ini nyambung ke modal beneran, misal Rinda bilang saya sudah layak KUR atau ada pemodal yang lirik skor saya. Kalau dua itu kelihatan, saya mau bayar. Kalau cuma buat pajangan angka, saya bertahan di gratis.
 
----
+**Moderator:** Jadi ada minat, dengan syarat.
 
-## Audit Pak Budi (Validator Riset)
-
-**Grounding.** Kuat. Tak ada laporan dan uang pribadi-usaha bercampur cocok dengan temuan kualitatif BI bahwa sebagian besar UMKM tidak memisahkan keuangan. Ditolak bank meski laris sejalan dengan 69,5% belum akses kredit. Harga bulanan terasa berat ("3 kilo daging") konsisten dengan cara berpikir arus kas harian dan literasi 65,43%.
-
-**Hipotesis.** Preferensi input total harian dan penolakan input per transaksi saat ramai adalah sinyal desain penting namun perlu konfirmasi apakah input total harian cukup menghasilkan skor yang kredibel bagi pemberi modal. Ada ketegangan: input lebih ringan bisa menurunkan kualitas data.
-
-**Halusinasi/janggal.** Tidak ada.
-
-**Sycophancy.** Kritis. Keberatan: harga bulanan berat, ragu skor diakui bank, risiko skor jelek bila input tak disiplin. Aturan dua keberatan terpenuhi.
-
-**Tingkat keyakinan.** Problem fit: Tinggi. Preferensi input total harian: Sedang. WTP: Rendah.
+**Uda Fauzi:** Ada, Da. Tapi dengan syarat, jangan disingkat. Buktikan dulu gampang buat istri saya, dan buktikan dulu ini benar mengantar ke modal. Baru saya buka dompet. Saya sudah capek ditolak, saya tak mau capek kedua kali gara-gara bayar sesuatu yang tak ada hasilnya. Sudah dulu ya, Da, rendang di dapur sudah manggil.
