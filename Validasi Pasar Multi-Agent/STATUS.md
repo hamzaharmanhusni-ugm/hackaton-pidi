@@ -33,11 +33,11 @@ Masalah tervalidasi kuat (Tinggi), TAPI kesediaan bayar semua persona bersyarat 
 - [x] **Fase 1**: Kritik proposal proof-driven. Deliverable: `09 - Kritik Proposal (Proof-Driven)`.
 - [x] **Fase 2**: Bot Telegram PoC (Gemini + fallback Claude). `@RetailMindBot` live. Kode di project `retailmind-ai/scripts/telegram-bot.mjs` (branch `telegram-poc`). Perintah: `node scripts/telegram-bot.mjs --live` / `--selftest`.
 - [x] **Fase 3**: Uji bot terskrip 6 persona (owner+kasir) + edge probe. Deliverable di subfolder `Simulasi Telegram/` (00 metrik, 01 edge, 02 laporan PoC, A1-A6). Temuan bug (multi-tx, perintah, coach over-promising) sudah diperbaiki di bot. Batas: Gemini free tier 5/mnt, Anthropic key .env invalid, tak ada OpenAI key.
-- [ ] **Fase 4**: Jabarkan 2 solusi (web vs chat-hibrida) + rekomendasi berdasarkan PoC. BELUM.
-- [ ] **Fase 5**: Perbaiki proposal + changelog (jelaskan tiap perbaikan). BELUM.
+- [x] **Fase 4**: Jabarkan 2 solusi (web vs chat-hibrida) + rekomendasi berbasis PoC. Deliverable: `12 - Dua Solusi & Rekomendasi (Berbasis PoC)`. Rekomendasi: Solusi B chat-first hibrida + guardrail jendela skor.
+- [x] **Fase 5**: Perbaiki proposal + changelog. Deliverable: `proposal/PROPOSAL_DIGDAYA_2026_v3.md` (repo project) + `13 - Changelog Perbaikan Proposal` (15 perubahan, tiap perbaikan dijelaskan + buktinya).
 - [x] **Fase 6**: Paket bisnis `10 - Paket Bisnis (USP, ROI, Model)` + `11 - Skrip Video Pitching`. Selesai.
 
-**Berikutnya setelah compact: Fase 4 lalu Fase 5.** Skrip uji bot: `retailmind-ai/scripts/telegram-sim-scripted.mjs` (pesan persona ditulis penguji, hemat kuota) dan `telegram-sim.mjs` (Gemini-driven, kena limit).
+**SEMUA 6 FASE SELESAI.** Keputusan pemilik yang masih terbuka: nama brand final (ditunda). Prioritas di luar dokumen: kunci 1 kemitraan pembiayaan. Skrip uji bot: `retailmind-ai/scripts/telegram-sim-scripted.mjs` (hemat kuota) dan `telegram-sim.mjs` (Gemini-driven).
 
 ## Catatan lingkungan
 Folder `D:\Bahan Kuliah UGM` kemungkinan cloud-sync, file sempat "hilang" lalu muncul lagi. Mitigasi: commit git sesering mungkin.
