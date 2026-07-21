@@ -59,13 +59,13 @@ flowchart TD
 
 ## 4. Bagaimana solusi ini menjawab temuan validasi
 
-| Temuan validasi | Jawaban solusi hibrida |
-|---|---|
-| Aplikasi rumit ditinggalkan (Bu Siti) | Pintu masuk lewat chat yang sudah dikenal, tanpa aplikasi baru dan tanpa form berat |
-| Chat kalah cepat dari POS saat ramai (Dinda) | Penjualan volume tinggi tetap di POS, chat hanya menambal yang bocor |
-| Input harus bisa didelegasikan (Koh Aan) | Beberapa pelapor per usaha masuk ke satu data |
-| Investor butuh alat visual (dashboard, peta) | Sisi investor tetap dan hanya di web |
-| "Yang penting cair, bukan skor" (Bu Endah) | Lihat bagian 5, penyambungan ke pendanaan menjadi inti nilai, bukan skor semata |
+| Temuan validasi                              | Jawaban solusi hibrida                                                              |
+| -------------------------------------------- | ----------------------------------------------------------------------------------- |
+| Aplikasi rumit ditinggalkan (Bu Siti)        | Pintu masuk lewat chat yang sudah dikenal, tanpa aplikasi baru dan tanpa form berat |
+| Chat kalah cepat dari POS saat ramai (Dinda) | Penjualan volume tinggi tetap di POS, chat hanya menambal yang bocor                |
+| Input harus bisa didelegasikan (Koh Aan)     | Beberapa pelapor per usaha masuk ke satu data                                       |
+| Investor butuh alat visual (dashboard, peta) | Sisi investor tetap dan hanya di web                                                |
+| "Yang penting cair, bukan skor" (Bu Endah)   | Lihat bagian 5, penyambungan ke pendanaan menjadi inti nilai, bukan skor semata     |
 
 ## 5. Titik paling menentukan: sambungkan skor ke pencairan modal
 

@@ -74,6 +74,7 @@ flowchart LR
 - [[12 - Roadmap & Metrik Sukses]] — milestone & KPI
 - [[13 - Pitch & Antisipasi Juri]] — narasi pitch + Q&A juri
 - [[Naskah Pitch 60 Detik]] — elevator pitch 60 detik + arti istilah "pilot"
+- [[Script Video Pitch]] — script video 2 presenter (Masalah/Solusi/Demo/Dampak) + versi 30 detik
 
 ### 6. Proposal & Submission Tahap 2
 - [[15 - Proposal DIGDAYA 2026 (Ringkasan)]] — isi proposal resmi v2

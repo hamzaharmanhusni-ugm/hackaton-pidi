@@ -29,6 +29,7 @@ Tim sudah menuntaskan Empathize sampai Prototype. Tahap Test sedang berjalan lew
 **Siapa yang diamati:** pemilik UMKM F&B (warung makan, kedai kopi, restoran, catering) dan sisi penyedia modal (investor ritel, analis kredit lembaga).
 
 **Sumber empati:**
+
 - Riset lapangan awal 2025 ke 15 UMKM F&B Yogyakarta (warung makan, kafe kecil, bakery rumahan).
 - Data sekunder bersitasi tentang pasar, literasi keuangan, dan celah pembiayaan ([[04 - Riset Pasar F&B Indonesia]]).
 - Lima persona konkret yang menjadi wajah manusia dari data ([[04a - Persona Customer & User]]).
@@ -60,14 +61,14 @@ Masalah yang dipilih bukan "UMKM belum digital", karena mayoritas target sudah m
 
 Ruang solusi yang dieksplorasi dan keputusannya:
 
-| Ide | Keputusan | Alasan |
-|---|---|---|
-| Aplikasi pembukuan biasa | Ditolak | Sudah banyak (Jurnal, BukuWarung). Berhenti di laporan, tidak menjawab kepercayaan investor. |
-| Marketplace pinjaman langsung | Ditolak untuk MVP | Berat regulasi dan butuh lisensi. Bukan inti masalah data. |
-| **Business Health Score 0-100** | Dipilih | Menerjemahkan data operasional jadi satu bahasa yang dipahami kedua sisi. |
-| **Investment Readiness Score** | Dipilih | Menjembatani langsung ke keputusan investor. |
-| **AI Coach percakapan** | Dipilih | Menurunkan beban literasi keuangan, memberi langkah perbaikan konkret. |
-| Kanal chat-first (WhatsApp) | Muncul di iterasi Test | Menyerang masalah adopsi, dibahas di tahap Test. |
+| Ide                             | Keputusan              | Alasan                                                                                       |
+| ------------------------------- | ---------------------- | -------------------------------------------------------------------------------------------- |
+| Aplikasi pembukuan biasa        | Ditolak                | Sudah banyak (Jurnal, BukuWarung). Berhenti di laporan, tidak menjawab kepercayaan investor. |
+| Marketplace pinjaman langsung   | Ditolak untuk MVP      | Berat regulasi dan butuh lisensi. Bukan inti masalah data.                                   |
+| **Business Health Score 0-100** | Dipilih                | Menerjemahkan data operasional jadi satu bahasa yang dipahami kedua sisi.                    |
+| **Investment Readiness Score**  | Dipilih                | Menjembatani langsung ke keputusan investor.                                                 |
+| **AI Coach percakapan**         | Dipilih                | Menurunkan beban literasi keuangan, memberi langkah perbaikan konkret.                       |
+| Kanal chat-first (WhatsApp)     | Muncul di iterasi Test | Menyerang masalah adopsi, dibahas di tahap Test.                                             |
 
 Inti ide: **mengubah setiap transaksi harian menjadi bukti kepercayaan**, lalu memberi kedua sisi satu bahasa penilaian yang sama.
 

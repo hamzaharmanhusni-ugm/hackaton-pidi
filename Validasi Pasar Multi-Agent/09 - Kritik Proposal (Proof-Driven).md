@@ -68,21 +68,21 @@ Format tiap baris: klaim proposal, apa kata bukti, verdict, rekomendasi.
 
 ### 2.5 Segmen bakery
 
-| Aspek | Isi |
-|---|---|
-| **Klaim proposal** | Bakery masih disebut berkali-kali sebagai segmen target: Bagian 3.1, Lean Canvas (Bagian 6), Business Model Canvas (Bagian 7, Primary segment "warung, kafe, bakery, catering"). |
-| **Kata bukti** | Arah produk terbaru sudah men-drop bakery (lihat MEMORY dan arah chat-first). Persona validasi berputar pada warung, kafe, restoran, katering, kasir. Tidak ada persona bakery. |
-| **Verdict** | **Perlu diperbaiki (inkonsistensi).** |
-| **Rekomendasi** | Hapus bakery dari seluruh proposal agar konsisten dengan keputusan drop, atau bila tetap dipertahankan, sertakan alasannya. Jangan biarkan segmen yang sudah dijatuhkan tetap muncul di kanvas; juri jeli akan menanyakannya. |
+| Aspek              | Isi                                                                                                                                                                                                                           |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Klaim proposal** | Bakery masih disebut berkali-kali sebagai segmen target: Bagian 3.1, Lean Canvas (Bagian 6), Business Model Canvas (Bagian 7, Primary segment "warung, kafe, bakery, catering").                                              |
+| **Kata bukti**     | Arah produk terbaru sudah men-drop bakery (lihat MEMORY dan arah chat-first). Persona validasi berputar pada warung, kafe, restoran, katering, kasir. Tidak ada persona bakery.                                               |
+| **Verdict**        | **Perlu diperbaiki (inkonsistensi).**                                                                                                                                                                                         |
+| **Rekomendasi**    | Hapus bakery dari seluruh proposal agar konsisten dengan keputusan drop, atau bila tetap dipertahankan, sertakan alasannya. Jangan biarkan segmen yang sudah dijatuhkan tetap muncul di kanvas; juri jeli akan menanyakannya. |
 
 ### 2.6 Nama brand "RetailMind"
 
-| Aspek | Isi |
-|---|---|
-| **Klaim proposal** | Seluruh proposal memakai nama "RetailMind AI" sebagai identitas produk dan menyebutnya "satu-satunya platform". |
-| **Kata bukti** | Nama "RetailMind" sudah dipakai pihak lain. Seluruh dokumen validasi menandai "nama brand RetailMind bersifat sementara". Rename masih pending. |
-| **Verdict** | **Perlu diperbaiki (wajib).** Risiko hukum dan kredibilitas. |
-| **Rekomendasi** | Rename sebelum submission final. Klaim keunikan mustahil dipertahankan dengan nama yang bukan milik sendiri. Pilih nama yang bisa dicek ketersediaannya (domain, merek). |
+| Aspek              | Isi                                                                                                                                                                       |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Klaim proposal** | Seluruh proposal memakai nama "RetailMind AI" sebagai identitas produk dan menyebutnya "satu-satunya platform".                                                           |
+| **Kata bukti**     | Nama "RetailMind" sudah dipakai pihak lain. Seluruh dokumen validasi menandai "nama brand RetailMind bersifat sementara". Rename masih pending.                           |
+| **Verdict**        | **Perlu diperbaiki (wajib).** Risiko hukum dan kredibilitas.                                                                                                              |
+| **Rekomendasi**    | Rename sebelum submission final. Klaim keunikan mustahil dipertahankan dengan nama yang bukan milik sendiri. Pilih nama yatng bisa dicek ketersediaannya (domain, merek). |
 
 ### 2.7 Kanal berbasis web vs kebutuhan chat-first
 
