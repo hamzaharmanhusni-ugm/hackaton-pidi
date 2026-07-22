@@ -29,7 +29,7 @@ Tinggal salin jawaban tiap field ke form. **Yang WAJIB kamu isi sendiri** (berta
 
 | Item | Keterangan |
 |---|---|
-| Link Video YouTube (unlisted) | Konsep, storyboard, dan script ada di `08 - Pitch & Presentasi/Konsep Video Elevator Pitch (Tahap 3).md` (durasi 3-5 menit, 6 segmen) |
+| Link Video YouTube (publik) | Konsep, storyboard, dan script ada di `08 - Pitch & Presentasi/Konsep Video Elevator Pitch (Tahap 3).md` (durasi maks 3 menit: 1 menit pitch + 2 menit demo) |
 | URL demo aplikasi | https://retailmind-v2.vercel.app |
 | File PDF proposal | Ekspor dari deck / docx, penamaan `S1100 - Judul Proposal` |
 | Link CV atau LinkedIn | 4 anggota tim |

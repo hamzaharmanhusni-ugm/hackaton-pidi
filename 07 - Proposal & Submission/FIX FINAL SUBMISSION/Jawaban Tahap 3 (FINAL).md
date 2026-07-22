@@ -6,7 +6,7 @@ updated: 2026-07-22
 ---
 
 > [!success] Dokumen FINAL untuk Submission Tahap 3
-> Jawaban form Submission Tahap 3 DIGDAYA X Hackathon PIDI. Menutup celah yang ditemukan validasi dan mencerminkan produk nyata (working prototype v2). Angka `(x/limit)` = jumlah kata vs batas resmi form. Bagian dropdown ditandai jelas. Placeholder `[ISI ...]` wajib dilengkapi pemilik sebelum submit. Landasan: [[DISKUSI v3 - Ready to Win]], [[Strategi Validasi PMF]], [[07 - Validasi Ulang Perubahan v2 (Multi-Agent)]].
+> Jawaban form Submission Tahap 3 DIGDAYA X Hackathon PIDI. Menutup celah yang ditemukan validasi dan mencerminkan produk nyata (working prototype v2). Angka `(x/limit)` = jumlah kata vs batas resmi form. Bagian dropdown ditandai jelas. Placeholder `[ISI ...]` wajib dilengkapi pemilik sebelum submit. Disusun mengikuti [[Panduan Tahap 3 (Ekstrak Resmi)]] (nama field dan batas kata resmi). Landasan: [[DISKUSI v3 - Ready to Win]], [[Strategi Validasi PMF]], [[07 - Validasi Ulang Perubahan v2 (Multi-Agent)]].
 
 ## Identitas
 
@@ -43,18 +43,18 @@ RetailMind AI mengubah data transaksi harian UMKM F&B (omzet Rp10 sampai 200 jut
 
 Tiga lapisan terpadu: Smart Data Collection (POS dan Cashbook, dengan pintu masuk chat untuk menurunkan friksi), AI Analysis Engine (Business Health Score 0 sampai 100 dan AI Coach berbahasa Indonesia), dan Investor Dashboard (skor, Investment Readiness, dan penyaringan).
 
-Penajaman versi ini: model skor diperbaiki (belanja stok dihitung sebagai inventaris, bukan beban, lulus 16 dari 16 unit test), ditambah simulator dampak belanja untuk UMKM, dan dashboard pemodal difokuskan ke keputusan. Dampaknya: membuka akses pembiayaan bagi UMKM layak dan mempercepat penyaringan pemodal.
+Penajaman versi ini: model skor diperbaiki (belanja stok dihitung sebagai inventaris, bukan beban, lulus 19 dari 19 unit test), ditambah simulator dampak belanja untuk UMKM, dan dashboard pemodal difokuskan ke keputusan. Dampaknya: membuka akses pembiayaan bagi UMKM layak dan mempercepat penyaringan pemodal.
 
-### Progress and Change Log *(168/200 kata)*
+### Progress and Change Log *(121/150 kata)*
 
-Perkembangan utama sejak 2nd submission, hasil validasi lanjutan dan perbaikan produk:
+Perkembangan utama sejak 2nd submission, dari validasi lanjutan dan perbaikan produk:
 
-1. **Model skor diperbaiki dan diverifikasi.** Belanja bahan baku dan kemasan kini dihitung sebagai inventaris (aset), tidak lagi memotong laba periode berjalan. Ini menutup cacat yang membuat UMKM musiman (menyetok besar jelang ramai) terbaca rugi dan skornya jatuh ke nol. Skor dihitung atas jendela bergerak, dan perbaikan lulus 16 dari 16 unit test.
+1. **Model skor diperbaiki dan diverifikasi.** Belanja bahan baku dan kemasan kini dihitung sebagai inventaris, bukan beban, sehingga UMKM musiman yang menyetok besar tidak lagi terbaca rugi. Skor dihitung atas jendela bergerak dan lulus 19 dari 19 unit test.
 2. **Fitur baru Simulasi Belanja (What-If):** UMKM melihat dampak rencana belanja ke skor sebelum uang keluar, dengan pengingat anti-gaming.
-3. **Investor Dashboard difokuskan:** peta lokasi yang sekadar pemanis dihapus, tampilan berpusat pada daftar UMKM, skor, dan Investment Readiness.
-4. **Validasi diperluas ke sisi pemodal:** ditambah persona bank dan investor, dan uji ulang seluruh perubahan.
-5. **Kejujuran metode dipertegas:** riset lapangan awal dipisahkan dari pra-validasi sintetis multi-agent, agar tidak terbaca lebih kuat dari kenyataannya.
-6. **Strategi adopsi dinaikkan** ke chat-first hibrida yang terbukti lewat PoC bot.
+3. **Investor Dashboard difokuskan:** peta yang sekadar pemanis dihapus, fokus ke daftar UMKM, skor, dan Investment Readiness.
+4. **Validasi diperluas ke sisi pemodal:** ditambah persona bank dan investor, plus uji ulang seluruh perubahan.
+5. **Kejujuran metode dipertegas:** riset lapangan awal dipisahkan dari pra-validasi sintetis multi-agent.
+6. **Strategi adopsi** dinaikkan ke chat-first hibrida yang terbukti lewat PoC bot.
 
 ### Validated User Problem and Evidence *(236/250 kata)*
 
@@ -99,7 +99,7 @@ Setiap fitur inti menjawab satu pain spesifik yang sudah divalidasi, sehingga ra
 
 **Adopsi:** friksi masuk ditekan lewat pintu chat (terbukti di PoC keenam persona bisa onboarding lewat percakapan), antarmuka mobile-first, AI Coach berbahasa Indonesia, dan impor data mudah. Distribusi berbasis komunitas UMKM dan kemitraan kampus, bukan iklan mahal, sehingga biaya akuisisi rendah.
 
-### Innovation Level *(dropdown)*
+### Innovation Level *(dropdown, 42/50 kata)*
 
 **Level 3: Prototype, Validasi, atau Implementasi Awal.** Alasan: working prototype enam modul sudah berfungsi penuh dan live, ditopang pra-validasi multi-agent dan PoC bot. Belum masuk Level 4 karena adopsi nyata dan skala (pilot berjalan, pengguna nyata) belum ada. Penempatan ini sengaja jujur.
 
@@ -109,7 +109,7 @@ Setiap fitur inti menjawab satu pain spesifik yang sudah divalidasi, sehingga ra
 - Frontend Next.js 16 (App Router), React, TypeScript, Tailwind, shadcn/ui, PWA mobile-first. Visualisasi Recharts.
 - Backend Supabase: PostgreSQL multi-tenant, Auth, dan Row Level Security untuk isolasi data per UMKM.
 - Modul aktif: Smart POS, Smart Cashbook (kategorisasi, deteksi anomali, grafik, ekspor), Business Health Score 0 sampai 100 (enam komponen, dihitung via API dan tersimpan harian), Investment Readiness, AI Coach Rinda, Investor Dashboard (daftar, skor, filter), UMKM detail, watchlist, dan generator proposal PDF.
-- Simulasi Belanja (What-If) dan perbaikan model skor v2 (inventaris vs beban), lulus 16 dari 16 unit test.
+- Simulasi Belanja (What-If) dan perbaikan model skor v2 (inventaris vs beban), lulus 19 dari 19 unit test.
 - Autentikasi, RLS, dua akun demo, dan data UMKM F&B Yogyakarta ter-seed. Aplikasi live dan bisa didemonstrasikan.
 
 **Data:** first-party, lahir dari operasional UMKM sendiri (transaksi, produk, stok, arus kas). Format transaksional terstruktur di PostgreSQL. Untuk demo, data sudah tersedia dan ter-seed (satu akun UMKM dengan sekitar 75 transaksi lintas 90 hari, plus 10+ UMKM untuk sisi pemodal). Untuk pilot, data dikumpulkan dari UMKM peserta.
@@ -154,9 +154,9 @@ Kompleksitas inilah yang menjadikan solusi ini infrastruktur kepercayaan, bukan 
 6. **Turunan.** Dari skor, konsistensi data, umur usaha, dan kualitas pelaporan dihitung Investment Readiness beserta risk flags dan strengths.
 7. **Output ke dua sisi.** UMKM menerima skor, tren, saran AI Coach, dan simulasi. Pemodal menerima ringkasan dan skor saja.
 
-**Kedalaman rekayasa:** logika skor teruji unit test (16 dari 16 lulus), abstraksi AI multi-provider dengan fallback rule-based, dan RLS multi-tenant. Perhitungan berat ada di Route Handler yang siap dijadikan API B2B.
+**Kedalaman rekayasa:** logika skor teruji unit test (19 dari 19 lulus), abstraksi AI multi-provider dengan fallback rule-based, dan RLS multi-tenant. Perhitungan berat ada di Route Handler yang siap dijadikan API B2B.
 
-### Algorithm or Rule Quality and Decision Transparency *(240/250 kata)*
+### Algorithm or Rule Quality and Decision Transparency *(240/300 kata)*
 
 **Kualitas model:** Business Health Score adalah model berbobot enam komponen yang dipilih sesuai karakter arus kas harian F&B, bukan skor generik. Bobot dan komponennya terbuka, sehingga tiap angka bisa ditelusuri.
 
@@ -203,7 +203,7 @@ Tim membangun dan memvalidasi solusi ini sendiri, bukan menyewa atau memakai tem
 
 **Bukti kemampuan eksekusi:**
 - Working prototype enam modul yang live dan bisa didemonstrasikan.
-- Perbaikan model skor yang diverifikasi 16 unit test.
+- Perbaikan model skor yang diverifikasi 19 unit test.
 - Metode validasi multi-agent berbasis data (silicon sampling) dan PoC yang dijalankan sampai selesai.
 - Dokumentasi lengkap dari riset, produk, sampai strategi.
 
@@ -260,24 +260,25 @@ Solusi ini dirancang berlanjut setelah hackathon, bukan berhenti sebagai purwaru
 
 Keunggulan utama ada pada model layanan, integrasi ekosistem, dan fokus segmen, bukan sekadar fitur tunggal.
 
-### Video Submission
+### Video Submission *(attachment)*
 
-[ISI link YouTube Elevator Pitch, format unlisted]. Bahan naskah siap: [[Naskah Pitch 60 Detik]] dan [[Script Video Pitch]].
+[ISI link YouTube Elevator Pitch]. **Wajib publik** (bukan unlisted) dan maksimal 3 menit, sesuai [[Panduan Tahap 3 (Ekstrak Resmi)]]. Konsep dan naskah per blok waktu: [[Konsep Video Elevator Pitch (Tahap 3)]].
 
-### Attachment
+### File Attachment (PDF) *(attachment)*
 
-- **Link demo (working prototype):** [ISI URL deploy]
-- **Akun demo:** umkm@demo.com dan investor@demo.com (kata sandi: demo123456)
-- **File proposal (PDF, maksimal 5MB, penamaan S1100 - Judul Proposal):** [ISI / ekspor dari deck]
-- **Portofolio tim:** https://bit.ly/FinancialFreedomTeamHckaton
-- Pendukung: diagram arsitektur, screenshot modul (POS, Cashbook, Health Score, AI Coach, Investor Dashboard), tabel before-after skor.
+[ISI / ekspor proposal ke PDF, penamaan `S1100 - Judul Proposal`, maksimal 5MB]. Lampiran pendukung: diagram arsitektur, screenshot modul (POS, Cashbook, Health Score, AI Coach, Investor Dashboard), dan tabel before-after skor.
 
-### CV / Profil LinkedIn
+### Link Attachment (satu link publik) *(attachment)*
 
-- **Ketua Tim (Hamzah Arman Husni):** [ISI link]
-- **Anggota 1 (Dzaky Faishalariq):** [ISI link]
-- **Anggota 2 (Gregorius Bugen Jovi Sitindaon):** [ISI link]
-- **Anggota 3 (Aditya Nurrohman):** [ISI link]
+Demo working prototype: [ISI URL deploy, mis. https://retailmind-v2.vercel.app]. Akun demo: umkm@demo.com dan investor@demo.com (kata sandi demo123456). Pastikan bisa dibuka tanpa minta akses tambahan.
+
+### CV Attachment (LinkedIn atau CV per anggota) *(attachment)*
+
+- **Ketua (Hamzah Arman Husni):** [ISI link]
+- **Anggota (Dzaky Faishalariq):** [ISI link]
+- **Anggota (Gregorius Bugen Jovi Sitindaon):** [ISI link]
+- **Anggota (Aditya Nurrohman):** [ISI link]
+- Portofolio tim: https://bit.ly/FinancialFreedomTeamHckaton
 
 ---
 

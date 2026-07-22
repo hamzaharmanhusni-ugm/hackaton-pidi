@@ -35,7 +35,7 @@ updated: 2026-07-22
 
 | Deliverable | Status | Catatan |
 |---|---|---|
-| Model skor (v2) | ✅ | Belanja stok jadi inventaris, bukan COGS. Lulus 16 dari 16 unit test. |
+| Model skor (v2) | ✅ | Belanja stok jadi inventaris, bukan COGS. Lulus 19 dari 19 unit test. |
 | Fitur Simulasi Belanja (What-If) | ✅ | Cek dampak belanja ke skor sebelum uang keluar. |
 | Dashboard investor difokuskan | ✅ | Peta dihapus, fokus ke daftar, skor, readiness. |
 | Aplikasi live | ✅ | Working prototype, bisa demo. |
@@ -45,7 +45,7 @@ updated: 2026-07-22
 | Konsep video elevator pitch | ✅ | Storyboard, script 70 detik, editing, bagian yang boleh pakai AI. |
 
 > [!todo] Perlu kamu isi sebelum submit (hanya pemilik yang bisa)
-> Link video YouTube unlisted, URL demo, file PDF proposal, dan link CV atau LinkedIn empat anggota. Semua placeholder ada di [[Jawaban Tahap 3 (FINAL)]].
+> Link video YouTube publik, URL demo, file PDF proposal, dan link CV atau LinkedIn empat anggota. Semua placeholder ada di [[Jawaban Tahap 3 (FINAL)]].
 
 > [!info] Roadmap ke depan (bukan kekurangan, sudah tertulis di proposal)
 > - **Mitra pembiayaan (LOI):** milestone pilot, sekaligus "The Ask" ke penyelenggara. Bukan syarat lomba sekarang.

@@ -38,7 +38,7 @@ Yang tidak lagi relevan dengan fokus RetailMind sudah dipindahkan ke folder `Ars
 ## 2. Posisi sekarang (setelah v2)
 
 > [!success] Yang sudah tuntas di v2
-> - **Model skor diperbaiki.** Belanja bahan dan kemasan kini dihitung sebagai inventaris (aset), tidak lagi menjatuhkan skor. UMKM musiman yang menyetok besar tidak lagi terbaca rugi. Lulus 16 dari 16 unit test.
+> - **Model skor diperbaiki.** Belanja bahan dan kemasan kini dihitung sebagai inventaris (aset), tidak lagi menjatuhkan skor. UMKM musiman yang menyetok besar tidak lagi terbaca rugi. Lulus 19 dari 19 unit test.
 > - **Fitur baru Simulasi Belanja (What-If)** di sisi UMKM: cek dampak belanja ke skor sebelum uang keluar, dengan pengingat anti-gaming.
 > - **Peta investor dihapus.** Dashboard pemodal fokus ke daftar UMKM, skor, dan Investment Readiness.
 > - **Aplikasi live** dan **validasi ulang empat lensa** menilai perubahan inti tepat sasaran. Rincian: [[07 - Validasi Ulang Perubahan v2 (Multi-Agent)]].

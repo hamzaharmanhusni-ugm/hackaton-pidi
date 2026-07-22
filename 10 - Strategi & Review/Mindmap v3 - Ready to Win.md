@@ -12,7 +12,7 @@ markmap:
 
 ## 1. Posisi sekarang (v2 selesai)
 - Skor diperbaiki: belanja stok jadi aset, bukan COGS
-- Lulus 16 dari 16 unit test
+- Lulus 19 dari 19 unit test
 - Fitur Simulasi Belanja (What-If) untuk UMKM
 - Peta investor dihapus, dashboard lebih fokus
 - Aplikasi live di Vercel
