@@ -80,7 +80,7 @@ RetailMind sudah Working Prototype. Tahap berikutnya adalah **memvalidasi model 
 ### Yang ditawarkan balik
 - Data benchmark F&B Yogyakarta hasil pilot (nilai bagi mitra lembaga & regulator).
 - Kontribusi langsung ke agenda inklusi keuangan BI dan target OJK (laporan formal UMKM 19% → 50% pada 2030, lihat [[12 - Roadmap & Metrik Sukses]]).
-- Studi kasus penurunan biaya due diligence hingga 80% yang bisa direplikasi mitra.
+- Proyeksi penurunan biaya due diligence hingga 80%, akan divalidasi bersama mitra pada pilot.
 
 ### Untuk slide penutup
 Ringkas jadi tiga baris: **mitra pilot, bimbingan regulasi, dukungan pilot 6 bulan**, lalu tutup dengan tagline. Detail slide: [[19 - Outline Pitch Deck]] (Slide 12).

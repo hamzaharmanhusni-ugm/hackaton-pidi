@@ -51,7 +51,7 @@ Freemium → Pro Rp149K → Investor Rp299K → API B2B Rp2–5jt → matching f
 
 ## GTM & Impact
 
-Pilot Yogyakarta → multi-kota → nasional. Kurangi due diligence 80%, screening 50+ UMKM/hari, dukung target OJK 19%→50% (2030). Detail: [[12 - Roadmap & Metrik Sukses]].
+Pilot Yogyakarta → multi-kota → nasional. Proyeksi (divalidasi pilot): kurangi due diligence hingga 80%, screening 50+ UMKM/hari, dukung target OJK 19%→50% (2030). Detail: [[12 - Roadmap & Metrik Sukses]].
 
 ## Referensi Proposal (12)
 World Bank & IFC (2023) · McKinsey (2023) · OJK SNLIK (2023) · POJK Equity Crowdfunding · OCBC & NielsenIQ (2024) · BPS (2023) · Kemenkop UKM (2024) · Google-Temasek-Bain e-Conomy SEA (2023) · BCG & Google (2023) · RAG (Lewis et al. 2020) · Prophet (Taylor & Letham 2018) · Perpres 2/2022.

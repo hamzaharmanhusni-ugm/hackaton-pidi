@@ -14,7 +14,7 @@
 		{"id":"f2","type":"text","text":"**Aksi Utama Pengguna**\n\nUMKM: input transaksi POS + Cashbook, buka Health Score.\nInvestor: filter kota/kategori/skor, buka detail.","x":-425,"y":60,"width":270,"height":200,"color":"4"},
 		{"id":"f3","type":"text","text":"**Proses / Logika Sistem**\n\nValidasi + cross-check POS to Cashbook  ->  Scoring Engine (6 komponen)  ->  Health + Readiness Score  ->  RLS ke dashboard investor.","x":-130,"y":60,"width":270,"height":200,"color":"5"},
 		{"id":"f4","type":"text","text":"**Output / Hasil untuk User**\n\nUMKM: skor + laporan siap-investor 1 klik.\nInvestor: kandidat tersaring + risk flags + tren 90 hari.","x":165,"y":60,"width":270,"height":200,"color":"2"},
-		{"id":"f5","type":"text","text":"**Impact & Value Delivered**\n\nUMKM kredibel dan berpeluang didanai.\nInvestor: screening dari minggu ke menit, due diligence turun 80%.","x":460,"y":60,"width":270,"height":200,"color":"6"}
+		{"id":"f5","type":"text","text":"**Impact & Value Delivered**\n\nUMKM kredibel dan berpeluang didanai.\nInvestor: screening dari minggu ke menit, due diligence turun hingga 80% (proyeksi).","x":460,"y":60,"width":270,"height":200,"color":"6"}
 	],
 	"edges":[
 		{"id":"x1","fromNode":"f1","fromSide":"right","toNode":"f2","toSide":"left"},
