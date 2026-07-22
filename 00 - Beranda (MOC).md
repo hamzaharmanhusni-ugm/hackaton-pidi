@@ -30,18 +30,18 @@ updated: 2026-07-22
 
 ## 📊 Papan status proyek
 
-| Bagian | Status | Catatan |
-|---|---|---|
-| Model skor (v2) | ✅ Selesai | Belanja stok jadi inventaris, bukan COGS. Lulus 16 dari 16 unit test. |
-| Fitur Simulasi Belanja (What-If) | ✅ Selesai | Cek dampak belanja ke skor sebelum uang keluar. |
-| Dashboard investor difokuskan | ✅ Selesai | Peta dihapus, fokus ke daftar, skor, dan readiness. |
-| Aplikasi live | ✅ Jalan | Working prototype, bisa demo. |
-| Validasi pasar | ✅ 5 lensa | 6 persona UMKM + bank + investor + skeptis. |
-| Dokumentasi dirapikan | ✅ Selesai | Folder 01-10 berurutan, arsip dipisah. |
-| **Proposal FIX** | 🔷 Fokus sekarang | Versi gap-closed untuk lolos ke tahap lanjut. |
-| Mitra pembiayaan (LOI) | ⏳ Milestone pilot | Bukan syarat lomba sekarang. Jadi "The Ask" ke juri. |
-| Fitur sisi bank di aplikasi | ⏳ Roadmap | SLIK, kolektibilitas, login bank, ekspor. |
-| Penguatan anti-gaming | ⏳ Roadmap | Perkuat Inventory Turnover. |
+| Bagian                           | Status            | Catatan                                                               |
+| -------------------------------- | ----------------- | --------------------------------------------------------------------- |
+| Model skor (v2)                  | ✅ Selesai         | Belanja stok jadi inventaris, bukan COGS. Lulus 16 dari 16 unit test. |
+| Fitur Simulasi Belanja (What-If) | ✅ Selesai         | Cek dampak belanja ke skor sebelum uang keluar.                       |
+| Dashboard investor difokuskan    | ✅ Selesai         | Peta dihapus, fokus ke daftar, skor, dan readiness.                   |
+| Aplikasi live                    | ✅ Jalan           | Working prototype, bisa demo.                                         |
+| Validasi pasar                   | ✅ 5 lensa         | 6 persona UMKM + bank + investor + skeptis.                           |
+| Dokumentasi dirapikan            | ✅ Selesai         | Folder 01-10 berurutan, arsip dipisah.                                |
+| **Proposal FIX**                 | 🔷 Fokus sekarang | Versi gap-closed untuk lolos ke tahap lanjut.                         |
+| Mitra pembiayaan (LOI)           | ⏳ Milestone pilot | Bukan syarat lomba sekarang. Jadi "The Ask" ke juri.                  |
+| Fitur sisi bank di aplikasi      | ⏳ Roadmap         | SLIK, kolektibilitas, login bank, ekspor.                             |
+| Penguatan anti-gaming            | ⏳ Roadmap         | Perkuat Inventory Turnover.                                           |
 
 ## 🗺️ Peta produk
 
@@ -90,12 +90,12 @@ Rincian dan bahan diskusi ada di [[DISKUSI v3 - Ready to Win]] bagian 6.
 
 ## 👥 Tim
 
-| Peran | Nama |
-|---|---|
-| Ketua Tim / AI Engineer | Hamzah Arman Husni |
-| Developer | Dzaky Faishalariq |
-| Marketing Strategist | Gregorius Bugen Jovi Sitindaon |
-| Automation Specialist | Aditya Nurrohman |
+| Peran                   | Nama                           |
+| ----------------------- | ------------------------------ |
+| Ketua Tim / AI Engineer | Hamzah Arman Husni             |
+| Developer               | Dzaky Faishalariq              |
+| Marketing Strategist    | Gregorius Bugen Jovi Sitindaon |
+| Automation Specialist   | Aditya Nurrohman               |
 
 **Institusi:** Universitas Gadjah Mada · **Tim:** Financial Freedom Tim
 **Event:** DIGDAYA X Hackathon, Pusat Inovasi Digital Indonesia (PIDI) 2026

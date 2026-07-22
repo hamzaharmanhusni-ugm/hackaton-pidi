@@ -16,7 +16,7 @@ flowchart LR
   D --> I["3. Ideate<br/>ruang solusi"]
   I --> P["4. Prototype<br/>MVP 6 modul berjalan"]
   P --> T["5. Test<br/>validasi multi-agent"]
-  T -.->|iterasi: arah chat-first| I
+  T -.->|iterasi ke chat-first| I
   style T fill:#16a34a,color:#fff
 ```
 
