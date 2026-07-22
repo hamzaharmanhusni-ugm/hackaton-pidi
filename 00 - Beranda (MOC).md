@@ -30,18 +30,28 @@ updated: 2026-07-22
 
 ## 📊 Papan status proyek
 
-| Bagian                           | Status            | Catatan                                                               |
-| -------------------------------- | ----------------- | --------------------------------------------------------------------- |
-| Model skor (v2)                  | ✅ Selesai         | Belanja stok jadi inventaris, bukan COGS. Lulus 16 dari 16 unit test. |
-| Fitur Simulasi Belanja (What-If) | ✅ Selesai         | Cek dampak belanja ke skor sebelum uang keluar.                       |
-| Dashboard investor difokuskan    | ✅ Selesai         | Peta dihapus, fokus ke daftar, skor, dan readiness.                   |
-| Aplikasi live                    | ✅ Jalan           | Working prototype, bisa demo.                                         |
-| Validasi pasar                   | ✅ 5 lensa         | 6 persona UMKM + bank + investor + skeptis.                           |
-| Dokumentasi dirapikan            | ✅ Selesai         | Folder 01-10 berurutan, arsip dipisah.                                |
-| **Proposal FIX**                 | 🔷 Fokus sekarang | Versi gap-closed untuk lolos ke tahap lanjut.                         |
-| Mitra pembiayaan (LOI)           | ⏳ Milestone pilot | Bukan syarat lomba sekarang. Jadi "The Ask" ke juri.                  |
-| Fitur sisi bank di aplikasi      | ⏳ Roadmap         | SLIK, kolektibilitas, login bank, ekspor.                             |
-| Penguatan anti-gaming            | ⏳ Roadmap         | Perkuat Inventory Turnover.                                           |
+> [!success] Deliverable submission: semua selesai
+> Semua materi yang menentukan lolos Tahap 3 sudah siap. Item bertanda ⏳ di bawah adalah roadmap ke depan, bukan kekurangan submission, dan sudah tertulis jujur di proposal sebagai langkah berikutnya.
+
+| Deliverable | Status | Catatan |
+|---|---|---|
+| Model skor (v2) | ✅ | Belanja stok jadi inventaris, bukan COGS. Lulus 16 dari 16 unit test. |
+| Fitur Simulasi Belanja (What-If) | ✅ | Cek dampak belanja ke skor sebelum uang keluar. |
+| Dashboard investor difokuskan | ✅ | Peta dihapus, fokus ke daftar, skor, readiness. |
+| Aplikasi live | ✅ | Working prototype, bisa demo. |
+| Validasi pasar (5 lensa) | ✅ | 6 persona UMKM + bank + investor + skeptis. |
+| Dokumentasi dirapikan | ✅ | Folder 01-10 berurutan, arsip dipisah. |
+| Jawaban Tahap 3 (proposal FIX) | ✅ | 24 field gap-closed + tabel celah ke langkah ke depan. |
+| Konsep video elevator pitch | ✅ | Storyboard, script 70 detik, editing, bagian yang boleh pakai AI. |
+
+> [!todo] Perlu kamu isi sebelum submit (hanya pemilik yang bisa)
+> Link video YouTube unlisted, URL demo, file PDF proposal, dan link CV atau LinkedIn empat anggota. Semua placeholder ada di [[Jawaban Tahap 3 (FINAL)]].
+
+> [!info] Roadmap ke depan (bukan kekurangan, sudah tertulis di proposal)
+> - **Mitra pembiayaan (LOI):** milestone pilot, sekaligus "The Ask" ke penyelenggara. Bukan syarat lomba sekarang.
+> - **Fitur sisi bank di aplikasi:** SLIK, kolektibilitas, login bank, ekspor. Dibangun saat pilot.
+> - **Penguatan anti-gaming:** perkuat bobot Inventory Turnover.
+> - **Verifikasi data independen:** sambungkan mutasi rekening, QRIS, atau agregator pembayaran.
 
 ## 🗺️ Peta produk
 
@@ -75,7 +85,7 @@ flowchart LR
 | **05 - Bisnis & Eksekusi** | Model bisnis, proyeksi, roadmap | [[11 - Business Model & GTM]] · [[11b - Proyeksi Finansial 3 Tahun]] |
 | **06 - Validasi Pasar** | Bukti validasi multi-agent | [[04 - Laporan Validasi Sintetis]] · [[Strategi Validasi PMF]] · [[STATUS]] |
 | **07 - Proposal & Submission** | Proposal resmi dan jawaban | [[Jawaban Tahap 3 (FINAL)]] · [[20 - One-Pager & The Ask]] |
-| **08 - Pitch & Presentasi** | Naskah dan skrip pitch | [[13 - Pitch & Antisipasi Juri]] · [[Naskah Pitch 60 Detik]] |
+| **08 - Pitch & Presentasi** | Naskah, skrip, konsep video | [[Konsep Video Elevator Pitch (Tahap 3)]] · [[13 - Pitch & Antisipasi Juri]] · [[Naskah Pitch 60 Detik]] |
 | **09 - Modul Hackathon** | Isian modul panitia | [[00 - Analisis Modul & Rekomendasi]] |
 | **10 - Strategi & Review** | Arah v3 dan review juri | [[DISKUSI v3 - Ready to Win]] · [[Mindmap v3 - Ready to Win]] |
 | **99 - Kanvas & Referensi** | Kanvas visual, sumber angka | [[Sumber & Asumsi Angka]] · [[Peta Produk.canvas]] |

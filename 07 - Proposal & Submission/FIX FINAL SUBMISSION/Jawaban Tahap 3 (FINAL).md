@@ -286,13 +286,13 @@ Keunggulan utama ada pada model layanan, integrasi ekosistem, dan fokus segmen, 
 > [!warning] Bukan menutupi, tetapi menunjukkan rencana
 > Bagian ini sengaja terbuka. Juri berlatar bank dan regulator lebih percaya tim yang tahu batasnya dan punya rencana, daripada tim yang mengaku sempurna.
 
-| Celah | Kenapa belum tuntas | Langkah ke depan |
-|---|---|---|
+| Celah                                         | Kenapa belum tuntas                                         | Langkah ke depan                                                                                        |
+| --------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
 | Belum ada mitra pembiayaan nyata memakai skor | Mustahil dalam sisa waktu lomba, dan bukan syarat tahap ini | Milestone pilot fase 1. The Ask ke penyelenggara untuk koneksi. Draf LOI dan paket kemitraan disiapkan. |
-| Data masih self-reported | Verifikasi eksternal butuh integrasi | Roadmap: sambungkan mutasi rekening, QRIS, atau agregator pembayaran. |
-| Anti-gaming belum mengikat penuh | Bobot Inventory Turnover masih kecil | Perkuat bobot, tambah deteksi pola belanja janggal dibanding penjualan. |
-| Fitur sisi bank belum di aplikasi | Fokus v2 pada kredibilitas skor lebih dulu | Bangun tampilan kolektibilitas, ekspor due diligence, login peran bank saat pilot. |
-| Belum ada bukti skor terkait pelunasan | Butuh data pilot berjalan | Backtest skor terhadap kinerja pelunasan pada cohort pilot. |
-| Nama brand masih sementara | Kemungkinan dipakai pihak lain | Cek ketersediaan nama, domain, merek, lalu samakan di seluruh materi. |
+| Data masih self-reported                      | Verifikasi eksternal butuh integrasi                        | Roadmap: sambungkan mutasi rekening, QRIS, atau agregator pembayaran.                                   |
+| Anti-gaming belum mengikat penuh              | Bobot Inventory Turnover masih kecil                        | Perkuat bobot, tambah deteksi pola belanja janggal dibanding penjualan.                                 |
+| Fitur sisi bank belum di aplikasi             | Fokus v2 pada kredibilitas skor lebih dulu                  | Bangun tampilan kolektibilitas, ekspor due diligence, login peran bank saat pilot.                      |
+| Belum ada bukti skor terkait pelunasan        | Butuh data pilot berjalan                                   | Backtest skor terhadap kinerja pelunasan pada cohort pilot.                                             |
+| Nama brand masih sementara                    | Kemungkinan dipakai pihak lain                              | Cek ketersediaan nama, domain, merek, lalu samakan di seluruh materi.                                   |
 
 → Kembali: [[00 - Beranda (MOC)]] · Dasar: [[DISKUSI v3 - Ready to Win]] · [[Strategi Validasi PMF]] · Form: [[Pertanyaan Tahap 2]]
