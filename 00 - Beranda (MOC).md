@@ -1,103 +1,102 @@
 ---
-title: Beranda RetailMind AI
-tags: [retailmind, hackathon, pidi, moc]
+title: Dashboard Proyek RetailMind AI
+aliases: [Dashboard, Dashboard Utama, Mulai di Sini, Beranda]
+tags: [retailmind, hackathon, pidi, dashboard, moc]
 status: aktif
-event: DIGDAYA X Hackathon — PIDI 2026
+event: DIGDAYA X Hackathon PIDI 2026
 tim: Financial Freedom Tim (UGM)
-updated: 2026-06-04
+deadline: 2026-07-26
+updated: 2026-07-22
 ---
 
-> [!abstract] RetailMind AI — Peta Dokumentasi (MOC)
-> **Platform Business Health Scoring untuk UMKM F&B Indonesia.** Mengubah transaksi harian menjadi skor kesehatan bisnis yang dipercaya investor.
-> **Tagline:** *Setiap Transaksi Membangun Kepercayaan.*
-> Dokumentasi ini adalah pusat (Map of Content) untuk pitch, riset, produk, dan submission Tahap 2.
+# 🏠 Dashboard Proyek: RetailMind AI
 
-## 🎯 Mulai dari sini
+> [!abstract] Satu halaman untuk tahu seluruh proyek
+> **RetailMind AI** adalah platform Business Health Scoring untuk UMKM F&B Indonesia. Mengubah transaksi harian menjadi skor kesehatan bisnis yang dipercaya pemodal.
+> **Tagline:** Setiap transaksi membangun kepercayaan.
+> **Lomba:** DIGDAYA X Hackathon PIDI 2026 (Bank Indonesia, OJK, ASPI, Fintech Indonesia, APUVINDO, LPPI). **Deadline: 26 Juli 2026.**
+> Halaman ini adalah titik masuk tunggal. Kalau bingung harus baca apa, mulai dari sini.
 
-> [!tip] Untuk juri / pembaca cepat
-> Baca berurutan: [[01 - Ringkasan Eksekutif]] → [[08 - Keunggulan & Diferensiasi]] → [[13 - Pitch & Antisipasi Juri]].
+## 🚦 Mulai dari mana (pilih jalurmu)
 
-## 🗺️ Peta Produk
+> [!tip] Punya 5 menit
+> [[01 - Ringkasan Eksekutif]] lalu [[DISKUSI v3 - Ready to Win]]. Selesai, kamu paham inti dan arah.
 
-> [!tip] Kanvas interaktif: buka [[Peta Produk.canvas]] (klik untuk peta visual yang bisa digeser-zoom)
-> [!tip] Arah hackathon (mindmap): [[Mindmap Arah Hackathon]] kini terbuka sebagai mindmap MarkMind (frontmatter `mindmap-plugin`), atau markmap via command "Mind Map: Preview". Versi Canvas visual: [[Peta Arah Hackathon.canvas]]
-> [!tip] Use Case Canvas: [[Use Case Canvas.canvas]] (target user, problem, bukti, solusi, pain point, lingkup MVP, validasi PMF, tech stack, alur demo)
-> [!tip] Value Creation Canvas: [[Who What How Much Canvas.canvas]] (WHO/WHAT/HOW MUCH + Investasi, Total Manfaat, ROI ~133%, template Modul 2)
-> [!tip] Validitas angka: [[Sumber & Asumsi Angka]] (klasifikasi tersitasi / internal / asumsi + sumber tiap angka)
+> [!tip] Kamu juri atau pembaca baru
+> Baca berurutan: [[01 - Ringkasan Eksekutif]] → [[02 - Masalah UMKM F&B]] → [[05 - Ikhtisar Produk]] → [[07 - Scoring Engine]] → [[08 - Keunggulan & Diferensiasi]] → [[Jawaban Tahap 3 (FINAL)]].
+
+> [!tip] Kamu tim, mau tahu posisi dan langkah berikutnya
+> [[DISKUSI v3 - Ready to Win]] → [[STATUS]] → [[04 - Laporan Validasi Sintetis]] → [[07 - Validasi Ulang Perubahan v2 (Multi-Agent)]] → [[Jawaban Tahap 3 (FINAL)]].
+
+## 📊 Papan status proyek
+
+| Bagian | Status | Catatan |
+|---|---|---|
+| Model skor (v2) | ✅ Selesai | Belanja stok jadi inventaris, bukan COGS. Lulus 16 dari 16 unit test. |
+| Fitur Simulasi Belanja (What-If) | ✅ Selesai | Cek dampak belanja ke skor sebelum uang keluar. |
+| Dashboard investor difokuskan | ✅ Selesai | Peta dihapus, fokus ke daftar, skor, dan readiness. |
+| Aplikasi live | ✅ Jalan | Working prototype, bisa demo. |
+| Validasi pasar | ✅ 5 lensa | 6 persona UMKM + bank + investor + skeptis. |
+| Dokumentasi dirapikan | ✅ Selesai | Folder 01-10 berurutan, arsip dipisah. |
+| **Proposal FIX** | 🔷 Fokus sekarang | Versi gap-closed untuk lolos ke tahap lanjut. |
+| Mitra pembiayaan (LOI) | ⏳ Milestone pilot | Bukan syarat lomba sekarang. Jadi "The Ask" ke juri. |
+| Fitur sisi bank di aplikasi | ⏳ Roadmap | SLIK, kolektibilitas, login bank, ekspor. |
+| Penguatan anti-gaming | ⏳ Roadmap | Perkuat Inventory Turnover. |
+
+## 🗺️ Peta produk
 
 ```mermaid
 flowchart LR
-  subgraph UMKM["UMKM — Pengumpulan Data"]
+  subgraph UMKM["UMKM (kumpul data)"]
     POS["Smart POS"]
     CB["Smart Cashbook"]
-    COACH["AI Coach Rinda"]
+    CHAT["Pintu masuk chat"]
   end
-  POS --> VAL["AI Validation"]
+  POS --> VAL["Validasi & bersih data"]
   CB --> VAL
-  CB --> COACH
-  VAL --> SCORE["⚙️ Scoring Engine"]
-  SCORE --> HS["Business Health Score<br/>0–100"]
-  SCORE --> IR["Investment Readiness<br/>Low / Med / High"]
+  CHAT --> VAL
+  VAL --> SCORE["Scoring Engine"]
+  SCORE --> HS["Business Health Score 0-100"]
+  SCORE --> IR["Investment Readiness"]
   HS --> DASH["Investor Dashboard"]
   IR --> DASH
-  DASH --> DEC["Keputusan Investasi"]
-  DEC -.->|Data Flywheel| POS
+  DASH --> DEC["Keputusan pendanaan"]
+  DEC -.->|data flywheel| POS
 ```
 
-## 📚 Struktur Dokumentasi
+## 📁 Struktur folder (urutan baca)
 
-### 1. Ringkasan
-- [[01 - Ringkasan Eksekutif]] — masalah → solusi → dampak, angka kunci, elevator pitch
+| Folder | Isi | Dokumen kunci |
+|---|---|---|
+| **01 - Ringkasan** | Intisari proyek | [[01 - Ringkasan Eksekutif]] |
+| **02 - Riset & Masalah** | Masalah, pasar, persona | [[02 - Masalah UMKM F&B]] · [[04c - TAM SAM SOM]] |
+| **03 - Solusi & Produk** | Produk dan mesin skor | [[05 - Ikhtisar Produk]] · [[07 - Scoring Engine]] |
+| **04 - Keunggulan & Teknologi** | Moat, arsitektur, data | [[08 - Keunggulan & Diferensiasi]] · [[09 - Arsitektur & Teknologi]] |
+| **05 - Bisnis & Eksekusi** | Model bisnis, proyeksi, roadmap | [[11 - Business Model & GTM]] · [[11b - Proyeksi Finansial 3 Tahun]] |
+| **06 - Validasi Pasar** | Bukti validasi multi-agent | [[04 - Laporan Validasi Sintetis]] · [[Strategi Validasi PMF]] · [[STATUS]] |
+| **07 - Proposal & Submission** | Proposal resmi dan jawaban | [[Jawaban Tahap 3 (FINAL)]] · [[20 - One-Pager & The Ask]] |
+| **08 - Pitch & Presentasi** | Naskah dan skrip pitch | [[13 - Pitch & Antisipasi Juri]] · [[Naskah Pitch 60 Detik]] |
+| **09 - Modul Hackathon** | Isian modul panitia | [[00 - Analisis Modul & Rekomendasi]] |
+| **10 - Strategi & Review** | Arah v3 dan review juri | [[DISKUSI v3 - Ready to Win]] · [[Mindmap v3 - Ready to Win]] |
+| **99 - Kanvas & Referensi** | Kanvas visual, sumber angka | [[Sumber & Asumsi Angka]] · [[Peta Produk.canvas]] |
 
-### 2. Riset & Masalah
-- [[02 - Masalah UMKM F&B]] — pain point pencatatan, kredibilitas, cashflow
-- [[03 - Kebutuhan & Peran Investor]] — kenapa butuh investor, due diligence, risk
-- [[04 - Riset Pasar F&B Indonesia]] — data pasar & financing gap (bersitasi)
-- [[04a - Persona Customer & User]] — pemisahan customer vs user + persona & pain point (bersitasi)
-- [[04b - Value Proposition Canvas]] — jobs/pains/gains UMKM & investor vs produk
-- [[04c - TAM SAM SOM]] — ukuran pasar (corong TAM/SAM/SOM)
+## ❓ Keputusan yang menunggu kamu
 
-### 3. Solusi & Produk
-- [[05 - Ikhtisar Produk]] — positioning & alur dua sisi (UMKM ↔ Investor)
-- [[06 - Modul Produk]] — 6 modul + status implementasi
-- [[07 - Scoring Engine]] — Business Health Score & Investment Readiness Score
-
-### 4. Keunggulan, Teknologi, Data
-- [[08 - Keunggulan & Diferensiasi]] — moat & tabel kompetitor
-- [[09 - Arsitektur & Teknologi]] — stack, diagram, keamanan
-- [[10 - Data, Demo & Visualisasi]] — akun demo, data F&B, chart
-
-### 5. Bisnis & Eksekusi
-- [[11 - Business Model & GTM]] — model bisnis, revenue, go-to-market
-- [[11a - Business Model Canvas]] — kanvas 9 blok (dokumen strategi)
-- [[11b - Proyeksi Finansial 3 Tahun]] — proyeksi pendapatan & unit economics
-- [[12 - Roadmap & Metrik Sukses]] — milestone & KPI
-- [[13 - Pitch & Antisipasi Juri]] — narasi pitch + Q&A juri
-- [[Naskah Pitch 60 Detik]] — elevator pitch 60 detik + arti istilah "pilot"
-- [[Script Video Pitch]] — script video 2 presenter (Masalah/Solusi/Demo/Dampak) + versi 30 detik
-
-### 6. Proposal & Submission Tahap 2
-- [[15 - Proposal DIGDAYA 2026 (Ringkasan)]] — isi proposal resmi v2
-- [[16 - Perbaikan Proposal]] — daftar perbaikan & rekonsiliasi data
-- [[17 - Pertanyaan & Jawaban Tahap 2]] — draft jawaban form Tahap 2
-- [[18 - Peta Dokumen Pitching]] — checklist semua dokumen pitch + status & best practice
-- [[19 - Outline Pitch Deck]] — draft isi 12 slide, siap ke PPT/Canva
-- [[20 - One-Pager & The Ask]] — handout 1 halaman + permintaan konkret ke juri/mitra
-- [[RetailMind AI - Pitch Deck.pdf]] — deck final 12 slide siap presentasi (sumber HTML: [[RetailMind AI - Pitch Deck.html]])
-
-### 7. Review
-- [[14 - Penilaian Juri (Review)]] — hasil review kritis (juri internal)
+Rincian dan bahan diskusi ada di [[DISKUSI v3 - Ready to Win]] bagian 6.
+- **Nama brand final:** tetap "RetailMind" atau ganti (nama sedang dipakai pihak lain).
+- **Segmen:** empat (warung, kafe, restoran, catering) atau bakery dikembalikan resmi.
+- **Urutan kerja:** dahulukan fitur sisi bank atau kejar penjajakan mitra.
+- **Lingkup demo v3:** fitur mana masuk demo, mana cukup roadmap.
 
 ## 👥 Tim
 
-| Peran                 | Nama                           |
-| --------------------- | ------------------------------ |
-| Ketua Tim             | Hamzah Arman Husni             |
-| Developer             | Dzaky Faishalariq              |
-| Marketing Strategist  | Gregorius Bugen Jovi Sitindaon |
-| Automation Specialist | Aditya Nurrohman               |
-|                       |                                |
+| Peran | Nama |
+|---|---|
+| Ketua Tim / AI Engineer | Hamzah Arman Husni |
+| Developer | Dzaky Faishalariq |
+| Marketing Strategist | Gregorius Bugen Jovi Sitindaon |
+| Automation Specialist | Aditya Nurrohman |
 
 **Institusi:** Universitas Gadjah Mada · **Tim:** Financial Freedom Tim
-**Event:** DIGDAYA X Hackathon — Pusat Inovasi Digital Indonesia (PIDI) 2026
+**Event:** DIGDAYA X Hackathon, Pusat Inovasi Digital Indonesia (PIDI) 2026
 **Penyelenggara:** Bank Indonesia · OJK · ASPI · Fintech Indonesia · APUVINDO · LPPI

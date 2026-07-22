@@ -38,23 +38,23 @@ Platform Business Health Scoring yang mengubah transaksi harian menjadi dua skor
 
 ### PAIN POINTS - Kebutuhan Tak Terpenuhi
 
-| Lapis | Pain yang belum terjawab |
-|---|---|
-| Fungsional | Data terpecah di banyak kanal, tidak ada laporan utuh |
-| Emosional | Tidak bisa menjawab pertanyaan dasar keuangan usaha sendiri |
-| Identitas | Merasa usahanya serius tetapi tidak bisa membuktikannya |
-| Sosial | Gagal asesmen kredit, peluang ekspansi hilang |
-| Finansial | Layak didanai tetapi tidak terbukti, terjebak skala kecil |
-| Adopsi | Pernah coba aplikasi kasir lalu berhenti karena terasa rumit |
+| Lapis      | Pain yang belum terjawab                                     |
+| ---------- | ------------------------------------------------------------ |
+| Fungsional | Data terpecah di banyak kanal, tidak ada laporan utuh        |
+| Emosional  | Tidak bisa menjawab pertanyaan dasar keuangan usaha sendiri  |
+| Identitas  | Merasa usahanya serius tetapi tidak bisa membuktikannya      |
+| Sosial     | Gagal asesmen kredit, peluang ekspansi hilang                |
+| Finansial  | Layak didanai tetapi tidak terbukti, terjebak skala kecil    |
+| Adopsi     | Pernah coba aplikasi kasir lalu berhenti karena terasa rumit |
 
 ### VALIDATION - Strategi Validasi Product-Market Fit
 
-| Elemen | Isi |
-|---|---|
-| Metode | Validasi pasar sintetis multi-agent sebagai pra-validasi, lalu PoC bot Telegram, dilanjutkan wawancara lapangan dan pilot Yogyakarta |
-| Target responden | 6 persona F&B bernama (owner + kasir) untuk pra-validasi; 20-30 UMKM nyata di pilot; 1-2 mitra bank/BPR/koperasi |
-| Tanda / sinyal validasi | Retensi bulan ke-2 (metrik nomor satu), kelengkapan data naik dari <40% ke >75%, minimal satu asesmen pemodal nyata berjalan |
-| Timeline / milestone | Pra-validasi selesai, PoC selesai, pilot 0-6 bulan |
+| Elemen                  | Isi                                                                                                                                  |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Metode                  | Validasi pasar sintetis multi-agent sebagai pra-validasi, lalu PoC bot Telegram, dilanjutkan wawancara lapangan dan pilot Yogyakarta |
+| Target responden        | 6 persona F&B bernama (owner + kasir) untuk pra-validasi; 20-30 UMKM nyata di pilot; 1-2 mitra bank/BPR/koperasi                     |
+| Tanda / sinyal validasi | Retensi bulan ke-2 (metrik nomor satu), kelengkapan data naik dari <40% ke >75%, minimal satu asesmen pemodal nyata berjalan         |
+| Timeline / milestone    | Pra-validasi selesai, PoC selesai, pilot 0-6 bulan                                                                                   |
 
 ### SCOPE - Lingkup MVP
 

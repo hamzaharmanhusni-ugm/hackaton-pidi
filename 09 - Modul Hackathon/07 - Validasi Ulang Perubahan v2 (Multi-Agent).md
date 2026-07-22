@@ -18,12 +18,12 @@ updated: 2026-07-22
 
 ## 2. Hasil empat lensa
 
-| Lensa | Verdict | Inti reaksi | Yang mereka minta berikutnya |
-|---|---|---|---|
-| Mas Aldi (kafe) | Sebagian | Perbaikan skor dan simulator persis yang diminta dulu, disebut "alat kerja, bukan gimmick". Bisa cek dampak sebelum transfer. | Belum mau bayar sampai ada bukti bank atau investor nyata memakai skor. Khawatir orang menandai beban sebagai stok agar skor aman. |
-| Mbak Rani (bakery musiman) | Sebagian | Belanja bahan Rp10 juta jelang Lebaran yang dulu menjatuhkan skor ke 0 kini terbaca sehat. Pemisahan modal bahan dan jendela bergerak menjawab pola musimannya. | Pisahkan uang muka dan pelunasan pesanan dari kas harian. Musim sepinya kadang lebih panjang dari 90 hari. Ingin opsi bayar per musim, bukan langganan bulanan tetap. |
-| Pak Danang (bank) | Sebagian | Logika inventaris lebih masuk akal daripada versi lama. Menghapus peta membuat tampilan lebih relevan untuk keputusan kredit. | Sistem harus bisa membedakan stok yang terjual dari stok menumpuk. Fitur sisi bank (login bank, SLIK, kolektibilitas, jejak audit, ekspor massal) harus jalan di aplikasi, bukan sekadar di proposal. Tetap hanya bersedia pilot 15-20 UMKM. |
-| Skeptis (Mbak Sinta) | Sebagian | Perbaikan skor nyata dan terverifikasi (16 dari 16 unit test lulus, before vs after membuktikan skor tidak lagi jatuh ke 0). Menutup cacat paling fatal. | Baru menutup satu dari tiga syarat. Sisanya: LOI mitra pembiayaan nyata dan fitur sisi bank. |
+| Lensa                      | Verdict  | Inti reaksi                                                                                                                                                     | Yang mereka minta berikutnya                                                                                                                                                                                                                 |
+| -------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Mas Aldi (kafe)            | Sebagian | Perbaikan skor dan simulator persis yang diminta dulu, disebut "alat kerja, bukan gimmick". Bisa cek dampak sebelum transfer.                                   | Belum mau bayar sampai ada bukti bank atau investor nyata memakai skor. Khawatir orang menandai beban sebagai stok agar skor aman.                                                                                                           |
+| Mbak Rani (bakery musiman) | Sebagian | Belanja bahan Rp10 juta jelang Lebaran yang dulu menjatuhkan skor ke 0 kini terbaca sehat. Pemisahan modal bahan dan jendela bergerak menjawab pola musimannya. | Pisahkan uang muka dan pelunasan pesanan dari kas harian. Musim sepinya kadang lebih panjang dari 90 hari. Ingin opsi bayar per musim, bukan langganan bulanan tetap.                                                                        |
+| Pak Danang (bank)          | Sebagian | Logika inventaris lebih masuk akal daripada versi lama. Menghapus peta membuat tampilan lebih relevan untuk keputusan kredit.                                   | Sistem harus bisa membedakan stok yang terjual dari stok menumpuk. Fitur sisi bank (login bank, SLIK, kolektibilitas, jejak audit, ekspor massal) harus jalan di aplikasi, bukan sekadar di proposal. Tetap hanya bersedia pilot 15-20 UMKM. |
+| Skeptis (Mbak Sinta)       | Sebagian | Perbaikan skor nyata dan terverifikasi (16 dari 16 unit test lulus, before vs after membuktikan skor tidak lagi jatuh ke 0). Menutup cacat paling fatal.        | Baru menutup satu dari tiga syarat. Sisanya: LOI mitra pembiayaan nyata dan fitur sisi bank.                                                                                                                                                 |
 
 ## 3. Temuan yang menyatu
 
@@ -52,4 +52,15 @@ updated: 2026-07-22
 > [!success] Ringkasan
 > Pada dimensi yang disasar, perubahan v2 sudah tepat: menutup cacat skor yang fatal, menghadirkan alat yang diminta pengguna, dan merapikan tampilan investor. Produk bergerak lebih dekat ke "ready to win" dibanding sebelum perubahan. Belum sampai, karena dua penentu terbesar (bukti eksternal berupa LOI dan fitur sisi bank) masih nol. Arah berikutnya sudah jelas dan tercatat.
 
-→ Kembali: [[06 - Audit Web + Validasi Multi-Agent (Apa yang Perlu Diperbaiki)]] · Terkait: [[Persona A7 - Bakery (Mbak Rani)]] · [[Simulasi Telegram/03 - Before vs After (v2)]]
+## 7. Tambahan: Lensa Investor (A8)
+
+Lensa investor ditambahkan menyusul untuk melengkapi validasi v2 di sisi pemodal. Uji ulang empat lensa di atas berfokus pada UMKM, bank, dan skeptis, sedangkan investor murni (pengguna Investor Dashboard yang menaruh modal) belum tercakup. Persona Pak Rendra (angel dan syndicate lead) diwawancarai terhadap perubahan v2. Transkrip lengkap dan kartu persona: [[Persona A8 - Investor (Pak Rendra) + Wawancara v2]].
+
+| Lensa | Verdict | Inti reaksi | Yang diminta berikutnya |
+|---|---|---|---|
+| Pak Rendra (investor) | Sebagian | Perbaikan skor menutup cacat akuntansi dasar, bukan sekadar fitur. Penghapusan peta tepat asalkan data lokasi tetap tersedia sebagai kolom atau filter. Simulator berguna bagi UMKM, tetapi membuka celah gaming dari kursi investor. | Bukti track record skor-ke-pelunasan, verifikasi data independen (mutasi rekening, QRIS, agregator), anti-gaming yang mengikat, pemantauan portofolio pasca-pendanaan, data lokasi sebagai kolom atau filter, ekspor atau API. |
+
+> [!note] Satu hal teknis untuk dicek
+> Pak Rendra menandai pertanyaan konkret: setelah peta dihapus, apakah data lokasi UMKM masih tersimpan sebagai kolom atau filter, atau ikut hilang bersama widget-nya. Perlu diverifikasi di kode sebelum diklaim beres.
+
+→ Kembali: [[06 - Audit Web + Validasi Multi-Agent (Apa yang Perlu Diperbaiki)]] · Terkait: [[Persona A7 - Bakery (Mbak Rani)]] · [[Persona A8 - Investor (Pak Rendra) + Wawancara v2]] · [[Simulasi Telegram/03 - Before vs After (v2)]]
