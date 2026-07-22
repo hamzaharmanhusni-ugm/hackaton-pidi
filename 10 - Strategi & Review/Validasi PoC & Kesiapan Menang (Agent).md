@@ -25,6 +25,8 @@ updated: 2026-07-22
 > [!success] Selesai (branch v2)
 > - **Data demo diperbaiki.** Warung Bu Siti tadinya menampilkan rugi (omzet POS ~Rp1,5jt/bln vs beban ~Rp2,4jt/bln). Kini di-reseed realistis: ~15-20 penjualan per hari, omzet ~Rp23jt/bln, COGS ~52%, laba sehat. Skor kini dihitung jujur dari data, bukan angka hardcoded. Commit `f532b8d`.
 > - **Anti-gaming Inventory Turnover diperkuat.** Menutup celah yang berulang disebut semua lensa uji: (1) stok tercatat tanpa penjualan tidak lagi netral, (2) penumpukan stok di atas 3x barang terjual kena penalti. Belanja musiman wajar tetap aman (uji regresi lulus). 19 dari 19 unit test skor lulus. Commit `e85462d`.
+> - **Filter lokasi ditambahkan** di Investor Dashboard, menjawab kebutuhan diversifikasi geografis investor (kota kini bisa disaring, bukan hanya dicari). Commit `d035597`, tsc bersih.
+> - **Redeploy ke Vercel (production)** membawa seluruh perubahan kode v2 (anti-gaming + filter lokasi) live di retailmind-v2.vercel.app (root 200 terverifikasi). Deployment `dpl_DsiuncmhWhbCpkQZbhrq3hdM4eSZ`.
 > - **Batas jujur dicatat:** membedakan salah-kategori moderat dari restok normal butuh pelacakan stok multi-periode, dijadikan roadmap.
 
 ## 3. Perbaikan prioritas yang tersisa
@@ -33,7 +35,7 @@ updated: 2026-07-22
 |---|---|---|---|
 | 1 | Selesaikan penggantian nama brand di seluruh materi | Founder | Murni administratif, risiko persepsi besar di mata juri regulator. Paling mudah dituntaskan. |
 | 2 | Pastikan video pitch terekam dan terunggah | Founder | Satu rubrik penuh (Video) bergantung padanya. Placeholder link masih kosong di jawaban. |
-| 3 | Cek data lokasi UMKM masih bisa difilter setelah peta dihapus | Kode | Pertanyaan konkret lensa investor, belum dipastikan di kode. |
+| 3 | ~~Cek data lokasi UMKM masih bisa difilter~~ | Kode | SELESAI: kota tersimpan dan kini punya dropdown filter lokasi eksplisit. |
 | 4 | Label pembeda data seed vs data nyata di layar demo | Kode | Agar saat live demo, jawaban "ini contoh atau nyata" sudah ada di layar. |
 | 5 | Samakan pelabelan "proyeksi" pada semua materi (one-pager, antisipasi juri) | Proposal | Sebagian materi masih menyebut "hemat 80%" dan "screening 50+ UMKM" sebagai fakta. |
 | 6 | Periksa ulang klaim komposisi tim (bukan semua AI) | Proposal | Sudah dilunakkan di Jawaban Tahap 3, samakan di materi lain. |
