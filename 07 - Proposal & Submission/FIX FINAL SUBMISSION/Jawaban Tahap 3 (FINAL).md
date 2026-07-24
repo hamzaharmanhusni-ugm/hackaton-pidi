@@ -112,7 +112,7 @@ Setiap fitur inti menjawab satu pain spesifik yang sudah divalidasi, sehingga ra
 - Simulasi Belanja (What-If) dan perbaikan model skor v2 (inventaris vs beban), lulus 19 dari 19 unit test.
 - Autentikasi, RLS, dua akun demo, dan data UMKM F&B Yogyakarta ter-seed. Aplikasi live dan bisa didemonstrasikan.
 
-**Data:** first-party, lahir dari operasional UMKM sendiri (transaksi, produk, stok, arus kas). Format transaksional terstruktur di PostgreSQL. Untuk demo, data sudah tersedia dan ter-seed (satu akun UMKM dengan sekitar 75 transaksi lintas 90 hari, plus 10+ UMKM untuk sisi pemodal). Untuk pilot, data dikumpulkan dari UMKM peserta.
+**Data:** first-party, lahir dari operasional UMKM sendiri (transaksi, produk, stok, arus kas). Format transaksional terstruktur di PostgreSQL. Versi ini berjalan di basis data v2 yang terpisah dari versi lama, sehingga demo bersih dan angkanya konsisten. Untuk demo, data sudah tersedia dan ter-seed (satu akun UMKM dengan lebih dari 1.300 transaksi POS lintas 90 hari beserta buku kas, plus 11 UMKM F&B publik untuk sisi pemodal). Untuk pilot, data dikumpulkan dari UMKM peserta.
 
 **Kesiapan integrasi:** logika skor tersedia lewat Route Handler (`/api/scores/calculate`), siap dibungkus API untuk mitra B2B (BPR, koperasi, fintech). AI memakai abstraksi multi-provider (Claude, Gemini, OpenAI, OpenRouter) dengan fallback rule-based, sehingga layanan tetap jalan tanpa API key valid. Integrasi marketplace (GoFood, GrabFood) dan verifikasi data independen adalah roadmap.
 

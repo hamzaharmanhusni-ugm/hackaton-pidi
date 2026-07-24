@@ -15,10 +15,10 @@ updated: 2026-07-22
 > [!warning] Verdict PoC: Sebagian
 > PoC sah secara teknis (kode nyata dan live, teruji unit test dan lima putaran validasi multi-agent), tetapi hipotesis bisnis intinya, yaitu skor yang benar-benar dipakai lembaga pembiayaan, belum dibuktikan ke pihak eksternal. Layak lanjut dengan perbaikan mendesak, belum layak diklaim lolos penuh.
 
-| Rubrik | Skor tertimbang | Kriteria paling menekan |
-|---|---|---|
-| 2nd Submission | 69,3 / 100 | Effectiveness & Impact (57), Business Model Feasibility (55): dampak ke luar masih nol tanpa mitra pembiayaan |
-| Video Submission | 68,6 / 100 | Implementation Feasibility (55), Business & ROI (58): bergantung adopsi lembaga yang belum tersentuh |
+| Rubrik           | Skor tertimbang | Kriteria paling menekan                                                                                       |
+| ---------------- | --------------- | ------------------------------------------------------------------------------------------------------------- |
+| 2nd Submission   | 69,3 / 100      | Effectiveness & Impact (57), Business Model Feasibility (55): dampak ke luar masih nol tanpa mitra pembiayaan |
+| Video Submission | 68,6 / 100      | Implementation Feasibility (55), Business & ROI (58): bergantung adopsi lembaga yang belum tersentuh          |
 
 ## 2. Perbaikan yang SUDAH dikerjakan dari validasi ini
 

@@ -25,62 +25,77 @@ updated: 2026-07-22
 
 ## 2. Struktur: 1 menit Pitch + 2 menit Demo
 
-| Bagian | Waktu | Fungsi | Kriteria yang disasar |
-|---|---|---|---|
-| One-Minute Pitch | 0-60 dtk | Elevator pitch: tarik perhatian, sampaikan inti inovasi | Use Case Clarity, Business Plan & ROI |
-| Two-Minute Demo | 60-180 dtk | Bukti audio-visual solusi bekerja, kedalaman teknis, validasi | Algorithm Quality & UX, Complexity, Implementation Feasibility |
+| Bagian           | Waktu      | Fungsi                                                        | Kriteria yang disasar                                          |
+| ---------------- | ---------- | ------------------------------------------------------------- | -------------------------------------------------------------- |
+| One-Minute Pitch | 0-60 dtk   | Elevator pitch: tarik perhatian, sampaikan inti inovasi       | Use Case Clarity, Business Plan & ROI                          |
+| Two-Minute Demo  | 60-180 dtk | Bukti audio-visual solusi bekerja, kedalaman teknis, validasi | Algorithm Quality & UX, Complexity, Implementation Feasibility |
 
 ## 3. One-Minute Pitch (0 sampai 60 detik)
 
 Struktur blok waktu mengikuti rekomendasi resmi. Target sekitar 150 kata narasi.
 
+
+**A roll :** 
+
+Adit : Baca Naskah
 ### 0-5 detik: Nama tim, judul solusi, hook
-**VISUAL:** Logo RetailMind AI, lalu close-up tangan pemilik warung menghitung uang. Teks di layar: "Berapa laba bulan lalu?"
-**Narasi:** "Financial Freedom Tim mempersembahkan RetailMind AI. Coba tanya pemilik warung ini: berapa laba bersih bulan lalu?"
+**VISUAL:** Layar RetailMind AI, lalu close-up tangan pemilik warung menghitung uang. Teks di layar: "Berapa laba bulan lalu?" (B roll)  --> Gemini VEO (foto depan laptop --> ngitungin uang), **Google Flow** **(Jovi)**
+
+**Narasi:** "Financial Freedom Tim mempersembahkan RetailMind AI. Coba tanya pemilik warung ini: berapa laba bersih bulan lalu?" **(adit baca)**
+
 
 ### 5-15 detik: Pengguna utama, pain point, dampak
-**VISUAL:** Potongan wajah beberapa pemilik UMKM (ilustrasi atau footage berizin), lalu grafik data berantakan.
-**Narasi:** "Kami menanyakannya ke 15 UMKM kuliner di Yogyakarta. Hampir semua sudah memakai aplikasi kasir, tetapi tidak satu pun bisa menjawab pasti. Datanya ada, tetapi tidak bisa dipercaya pemodal, dan UMKM yang layak tetap gagal mendapat modal."
+**VISUAL:** Potongan wajah beberapa pemilik UMKM (ilustrasi atau footage berizin), lalu grafik data berantakan. **(Gambar gemini atau chatgpt --> VEO)** **(Dzaki, Hamzah, Jovi)** , Tergantung Jovi
+
+**Narasi:** "Kami menanyakannya ke 15 UMKM kuliner di Yogyakarta. Hampir semua sudah memakai aplikasi kasir, tetapi tidak satu pun bisa menjawab pasti. Datanya ada, tetapi tidak bisa dipercaya pemodal, dan UMKM yang layak tetap gagal mendapat modal." **(Adit)**
 
 ### 15-35 detik: Use case utama + cuplikan demo
-**VISUAL:** Cuplikan cepat aplikasi: input kasir, lalu skor muncul, lalu saran AI Coach.
-**Narasi:** "RetailMind mengubah transaksi harian itu menjadi Business Health Score nol sampai seratus yang bisa dipercaya pemodal. Warung Bu Siti mencatat lewat kasir, sistem menghitung skornya, dan AI Coach memberi langkah perbaikan dalam bahasa Indonesia."
+**VISUAL:** Cuplikan cepat aplikasi: input kasir, lalu skor muncul, lalu saran **AI Coach**. (rekam layar)
+**(Dzaki)**
+
+**Narasi:** "RetailMind mengubah transaksi harian itu menjadi Business Health Score nol sampai seratus yang bisa dipercaya pemodal. Warung Bu Siti mencatat lewat kasir, sistem menghitung skornya, dan AI Coach memberi langkah perbaikan dalam bahasa Indonesia." 
 
 ### 35-45 detik: High-level logic, data, teknologi, feasibility
-**VISUAL:** Diagram ringkas enam komponen skor dan alur data.
-**Narasi:** "Skor dihitung dari enam komponen keuangan atas jendela bergerak. Belanja stok dihitung sebagai aset, jadi menyetok bahan tidak menjatuhkan skor. Dibangun di Next.js dan Supabase, prototipe enam modul sudah berjalan."
+**VISUAL:** Diagram ringkas enam komponen skor dan alur data. (Animasi VEO) (10 detik - diperlambat atau dipercepat) **(Jovi)**
+
+**Narasi:** "Skor dihitung dari enam komponen keuangan atas jendela bergerak. Belanja stok dihitung sebagai aset, jadi menyetok bahan tidak menjatuhkan skor. Dibangun di Next.js dan Supabase, prototipe enam modul sudah berjalan." 
 
 ### 45-55 detik: Nilai utama, dampak, ROI, pihak yang mengadopsi
-**VISUAL:** Split screen sisi UMKM dan sisi pemodal.
+**VISUAL:** Split screen sisi UMKM dan sisi pemodal. **(Dzaki)** Kameranya di belakang, kemudian nanti di zoom agar keliatan layarnya. yang bagian UMKM dan bagian Investor.  **(Menggunakan VEO)**
 **Narasi:** "Bagi pemodal, penyaringan yang biasanya berminggu-minggu menjadi hitungan menit. Bagi UMKM, akses modal terbuka. Penggunanya: investor ritel, koperasi, BPR, dan fintech."
 
 ### 55-60 detik: Status, kesiapan, next milestone, collaboration ask
-**VISUAL:** Teks status "Prototipe live, 19 unit test lulus", lalu logo penutup.
-**Narasi:** "Prototipe sudah live dan teruji 19 unit test. Berikutnya: pilot 20 sampai 30 UMKM. Bantu kami terhubung ke satu mitra pembiayaan."
+**VISUAL:** Teks status "Prototipe live, 19 unit test lulus, divalidasi PoC multi-agent", lalu logo penutup. (Menggunakan Claude) --> Spreadsheet **(Hamzah)**
+
+**Narasi:** "Prototipe sudah live, teruji 19 unit test, dan divalidasi lewat PoC multi-agent. Milestone berikutnya: pilot 20 sampai 30 UMKM. Bantu kami terhubung ke satu mitra pembiayaan."
 
 ## 4. Two-Minute Demo (60 sampai 180 detik)
 
 Waktu di bawah ini relatif dari awal bagian demo (0 sampai 120 detik). Inti nilai video ada di sini, jadi jaga alurnya mengalir tanpa loading lama.
 
 ### 0-10 detik: Pengantar deep dive
-**VISUAL:** Layar login aplikasi dengan dua akun demo.
+**VISUAL:** Layar login aplikasi dengan dua akun demo. (Direkam layar) **(Dzaki)**
 **Narasi:** "Mari lihat cara kerjanya dari dua sisi: pemilik UMKM dan pemodal."
 
 ### 10-60 detik: Bukti utama inovasi (prototype walkthrough)
-**VISUAL:** Screen recording sisi UMKM. Kursor mengikuti narasi: catat transaksi di Smart POS dan Cashbook, buka Health Score (Warung Bu Siti, skor sehat), rincian enam komponen, saran AI Coach, lalu panel Simulasi Belanja.
+**VISUAL:** Screen recording sisi UMKM. Kursor mengikuti narasi: catat transaksi di Smart POS dan Cashbook, buka Health Score (Warung Bu Siti, skor sehat), rincian enam komponen, saran AI Coach, lalu panel Simulasi Belanja. **(Dzaki)**
+
 **Narasi:** "Di sisi UMKM, Bu Siti mencatat penjualan lewat Smart POS dan Cashbook. Sistem membersihkan datanya, lalu menghitung skor dari enam komponen. Perhatikan: belanja stok dihitung sebagai aset, jadi menyetok tidak menjatuhkan skor. Sebelum belanja, pemilik bisa mengecek dampaknya lewat Simulasi Belanja."
 
 ### 60-90 detik: Cara kerja dan kedalaman solusi
-**VISUAL:** Beralih ke diagram pipeline dan Investor Dashboard.
+**VISUAL:** Beralih ke diagram pipeline dan Investor Dashboard. **(Dzaki)**
 **Narasi:** "Di balik layar, data mengalir dari input, dibersihkan, biaya diklasifikasikan secara akuntansi, lalu masuk ke Scoring Engine dengan guardrail kelengkapan data. Skor bukan vonis: ia penyaringan awal, pemodal tetap yang memutuskan. Logika skor tersedia lewat API, siap diintegrasikan ke sistem BPR, koperasi, dan fintech. Di sisi pemodal, dashboard menampilkan daftar UMKM, skor, dan Investment Readiness, lengkap dengan filter lokasi untuk menyebar risiko."
 
 ### 90-110 detik: Bukti validasi atau hasil awal
-**VISUAL:** Tabel before-after skor per persona, badge "19 unit test lulus", catatan PoC bot.
+**VISUAL:** Tabel before-after skor per persona, badge "19 unit test lulus", catatan PoC bot. **(Claude)**
+
 **Narasi:** "Perbaikan model diuji, bukan diklaim. Sebelum diperbaiki, UMKM musiman terbaca rugi dan skornya jatuh. Sesudah diperbaiki, skornya wajar, dan seluruh perubahan lolos 19 unit test. Kami juga menguji onboarding lewat bot chat pada enam persona pemilik dan kasir."
-**Teks di layar:** "Data demo adalah data contoh untuk peragaan."
+
+**Teks di layar:** "Data demo adalah data contoh untuk peragaan." (Teks Overlay)
 
 ### 110-120 detik: Status dan batas kesiapan (jujur)
 **VISUAL:** Kolom "Sudah berfungsi" dan "Sedang dikembangkan", lalu logo dan tagline penutup.
+
 **Narasi:** "Jujur soal posisi kami: enam modul, skor, dan simulator sudah berfungsi. OCR nota, verifikasi data independen, dan fitur sisi bank sedang dikembangkan. Milestone berikutnya adalah pilot lapangan. RetailMind AI. Setiap transaksi membangun kepercayaan."
 
 > [!warning] Kejujuran angka dan bukti
@@ -88,13 +103,13 @@ Waktu di bawah ini relatif dari awal bagian demo (0 sampai 120 detik). Inti nila
 
 ## 5. Pembagian tugas tim
 
-| Peran | Penanggung jawab | Tugas |
-|---|---|---|
-| Presenter 1 (bisnis) | Hamzah atau Gregorius | Hook, nilai, ask, sisi investor |
-| Presenter 2 (produk) | Dzaky | Solusi, demo sisi UMKM |
-| Rekaman layar demo | Dzaky | Screen recording aplikasi live dengan akun demo |
-| Editing | Aditya | Potong, caption, motion graphic, musik |
-| QC dan unggah | Hamzah | Cek kejujuran klaim, durasi maksimal 180 detik, unggah publik |
+| Peran                  | Penanggung jawab | Tugas                                                         |
+| ---------------------- | ---------------- | ------------------------------------------------------------- |
+| Cari Aset / Footage AI | Jovi             | Mencari Aset atau Footage                                     |
+| Rekaman layar demo     | Dzaky            | Screen recording aplikasi live dengan akun demo               |
+| Baca Naskah            | Aditya           | Pembacaan Naskah                                              |
+| QC dan unggah          | Hamzah           | Cek kejujuran klaim, durasi maksimal 180 detik, unggah publik |
+| Editing                | Hamzah           | Potong, caption, motion graphic, musik                        |
 
 ## 6. Rencana editing
 
