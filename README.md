@@ -18,6 +18,29 @@ Jika hanya punya 5 menit: baca `01 - Ringkasan/01 - Ringkasan Eksekutif.md` lalu
 
 ---
 
+## 🧭 Cara membuka repo ini di Obsidian
+
+Repo ini adalah **vault Obsidian**, bukan sekadar kumpulan berkas markdown. Isinya saling terhubung lewat wikilink `[[Nama Catatan]]`, callout, tabel, dan diagram Mermaid. Dibuka di GitHub tetap terbaca, tetapi tautan antarcatatan dan grafik hubungannya baru berfungsi di Obsidian.
+
+**Langkah membuka:**
+
+1. Unduh Obsidian (gratis, Windows/macOS/Linux) di https://obsidian.md lalu pasang.
+2. Ambil isi repo ini: `git clone https://github.com/hamzaharmanhusni-ugm/hackaton-pidi.git`, atau unduh ZIP lewat tombol **Code → Download ZIP** lalu ekstrak.
+3. Buka Obsidian, pilih **Open folder as vault**, arahkan ke folder hasil clone atau ekstrak tadi.
+4. Bila muncul peringatan "Trust author and enable plugins", pilih **Trust** agar callout dan diagram tampil utuh. Vault ini tidak memuat plugin berbahaya.
+5. Mulai dari `00 - Beranda (MOC).md`. Catatan itu berfungsi sebagai dashboard: seluruh folder dan jalur baca ditautkan dari sana.
+
+**Yang membantu saat menelusuri:**
+
+- `Ctrl/Cmd + O` untuk lompat ke catatan mana pun berdasarkan judul.
+- `Ctrl/Cmd + Shift + F` untuk mencari kata di seluruh vault, berguna saat memverifikasi sebuah angka.
+- Panel **Graph view** memperlihatkan keterkaitan antarcatatan.
+- **Backlinks** di sisi kanan menunjukkan catatan lain yang merujuk catatan yang sedang dibuka.
+
+**Kalau tidak ingin memasang Obsidian:** seluruh berkas `.md` tetap bisa dibaca langsung di GitHub atau editor teks apa pun. Yang hilang hanya kenyamanan navigasi, bukan isinya. Berkas `.canvas` (kanvas visual) memang hanya bisa dibuka di Obsidian.
+
+---
+
 ## 📝 Yang harus DIINPUT ke form Submission Tahap 3
 
 Seluruh jawaban 24 field sudah disiapkan di:
@@ -71,11 +94,16 @@ Tersedia dalam dua bentuk: **markdown** (sumber utama) dan **.docx** (untuk diba
 
 ## ✅ Status ringkas
 
-- **Aplikasi:** live dan sehat. Demo Warung Bu Siti kini menampilkan skor **82/100 (Bisnis Sehat)**, laba positif (sebelumnya keliru menampilkan rugi).
-- **Perbaikan kode (branch `v2`):** model skor stok-jadi-inventaris, Simulasi Belanja, anti-gaming Inventory Turnover (19/19 unit test lulus), filter lokasi investor. Sudah di-deploy ulang ke Vercel.
-- **Validasi agen:** PoC = "Sebagian" (69/100 dan 69/100 terhadap dua rubrik). Penentu yang tersisa adalah aksi pendiri: finalkan nama brand, rekam dan unggah video, kejar satu minat mitra pembiayaan.
+- **Aplikasi:** live dan sehat. Data demo berisi 11 toko contoh dengan skor 41 sampai 80 (rata-rata 63,7 per 26 Juli 2026); Warung Bu Siti di angka 70.
+- **Perbaikan kode (branch `v2`):** model skor stok-jadi-inventaris, Simulasi Belanja, anti-gaming Inventory Turnover, buku kas menyatu dengan kasir, filter lokasi investor. Teruji **59 unit test yang seluruhnya lulus, 20 di antaranya mesin skor**. Sudah di-deploy ulang ke Vercel.
+- **Validasi agen:** PoC = "Sebagian" (69,3 dan 68,6 terhadap dua rubrik, dinilai panel agen simulasi, bukan juri sungguhan). Penentu yang tersisa adalah aksi pendiri: finalkan nama brand, rekam dan unggah video, kejar satu minat mitra pembiayaan.
 
 Kode aplikasi ada di repo terpisah (`Hacketon_financial_freedom`, branch `v2`).
+
+**Lampiran bukti (publik):**
+
+- Bukti Innovation Level 3, 8 tab: https://docs.google.com/spreadsheets/d/1-9xmxrTX-AbgNUDGelORafad9Jl-OHd-pGK2UwjzBbs/edit
+- Laporan uji bot chat (PoC): https://docs.google.com/document/d/1Y8qNQmbUkBbvJ_1gX1mQQkJdwGQ-LWrUPwoh-K0kJM8/edit
 
 ---
 
