@@ -88,7 +88,7 @@ flowchart LR
 | **08 - Pitch & Presentasi** | Naskah, skrip, konsep video | [[Konsep Video Elevator Pitch (Tahap 3)]] · [[13 - Pitch & Antisipasi Juri]] · [[Naskah Pitch 60 Detik]] |
 | **09 - Modul Hackathon** | Isian modul panitia | [[00 - Analisis Modul & Rekomendasi]] |
 | **10 - Strategi & Review** | Arah v3 dan review juri | [[DISKUSI v3 - Ready to Win]] · [[Mindmap v3 - Ready to Win]] |
-| **99 - Kanvas & Referensi** | Kanvas visual, sumber angka | [[Sumber & Asumsi Angka]] · [[Peta Produk.canvas]] |
+| **99 - Kanvas & Referensi** | Kanvas visual, sumber angka, perkakas | [[Sumber & Asumsi Angka]] · [[Peta Produk.canvas]] · [[Perkakas Claude Code (Panduan Vault)]] |
 
 ## ❓ Keputusan yang menunggu kamu
 

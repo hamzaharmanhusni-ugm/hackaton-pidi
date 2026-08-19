@@ -88,7 +88,19 @@ Tersedia dalam dua bentuk: **markdown** (sumber utama) dan **.docx** (untuk diba
 | `08 - Pitch & Presentasi` | Naskah, skrip, konsep video |
 | `09 - Modul Hackathon` | Isian modul panitia |
 | `10 - Strategi & Review` | Arah v3, validasi, review juri |
-| `99 - Kanvas & Referensi` | Kanvas visual, sumber angka |
+| `99 - Kanvas & Referensi` | Kanvas visual, sumber angka, panduan perkakas |
+
+---
+
+## 🤖 Perkakas AI untuk kontributor
+
+Vault ini menyertakan konfigurasi [Claude Code](https://claude.com/claude-code) di direktori tersembunyi `.claude/`: agent, slash command, skill, dan aturan tetap yang disesuaikan untuk pekerjaan dokumen. Gunanya menutup tiga kesalahan yang paling mahal di lomba ini — angka yang berbeda antar catatan, klaim yang melampaui bukti, dan navigasi yang tertinggal saat catatan berubah.
+
+Yang paling sering dipakai: `/cek-angka` (audit konsistensi angka), `/tinjau-dokumen` (tinjauan kualitas catatan), `/validasi-agent` (panel persona sintetis), dan `/siap-submit` (daftar periksa sebelum kirim ke panitia).
+
+Panduannya ada di `99 - Kanvas & Referensi/Perkakas Claude Code (Panduan Vault).md` dan `.claude/README.md`. Bahan aslinya dari repo [everything-claude-code](https://github.com/WorldFlowAI/everything-claude-code) (MIT), diadaptasi dari konteks proyek perangkat lunak ke konteks vault dokumentasi; salinan utuh repo asal disimpan di `.claude/vendor/` beserta atribusinya.
+
+Perkakas ini opsional. Vault tetap bisa dibaca dan dikerjakan tanpa memasang apa pun.
 
 ---
 

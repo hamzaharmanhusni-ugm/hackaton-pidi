@@ -1,0 +1,11 @@
+# Konfigurasi MCP: berisi kunci API, jangan pernah di-commit
+.mcp.json
+
+# Pengaturan Claude Code yang hanya berlaku di satu mesin
+.claude/settings.local.json
+
+# Catatan sesi kerja Claude Code, bukan bagian isi vault
+.claude/sesi/
+
+# Tata letak jendela Obsidian, berbeda di tiap mesin
+.obsidian/workspace.json

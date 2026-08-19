@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "_keterangan": "Contoh konfigurasi hook untuk vault ini. TIDAK aktif secara otomatis. Untuk mengaktifkan, salin blok \"hooks\" di bawah ke .claude/settings.json (berlaku untuk semua yang membuka repo ini) atau ke .claude/settings.local.json (hanya untuk mesinmu sendiri). Aktifkan bertahap, jangan sekaligus, supaya mudah tahu mana yang mengganggu. Butuh Node.js terpasang. Path ditulis relatif karena hook dijalankan dari direktori vault.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/sesi-mulai.js"
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/sesi-selesai.js"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/jaga-rahasia.js"
+          },
+          {
+            "type": "command",
+            "command": "node .claude/hooks/saran-kompaksi.js"
+          }
+        ]
+      }
+    ]
+  }
+}
